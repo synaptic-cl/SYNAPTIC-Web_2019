@@ -87,6 +87,10 @@
     line-height: 0.9;
 }
 
+.header-sy-right h1>span {
+    color: #27edb6;
+}
+
 .header-sy-right div h1 {
     margin-left: 10rem;
     color: white;
@@ -204,6 +208,12 @@ div.feature-content p {
     margin: 0;
 }
 
+.logo-image-footer {
+    display: block;
+    margin-bottom: 0.4rem;
+    ≤
+}
+
 .footer-section-text {
     display: flex;
     align-items: center;
@@ -230,16 +240,27 @@ div.feature-content p {
 
 .footer-section-info {
     justify-content: space-between;
-    margin-top: 2rem;
+    margin: 2rem;
 }
 
-.footer-social {
-    margin: 1rem 0.5rem 2rem 0;
+.contact-section-info {
+    font-size: 1rem;
+    line-height: initial;
+    font-weight: lighter;
+    margin-bottom: 0.4rem;
+    padding-left: 9rem;
 }
 
-a.footer-social .fab {
+div.footer-social {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10rem;
+}
+
+a.footer-social i {
     font-size: 1.7rem;
     color: white;
+    margin: 0.25rem;
 }
 
 div.form-group {

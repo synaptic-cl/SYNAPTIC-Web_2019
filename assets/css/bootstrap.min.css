@@ -624,7 +624,8 @@ pre code {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -15px;
+    width: 100%;
 }
 
 .no-gutters {
@@ -1910,11 +1911,9 @@ pre code {
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
+    color: #fff;
     background-clip: padding-box;
     border: 1px solid #ced4da;
-    border-radius: .25rem;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
 
@@ -1930,8 +1929,7 @@ pre code {
 }
 
 .form-control:focus {
-    color: #495057;
-    background-color: #fff;
+    color: #0FD1B9;
     border-color: #80bdff;
     outline: 0;
     box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
@@ -9191,8 +9189,8 @@ a.text-dark:hover {
 
 @media print {
     *,
-    ::after,
-    ::before {
+     ::after,
+     ::before {
         text-shadow: none!important;
         box-shadow: none!important
     }
