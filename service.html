@@ -1,1 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Synaptic</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Icon -->
+    <link rel="stylesheet" href="assets/fonts/line-icons.css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.css">
+
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/nivo-lightbox.css">
+    <!-- Animate -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="assets/css/theme.css">
+    <link rel="stylesheet" href="assets/css/general.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/service.css">
+
+
+    <!-- Responsive Style -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+
 <h1>Servicios</h1>
+
+<body>
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <a href="index.html" class="navbar-brand"><img src="assets/img/Home/brand-sy.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="lni-menu"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
+                        <li class="nav-item">
+                            <a class="nav-link" href="service.html">
+                            Servicios
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="team.html">
+                            Blog
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+    </header>
+
+    <!-- Services Section Start -->
+    <section id="services">
+        <div class="cd-section container-fluid">
+            <div class="services-section row">
+                <div class="col-lg-12 col-md-12 col-sm-12 padding-none">
+                    <div class="cd-section-text">
+                        <h1>Productos que resuelven<br> tus problemas de negocio</h1>
+                    </div>
+                </div>
+                <div class="services-section-items col-lg-12 col-md-12 col-sm-12 padding-none">
+                    <div class="service-item col-sm-6 col-md-6 col-lg-3 fadeInDown animated" data-wow-delay="0.9s">
+                        <h2>UX</h2>
+                    </div>
+                    <div class="service-item col-sm-6 col-md-6 col-lg-3 fadeInDown animated" data-wow-delay="0.9s">
+                        <h2>Desarrollo</h2>
+                    </div>
+                    <div class="service-item col-sm-6 col-md-6 col-lg-3 fadeInDown animated" data-wow-delay="0.9s">
+                        <h2>Diseño</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="cd-section container-fluid">
+                <div class="services-section row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 padding-none">
+                        <h2>
+                            <span style="font-weight:bold;">Valores de Equipos</span>
+                        </h2>
+                        <p style="font-size:80%; margin-top: 26px;">
+                            <p>Simula el equipo que necesitarás para tu proyecto seleccionando la cantidad de personas que lo conformarán, la cantidad de meses en que trabajarán y obtén cuánto es su valor.</p>
+                        *1 persona es equivalente a un Ingeniero Senior o un Consultor UI/UX dedicado, a 240 UF exentas al mes.</p>
+
+                    <div class="slidecontainer" style="margin-top: 33px;">
+                    <p style="display: flex;justify-content: space-between;margin-top: 50px;font-weight: bold;">¿Cuántas personas necesitas en tu equipo?
+                        <span id="infoPeople" style="font-size: 50px;margin-bottom: -20px;margin-top: -36px;color: #2ecc71;font-weight: bold;">
+                        </span>
+                    </p>
+                        <span id="iconsPeople"></span>
+                        <input type="range" min="2" max="30" value="3" class="slider" id="peopleSlide" style="background-color: #c0c0c0; cursor: pointer;">
+                    <div class="box-minmax" style="justify-content: space-between; display: flex;margin-top: 10px;">
+                        <span>2 personas</span><span>30 o más personas</span>
+                    </div>
+
+                    <div style="margin-top: 45px;">
+                        <p style="display: flex;justify-content: space-between;margin-top: 60px;font-weight: bold;"> ¿Cuántos meses necesitas para tu proyecto?
+                            <span id="infoMonths" style="font-size: 50px;margin-bottom: -20px;margin-top: -36px;color: #2ecc71;font-weight: bold;">
+                            </span>
+                        </p>
+                            <input type="range" min="1" max="12" value="6" class="slider" id="monthsSlide" style="background-color: #c0c0c0; cursor: pointer;margin-top: 30px;">
+                            <div class="box-minmax" style="justify-content: space-between; display: flex;margin-top: 10px;">
+                                <span>1 mes</span><span>12 o más meses</span>
+                            </div>
+                            <p style="font-weight: bold;">Su equipo vale
+                                <span style="font-size: 50px;color: #2ecc71;" id="price"></span>
+                                <p style="font-weight: bold;color:#222222"> Contáctese con nosotros <a href="/index.html#contact">aquí.</a> </p>
+                            </p>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section End -->
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+        <i class="lni-arrow-up"></i>
+    </a>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-min.js "></script>
+    <script src="assets/js/popper.min.js "></script>
+    <script src="assets/js/bootstrap.min.js "></script>
+    <script src="assets/js/owl.carousel.min.js "></script>
+    <script src="assets/js/wow.js "></script>
+    <script src="assets/js/jquery.nav.js "></script>
+    <script src="assets/js/scrolling-nav.js "></script>
+    <script src="assets/js/jquery.easing.min.js "></script>
+    <script src="assets/js/jquery.counterup.min.js "></script>
+    <script src="assets/js/waypoints.min.js "></script>
+    <script src="assets/js/jquery.slicknav.js "></script>
+    <script src="assets/js/main.js "></script>
+</body>
+
+</html>
