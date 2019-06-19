@@ -74,7 +74,7 @@ a:not([href]):not([tabindex]) {
 }
 
 .section-header p {
-    text: center;
+    text-align: center;
     font-weight: 400;
     line-height: 26px;
 }
@@ -628,7 +628,6 @@ hr {
     border-bottom: 1px solid #f1f1f1;
     text-decoration: none;
     display: inline-block;
-    float: left;
     clear: both;
     position: relative;
     outline: 0;
@@ -1721,7 +1720,6 @@ hr {
     width: 100%;
     margin-bottom: 20px;
     font-size: 14px;
-    border-radius: 4px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
