@@ -360,13 +360,32 @@ hr {
     line-height: 80px;
 }
 
+.feature-item .icon-process {
+    float: left;
+    border: none;
+    background-color: none;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+}
+
+.feature-item .icon-process i {
+    font-size: 36px;
+    color: #0FD1B9;
+    line-height: 80px;
+}
+
 .feature-content {
     color: #fff;
     margin-left: 100px;
 }
 
 .feature-content h3 {
-    color: #fff;
+    color: #03D0D8;
     text-transform: uppercase;
     font-size: 18px;
 }
