@@ -44,7 +44,7 @@
 }
 
 .timeline-item {
-    padding: 40px 0;
+    padding: 3rem 0;
     opacity: .3;
     filter: blur(2px);
     transition: .5s;
@@ -61,8 +61,7 @@
     width: 100%;
     position: absolute;
     color: #0FD1B9;
-    font-size: 18px;
-    font-family: "Pathway Gothic One", sans-serif;
+    font-size: 26px;
     border-left: 2px solid rgba(255, 255, 255, 0.5);
     top: 70%;
     margin-top: -5px;
@@ -87,7 +86,7 @@
 
 .timeline-item--active {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(50px);
     filter: blur(0px);
 }
 
@@ -140,7 +139,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background: #6363633d;
+    background: #000000cf;
     content: "";
 }
 
@@ -178,5 +177,5 @@
 }
 
 .cd-section-text {
-    padding-left: 10rem;
+    padding: 4rem 4rem;
 }
