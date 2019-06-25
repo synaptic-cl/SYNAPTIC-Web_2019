@@ -1,3 +1,9 @@
+/* background */
+
+.cd-section.container-fluid.services-section {
+    background-image: url("../img/services/galaxy.jpg");
+}
+
 /* Service Item */
 
 .services-section-items {
@@ -11,8 +17,8 @@
 }
 
 .service-item {
-    background: rgba(204, 204, 204, 0.356);
     height: 300px;
+    text-align: center;
     margin-right: 40px;
     border-radius: 0px;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
@@ -20,5 +26,13 @@
     -moz-transition: all 0.3s ease-in-out 0s;
     -webkit-transition: all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
+}
+
+.service-item h2 {
+    font-size: 30px;
+}
+
+.service-item img {
+    max-width: 100px;
 }
 
