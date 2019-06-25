@@ -1,3 +1,14 @@
-.section-team {
-    margin: 3rem 0;
+.team-section {
+    background-image: url("../img/team/team-background.png");
+    background-size: cover;
+}
+
+.team-cards {
+    max-width: 65rem;
+    margin: -15px auto;
+}
+
+.cd-section-text {
+    padding: 4rem 4rem;
+    margin-left: 0 !important;
 }

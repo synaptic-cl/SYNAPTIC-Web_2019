@@ -36,7 +36,7 @@
                         ")"
                     );
                     selectors.item.last().addClass(selectors.activeClass);
-                } else if (pos <= max - 40 && pos >= min) {
+                } else if (pos <= max - 40 && pos >= min - $(this).height() / 10) {
                     selectors.id.css(
                         "background-image",
                         "url(" +
