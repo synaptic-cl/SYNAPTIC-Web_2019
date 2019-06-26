@@ -123,6 +123,7 @@
     background-size: cover;
     width: 100%;
     align-items: center;
+    height: 100vh;
 }
 
 div.icon {

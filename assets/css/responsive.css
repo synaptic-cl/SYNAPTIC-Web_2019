@@ -22,6 +22,50 @@
 /* tablets */
 
 @media (max-width: 991px) {
+    .contact-section {
+        justify-content: center;
+    }
+    .navbar-brand img {
+        width: 100px;
+    }
+    .header-sy-left {
+        display: none;
+    }
+    .header-sy-right div h1 {
+        margin-left: 4rem;
+        font-size: 3rem;
+    }
+    .process-section-left {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .feature-item {
+        padding: 1rem;
+    }
+    .cd-section-text {
+        margin-left: 0;
+    }
+    .crew-section {
+        justify-content: center;
+    }
+    .section-padding {
+        padding: 50px 0;
+    }
+    div.footer-social {
+        padding: 0;
+        justify-content: initial;
+    }
+    .form-group input {
+        width: 65%;
+    }
+    .cd-section-form {
+        margin-top: 3rem;
+    }
+    .contact-section-info {
+        padding: 0;
+    }
     .section-title {
         font-size: 30px;
         margin-bottom: 30px;
@@ -41,6 +85,50 @@
 /* only small tablets */
 
 @media (min-width: 768px) and (max-width: 991px) {
+    /* .contact-section {
+        justify-content: center;
+    }
+    .navbar-brand img {
+        width: 100px;
+    }
+    .header-sy-left {
+        display: none;
+    }
+    .header-sy-right div h1 {
+        margin-left: 10rem;
+        font-size: 6rem;
+    }
+    .process-section-left {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .feature-item {
+        padding: 1rem;
+    }
+    .cd-section-text {
+        margin-left: 0;
+    }
+    .crew-section {
+        justify-content: center;
+    }
+    .section-padding {
+        padding: 50px 0;
+    }
+    div.footer-social {
+        padding: 0;
+        justify-content: initial;
+    }
+    .form-group input {
+        width: 65%;
+    }
+    .cd-section-form {
+        margin-top: 3rem;
+    }
+    .contact-section-info {
+        padding: 0;
+    } */
     .section-title {
         font-size: 26px;
         margin-bottom: 30px;
@@ -53,8 +141,9 @@
         box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
     }
     .navbar-expand-md .navbar-nav .nav-link {
-        font-size: 13px;
-        padding: 0px 3px;
+        font-size: 1rem;
+        padding: 0 1rem;
+        color: black;
     }
     #about .sec-title h3 {
         font-size: 30px;
@@ -109,6 +198,19 @@
 /* mobile or only mobile */
 
 @media (max-width: 767px) {
+    .cd-section.container-fluid {
+        background-image: url(../img/Home/mobile-process-background.png);
+        background-size: contain;
+        background-attachment: fixed;
+    }
+    .crew-section {
+        background-image: url(../img/Home/mobile-process-background.png);
+        background-size: contain;
+        background-attachment: fixed;
+    }
+    .contact-section {
+        justify-content: center;
+    }
     .navbar-brand img {
         width: 100px;
     }
