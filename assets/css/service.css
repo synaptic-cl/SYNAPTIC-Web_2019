@@ -22,9 +22,10 @@
 }
 
 .cd-section-text p {
-    font-size: 20px;
+    font-size: 17px;
     padding-right: 100px;
     font-weight: 400;
+    margin-top: 10px;
 } 
 
 .services-section h4 {
@@ -64,7 +65,7 @@
 /* Slider */
 
 .row.team-value {
-    background-image: url("../img/services/stars.jpg");
+    /* background-image: url("../img/services/stars.jpg"); */
 }
 
 .services-section .slidecontainer {
@@ -82,7 +83,7 @@
 h2.result {
     font-size: 30px;
     color: #97EFCB;
-    margin-top: 20px;
+    margin-top: 30px;
     font-weight: 700;
     display: inline-block;
 }
@@ -91,6 +92,7 @@ h2.result {
     width: 90%;
     display: flex;
     justify-content: space-between;
+    margin-top: -8px;
 }
 
 .box-minmax span {

@@ -1,6 +1,7 @@
 .team-section {
     background-image: url("../img/team/team-background.png");
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .team-cards {
