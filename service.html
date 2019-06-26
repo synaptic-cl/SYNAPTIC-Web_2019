@@ -1,1 +1,171 @@
-<h1>Servicios</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Synaptic</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Icon Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Icon Line-Icons -->
+    <link rel="stylesheet" href="assets/fonts/line-icons.css">
+    <!-- Animate -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/service.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <a href="index.html" class="navbar-brand"><img src="assets/img/Home/brand-sy.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="lni-menu"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
+                        <li class="nav-item">
+                            <a class="nav-link" href="service.html">
+                            Servicios
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="team.html">
+                            Blog
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+    </header>
+
+    <!-- Services Section Start -->
+    <section id="services" class="section-padding">
+        <div class="cd-section container-fluid services-section">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 padding-none">
+                    <div class="cd-section-text">
+                        <h1>Nos especializamos en encontrar soluciones<br> a tus problemas de negocio</h1>
+                    </div>
+                </div>
+                <div class="services-section-items col-lg-12 col-md-12 col-sm-12 padding-none">
+                    <div class="service-item col-sm-6 col-md-6 col-lg-3 fadeInDown animated" data-wow-delay="0.9s">
+                        <img src="file:///Users/francisca.cerda/Documents/Proyectos/site-synaptic/assets/img/services/computer.svg" alt=""/>
+                        <h2>Tecnología e ingeniería</h2>
+                    </div>
+                    <div class="service-item col-sm-6 col-md-6 col-lg-3 fadeInDown animated" data-wow-delay="0.9s">
+                        <img src="file:///Users/francisca.cerda/Documents/Proyectos/site-synaptic/assets/img/services/rocket.svg" alt=""/>
+                        <h2>Diseño y desarrollo de Productos Digitales</h2>
+                    </div>
+                    <div class="service-item col-sm-6 col-md-6 col-lg-3 fadeInDown animated" data-wow-delay="0.9s">
+                        <img src="file:///Users/francisca.cerda/Documents/Proyectos/site-synaptic/assets/img/services/planet.svg" alt=""/>
+                        <h2>Experiencia de Usuario</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row team-value">
+                <div class="col-lg-12 col-md-12 col-sm-12 padding-none">
+                    <div class="cd-section-text">
+                        <h1>Calcula el valor de tu equipo</h1>
+                        <p>Simula el equipo que necesitarás para tu proyecto seleccionando la cantidad de personas que lo conformarán, la cantidad de meses en que trabajarán y obtén cuánto es su valor. 1 persona es equivalente a un Ingeniero Senior o un Consultor UI/UX dedicado, a 240 UF exentas al mes.</p>
+                    </div>
+                    <div class="slidecontainer col-lg-12 col-md-12 col-sm-12 padding-none">
+                        <div class="first-slider">
+                            <h2>¿Cuántas personas necesitas en tu equipo?</h2>
+                            <h4 id="infoPeople"></h4>
+                            <input type="range" min="2" max="20" value="2" class="slider" id="peopleSlide">
+                            <div class="box-minmax">
+                                <span>2 </span><span>20 o más</span>
+                            </div>
+                        </div>
+                        <div class="second-slider">
+                            <h2>¿Cuántos meses necesitas para tu proyecto?</h2>
+                            <h4 id="infoMonths"></h4>
+                            <input type="range" min="2" max="12" value="2" class="slider" id="monthsSlide">
+                            <div class="box-minmax">
+                                <span>2</span><span>12 o más</span>
+                            </div>
+                        </div>
+                        <h2 class="result">El valor de tu equipo es <span id="price"></span></h2>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Services Section End -->
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+        <i class="lni-arrow-up"></i>
+    </a>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-min.js "></script>
+    <script src="assets/js/popper.min.js "></script>
+    <script src="assets/js/bootstrap.min.js "></script>
+    <script src="assets/js/owl.carousel.min.js "></script>
+    <script src="assets/js/wow.js "></script>
+    <script src="assets/js/jquery.nav.js "></script>
+    <script src="assets/js/scrolling-nav.js "></script>
+    <script src="assets/js/jquery.easing.min.js "></script>
+    <script src="assets/js/jquery.counterup.min.js "></script>
+    <script src="assets/js/waypoints.min.js "></script>
+    <script src="assets/js/jquery.slicknav.js "></script>
+    <script src="assets/js/main.js "></script>
+</body>
+
+<script>
+    const sliderPeople = document.getElementById("peopleSlide");
+    const outputPeople = document.getElementById("infoPeople");
+    const outputIconsPeople = document.getElementById("iconsPeople");
+    const sliderMonths = document.getElementById("monthsSlide");
+    const outputMonths = document.getElementById("infoMonths");
+    const outputPrice = document.getElementById("price");
+    const value = 240;
+    const templateUF = ' '+'UF';
+    let people = sliderPeople.valueAsNumber;
+    let months = sliderMonths.valueAsNumber;
+    let amountMonths = months > 1 ? 'meses' : 'mes'
+    outputPeople.innerHTML = people+' '+'Synápticos';
+    outputMonths.innerHTML = months+' '+amountMonths;
+    outputPrice.innerHTML = people < 30 && months < 12 ? (value*months*people).toLocaleString('es')+templateUF : '...';
+
+    sliderPeople.oninput = function() {
+        people = this.valueAsNumber;
+        outputPeople.innerHTML = people+' '+'Synápticos';
+        outputPrice.innerHTML = people < 30 && months < 12 ? (value*months*people).toLocaleString('es')+templateUF : '...';
+    }
+
+    sliderMonths.oninput = function() {
+        months = this.valueAsNumber;
+        amountMonths = months > 1 ? 'meses' : 'mes'
+        outputMonths.innerHTML = months+' '+amountMonths;
+        outputPrice.innerHTML = people < 30 && months < 12 ? (value*months*people).toLocaleString('es')+templateUF : '...';
+    }
+</script>
+
+</html>
