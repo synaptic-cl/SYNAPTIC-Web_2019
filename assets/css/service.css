@@ -5,6 +5,11 @@
     height: inherit;
 }
 
+.cd-section.container-fluid.services-section.slider {
+    background: #000;
+    height: inherit;
+}
+
 /* General elements */
 
 .services-section h1 {
@@ -17,7 +22,7 @@
 }
 
 .services-section h2 {
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 500;
 }
 
@@ -29,7 +34,7 @@
 } 
 
 .services-section h4 {
-    font-size: 30px;
+    font-size: 27px;
     color: #97EFCB;
     margin-top: 20px;
 }
@@ -71,7 +76,7 @@
 .services-section .slidecontainer {
     margin: 3rem 10rem 5rem 10rem;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     padding-right: 15rem;
 }
 
@@ -83,9 +88,10 @@
 h2.result {
     font-size: 30px;
     color: #97EFCB;
-    margin-top: 30px;
+    margin-top: 50px;
     font-weight: 700;
     display: inline-block;
+    grid-column: 1 / span 2;
 }
 
 .box-minmax {

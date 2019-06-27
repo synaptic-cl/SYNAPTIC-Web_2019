@@ -21,6 +21,28 @@
 
 /* tablets */
 
+@media (max-width: 1024px) {
+
+    /* services page */
+
+    .services-section-items {
+        margin: 3rem;
+    }
+
+    .services-section h1 {
+        padding-top: 2rem;
+    }
+
+    .services-section .slidecontainer {
+        margin: 4rem 8rem;
+    }
+
+    .first-slider, .second-slider {
+        grid-column: 1 / span 2;
+    }
+
+}
+
 @media (max-width: 991px) {
     .contact-section {
         justify-content: center;
@@ -346,5 +368,12 @@
     }
     .copyright .float-right {
         float: left !important;
+    }
+
+    /* services page */
+
+    .services-section .slidecontainer {
+        margin: 1rem;
+        padding-right: 2rem;
     }
 }
