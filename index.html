@@ -54,7 +54,7 @@
     </header>
 
     <!-- Hero Area Start -->
-    <section id=" header-sy ">
+    <section id="header-sy">
         <div class="row ">
             <div class="col-lg-6 col-md-12 col-sm-12 padding-none feature-bg ">
                 <div class="header-sy-left wow fadeInDown  animated">
@@ -88,7 +88,7 @@
     <!-- Hero Area End -->
 
     <!-- Process Start -->
-    <section id="process-sy ">
+    <section class="process-sy">
         <div class="cd-section container-fluid ">
             <div class="process-section row ">
                 <div class="process-section-left col-lg-6 col-md-12 col-sm-12 padding-none feature-bg ">
@@ -99,10 +99,7 @@
                         <p>Somos amantes de la tecnología <br> especializados en desarrollar <br> productos que resuelven problemas
                             <br> de tu negocio</p>
                         <div class="feature-item-sy wow fadeInDown " data-wow-duration="1000ms " data-wow-delay="300ms ">
-                            <div class="icon-sy">
-                                <a href="process.html">Conoce nuestro proceso</a>
-                                <i class="lni-angle-double-right"></i>
-                            </div>
+                            <button class="btn icon-sy" class="button-sy" type="submit" value="Submit"><a href="process.html">Conoce nuestro proceso</a><i class="lni-angle-double-right"></i></a></button>
                         </div>
                     </div>
                 </div>
@@ -144,7 +141,7 @@
     <!-- Process End -->
 
     <!-- Crew Start -->
-    <section id="crew-sy ">
+    <section class="crew-sy ">
         <div class="cd-section row ">
             <div class="crew-section col-lg-12 col-md-12 col-sm-12 padding-none feature-bg ">
                 <div class="cd-section-text ">
@@ -154,10 +151,7 @@
                     <p>Somos amantes de la tecnología <br> especializados en desarrollar <br> productos que resuelven problemas
                         <br> de tu negocio</p>
                     <div class="feature-item-sy wow fadeInDown " data-wow-duration="1000ms " data-wow-delay="300ms ">
-                        <div class="icon-sy">
-                            <a href="team.html">Conoce nuestra Tripulación</a>
-                            <i class="lni-angle-double-right"></i></a>
-                        </div>
+                        <button class="btn icon-sy" class="button-sy" type="submit" value="Submit"><a href="team.html">Conoce nuestra Tripulación</a><i class="lni-angle-double-right"></i></a></button>
                     </div>
                 </div>
             </div>
@@ -167,7 +161,7 @@
 
 
     <!-- Contact Start -->
-    <section id="contact-sy ">
+    <section class="contact-sy">
         <div class="contact-section container-fluid ">
             <div class="row ">
                 <div class="footer-container col-lg-12 col-md-12 col-sm-12 feature-bg row">
@@ -176,39 +170,37 @@
                             <h1>Trabajemos</h1>
                             <h1>Juntos</h1>
                             <br>
-                            <p> Si necesitas donde trabajar y quieres conocernos,<br> te inivtamos a coordinar tu visita y trabajar juntos en nuestro cowork.
+                            <p> Si necesitas donde trabajar y quieres conocernos,<br> te inivtamos a coordinar tu visita y trabajar juntos en nuestro espacio.
                             </p>
                         </div>
                     </div>
                     <div class="footer-section-text right col-lg-6 col-md-12 col-sm-12 feature-bg ">
                         <div class="cd-section-form ">
-                            <form>
+                            <form method="POST" action="https://formspree.io/info@synaptic.cl">
                                 <div class="form-group ">
                                     <label for="exampleInputEmail1 "><i class="fas fa-user "></i> Nombre</label>
-                                    <input type="email " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="">
+                                    <input type="text" class="form-control" name="name" placeholder="" required="">
                                 </div>
                                 <div class="form-group ">
                                     <label for="exampleInputPassword1 "><i class="fas fa-envelope "></i> Email</label>
-                                    <input type="password " class="form-control " id="exampleInputPassword1 " placeholder="">
+                                    <input type="email" class="form-control" name="email" placeholder="" required="">
                                 </div>
                                 <div class="feature-item-sy wow fadeInDown " data-wow-duration="1000ms " data-wow-delay="300ms ">
-                                    <div class="icon-sy">
-                                        Enviar información
-                                        <i class="lni-angle-double-right"></i>
-                                    </div>
+                                    <button class="btn icon-sy" class="button-sy" type="submit" value="Submit">Enviar Información<i class="lni-angle-double-right"></i></button>
                                 </div>
                             </form>
                         </div>
                     </div>
                 </div>
+
                 <div class="footer-section-info col-md-12 col-sm-12 padding-none feature-bg">
                     <div class="row">
-                        <div class="contact-section-info col-md-6 col-sm-12 feature-bg">
+                        <div class="contact-section-info col-md-6 col-sm-6 col-lg-6 feature-bg">
                             <p><i class="lni-phone-handset"></i>+56 (2) 3210 4837</p>
                             <p><i class="lni-envelope"></i>info@synaptic.cl</p>
                             <p><i class="lni-map-marker"></i>Av. Mariano Sanchéz Fontecilla #368</p>
                         </div>
-                        <div class="footer-social col-md-6 col-sm-12 feature-bg ">
+                        <div class="footer-social col-md-6 col-sm-6 col-lg-6 feature-bg ">
                             <div>
                                 <img class="logo-image-footer" src="assets/img/Home/brand-sy.svg ">
                                 <a class="footer-social twitter " href="https://twitter.com/synaptic_cl " target="_blank " aria-label="twitter ">

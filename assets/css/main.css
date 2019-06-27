@@ -111,7 +111,9 @@ a:not([href]):not([tabindex]) {
     cursor: pointer;
     font-weight: 400;
     color: #fff;
-    border-radius: 30px;
+    width: 250px;
+    background: none;
+    border: 1px solid #fff;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
@@ -339,7 +341,7 @@ hr {
 }
 
 .feature-item {
-    padding: 30px;
+    padding: 15px;
 }
 
 .feature-item .icon {
@@ -365,7 +367,7 @@ hr {
     border: none;
     background-color: none;
     width: 80px;
-    height: 80px;
+    height: 120px;
     text-align: center;
     border-radius: 50%;
     transition: all .6s ease;
@@ -549,7 +551,7 @@ hr {
 .navbar-expand-md .navbar-nav .nav-link {
     font-family: 'Titillium Web', sans-serif;
     font-size: 18px;
-    color: #f7f7f7;
+    color: #000;
     font-weight: 400;
     padding: 8px 10px;
     line-height: 40px;
