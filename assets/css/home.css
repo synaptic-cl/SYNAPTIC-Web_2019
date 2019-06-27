@@ -1,3 +1,21 @@
+.process-sy {
+    background-image: url("../img/Home/process-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.crew-sy {
+    background-image: url("../img/Home/crew-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-sy {
+    background-image: url("../img/Home/footer-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .button-synaptic {
     height: 50px;
     width: 200px;
@@ -30,7 +48,6 @@
 .feature-item-sy .icon-sy i {
     font-size: 24px;
     color: #03d0d8;
-    line-height: 80px;
 }
 
 .feature-item-sy:hover .icon-sy {
@@ -44,8 +61,8 @@
 
 .navbar {
     background-color: #00000000;
-    height: 3.2rem;
     font-size: 1rem;
+    min-height: 50px;
 }
 
 .logo-image {
@@ -53,12 +70,13 @@
 }
 
 .cd-section {
-    background-color: black;
     display: block;
+    padding: 2rem;
+    margin: auto;
+    max-width: 1000px;
 }
 
 .cd-section-text {
-    margin-left: 10rem;
     line-height: 0.8;
     color: white;
 }
@@ -163,39 +181,42 @@ div.feature-content p {
 .cd-section.container-fluid {
     display: flex;
     align-items: center;
-    background-image: url("../img/Home/process-background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
+    padding: 2rem;
+    margin: auto;
+    max-width: 1000px;
+    height: 100vh;
+    margin: auto;
+    max-width: 1000px;
 }
 
 .crew-section {
-    background-image: url("../img/Home/crew-background.png");
     display: flex;
     align-items: center;
     line-height: 0.8;
     color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
     height: 100vh;
+    margin: auto;
+    max-width: 1000px;
 }
 
 .contact-section {
-    background-image: url("../img/Home/footer-background.png");
     display: flex;
     align-items: center;
     line-height: 0.8;
     color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
     min-height: 768px;
     align-items: flex-end;
+    height: 100vh;
+    margin: auto;
+    max-width: 1000px;
 }
 
 .footer-container {
     margin: 6rem 0;
+    height: 100vh;
 }
 
 .cd-section.footer div:nth-child(3) {
@@ -238,7 +259,7 @@ div.feature-content p {
 
 .footer-section-info {
     justify-content: space-between;
-    margin: 2rem;
+    margin-bottom: 2rem;
 }
 
 .contact-section-info {
@@ -246,7 +267,6 @@ div.feature-content p {
     line-height: initial;
     font-weight: lighter;
     margin-bottom: 0.4rem;
-    padding-left: 9rem;
 }
 
 .contact-section-info p>i {
@@ -275,6 +295,14 @@ div.form-group {
     background: none;
     border: none;
     border-bottom: 1px solid #ffffff;
+}
+
+.button-sy {
+    height: 50px;
+    width: 250px;
+    border: 1px solid #fff;
+    background: none;
+    cursor: pointer;
 }
 
 input.form-control {
