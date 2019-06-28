@@ -16,6 +16,7 @@ section.section-padding {
     height: auto;
 }
 
+
 /* General elements */
 
 .services-section h1 {
@@ -36,13 +37,14 @@ section.section-padding {
     font-size: 17px;
     font-weight: 400;
     margin: 15px 0px 35px;
-} 
+}
 
 .services-section h4 {
     font-size: 27px;
     color: #97EFCB;
     margin-top: 20px;
 }
+
 
 /* Service Item */
 
@@ -70,6 +72,7 @@ section.section-padding {
     height: 150px;
     margin: 10px;
 }
+
 
 /* Slider section */
 
@@ -101,10 +104,12 @@ h2.result {
     font-size: 20px;
 }
 
-.second-slider, .first-slider {
+.second-slider,
+.first-slider {
     padding: 0px;
     margin-bottom: 25px;
 }
+
 
 /* Slider input */
 
@@ -117,29 +122,30 @@ h2.result {
 }
 
 .slider::-webkit-slider-thumb {
-    -webkit-appearance: none; 
+    -webkit-appearance: none;
     appearance: none;
-    width: 20px; 
-    height: 20px; 
-    background: #0FD1B9; 
+    width: 20px;
+    height: 20px;
+    background: #0FD1B9;
     cursor: pointer;
     border-radius: 10px;
-  }
-  
-  .slider::-moz-range-thumb {
+}
+
+.slider::-moz-range-thumb {
     border-radius: 10px;
-    width: 20px; 
-    height: 20px; 
-    background: #0FD1B9; 
-    cursor: pointer; 
-  }
+    width: 20px;
+    height: 20px;
+    background: #0FD1B9;
+    cursor: pointer;
+}
 
-  /* contact */
 
-  .services .row.contact {
+/* contact */
+
+.services .row.contact {
     max-width: 1000px;
     display: flex;
     align-items: center;
-    margin: auto;
+    margin: 2rem auto;
     padding: 2rem;
-  }
+}
