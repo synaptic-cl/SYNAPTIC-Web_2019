@@ -180,11 +180,17 @@
     .counter-box {
         margin-bottom: 30px;
     }
+
+    /* service page */
+
+    section.section-padding {
+        background-image: url("../img/services/galaxy.jpg");
+        background-size: cover;
+        margin-top: 0px;
+    }
 }
 
-
-/* 
-tablets @media (max-width: 991px) {
+@media (max-width: 991px) {
     .contact-section {
         justify-content: center;
     }
@@ -512,5 +518,12 @@ tablets @media (max-width: 991px) {
     }
     .copyright .float-right {
         float: left !important;
+    }
+
+    /* services page */
+
+    .services-section .slidecontainer {
+        margin: 1rem;
+        padding-right: 2rem;
     }
 }
