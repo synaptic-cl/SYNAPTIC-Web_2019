@@ -173,31 +173,14 @@
     .counter-box {
         margin-bottom: 30px;
     }
-}
 
+    /* service page */
 
-/* tablets */
-
-@media (max-width: 1024px) {
-
-    /* services page */
-
-    .services-section-items {
-        margin: 3rem;
+    section.section-padding {
+        background-image: url("../img/services/galaxy.jpg");
+        background-size: cover;
+        margin-top: 0px;
     }
-
-    .services-section h1 {
-        padding-top: 2rem;
-    }
-
-    .services-section .slidecontainer {
-        margin: 4rem 8rem;
-    }
-
-    .first-slider, .second-slider {
-        grid-column: 1 / span 2;
-    }
-
 }
 
 @media (max-width: 991px) {
