@@ -8,6 +8,7 @@
     background-image: url("../img/Home/crew-background.png");
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
 }
 
 .contact-sy {
@@ -122,8 +123,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #121213;
+    background-color: #000;
     min-height: 100vh;
+    background-image: url("../img/Home/header-sy-background.png")
 }
 
 .header-sy-left div {
@@ -214,9 +216,10 @@ div.feature-content p {
     max-width: 1000px;
 }
 
-.footer-container {
-    margin: 6rem 0;
-    height: 100vh;
+.footer-section {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .cd-section.footer div:nth-child(3) {
@@ -238,6 +241,7 @@ div.feature-content p {
     align-items: center;
     line-height: 0.8;
     color: white;
+    padding-left: 0;
 }
 
 .footer-section.right {
@@ -259,7 +263,10 @@ div.feature-content p {
 
 .footer-section-info {
     justify-content: space-between;
-    margin-bottom: 2rem;
+}
+
+.contact-section {
+    align-items: center;
 }
 
 .contact-section-info {
@@ -267,6 +274,7 @@ div.feature-content p {
     line-height: initial;
     font-weight: lighter;
     margin-bottom: 0.4rem;
+    color: white;
 }
 
 .contact-section-info p>i {

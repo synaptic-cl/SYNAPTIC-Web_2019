@@ -517,7 +517,7 @@ hr {
 }
 
 .top-nav-collapse .navbar-nav .nav-link {
-    color: #585b60 !important;
+    color: #fff !important;
     margin-top: 0px !important;
     margin-bottom: 0px !important;
 }
@@ -551,7 +551,7 @@ hr {
 .navbar-expand-md .navbar-nav .nav-link {
     font-family: 'Titillium Web', sans-serif;
     font-size: 18px;
-    color: #000;
+    color: #fff;
     font-weight: 400;
     padding: 8px 10px;
     line-height: 40px;

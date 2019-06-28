@@ -2,7 +2,7 @@
 
 @media (max-width: 999px) {
     .process-sy {
-        background-image: url("../img/Home/process-background.png");
+        background-image: url("../img/Home/mobile-process.png");
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -15,6 +15,12 @@
         background-image: url("../img/Home/footer-background.png");
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        color: #000;
+    }
+    .top-nav-collapse .navbar-nav .nav-link {
+        color: #494747 !important;
     }
     .contact-section {
         justify-content: center;
@@ -53,6 +59,7 @@
     }
     .cd-section-form {
         margin-top: 3rem;
+        margin-bottom: 3rem;
     }
     .process-section-right {
         display: none;
