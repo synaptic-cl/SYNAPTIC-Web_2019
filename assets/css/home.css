@@ -348,3 +348,9 @@ input.form-control {
     position: absolute;
     text-align: center;
 }
+
+/* carousel */
+
+.carousel-inner .carousel-item.active, .carousel-inner .carousel-item {
+    min-width: 100rem;
+}
