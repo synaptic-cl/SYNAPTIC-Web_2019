@@ -1,18 +1,19 @@
 .process-sy {
-    background-image: url("../img/Home/process-background.png");
+    background-image: url("../img/Home/process-background@2x.png");
     background-repeat: no-repeat;
     background-size: cover;
+    margin: auto;
 }
 
 .crew-sy {
-    background-image: url("../img/Home/crew-background.png");
+    background-image: url("../img/Home/crew-background@2x.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
 }
 
 .contact-sy {
-    background-image: url("../img/Home/footer-background.png");
+    background-image: url("../img/Home/footer-background@2x.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -71,15 +72,23 @@
 }
 
 .cd-section {
-    display: block;
+    display: flex;
     padding: 2rem;
     margin: auto;
+}
+
+.cd-section.row {
     max-width: 1000px;
 }
 
 .cd-section-text {
     line-height: 0.8;
     color: white;
+    max-width: 30rem;
+}
+
+.cd-section-text object {
+    width: 80%;
 }
 
 .cd-section-text p {
@@ -87,10 +96,12 @@
     line-height: initial;
     font-weight: lighter;
     margin-bottom: 0.4rem;
+    width: 80%;
+    max-width: 1000px;
 }
 
 .header-sy-right {
-    background-image: url("../img/Home/header-background.png");
+    background-image: url("../img/Home/header-background@2x.png");
     width: 100%;
     display: flex;
     align-items: center;
@@ -130,6 +141,10 @@
 
 .header-sy-left div {
     width: 100%;
+}
+
+.header-sy-left object {
+    width: 90%;
 }
 
 .header-image {
@@ -189,7 +204,6 @@ div.feature-content p {
     max-width: 1000px;
     height: 100vh;
     margin: auto;
-    max-width: 1000px;
 }
 
 .crew-section {
@@ -305,6 +319,15 @@ div.form-group {
     border-bottom: 1px solid #ffffff;
 }
 
+textarea {
+    background: #000;
+    border: 1px solid #fff;
+    min-width: 30rem;
+    min-height: 5rem;
+    line-height: normal;
+    color: white;
+}
+
 .button-sy {
     height: 50px;
     width: 250px;
@@ -349,8 +372,10 @@ input.form-control {
     text-align: center;
 }
 
+
 /* carousel */
 
-.carousel-inner .carousel-item.active, .carousel-inner .carousel-item {
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item {
     min-width: 100rem;
 }

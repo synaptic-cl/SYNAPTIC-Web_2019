@@ -7,7 +7,7 @@
         background-size: cover;
     }
     .crew-sy {
-        background-image: url("../img/Home/mobile-crew.png");
+        background-image: url("../img/Home/mobile-crew@2x.png");
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -47,6 +47,9 @@
     .cd-section-text {
         margin-left: 0;
     }
+    .crew-section.right {
+        display: none;
+    }
     .section-padding {
         padding: 50px 0;
     }
@@ -56,6 +59,9 @@
     }
     .form-group input {
         width: 65%;
+    }
+    textarea {
+        min-width: 20rem;
     }
     .cd-section-form {
         margin-top: 3rem;
@@ -75,7 +81,7 @@
         font-size: 30px;
     }
     .bg-inverse {
-        padding: 0 15px;
+        padding: 15px 15px;
         background: #fff !important;
         box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
     }
@@ -180,9 +186,7 @@
     .counter-box {
         margin-bottom: 30px;
     }
-
     /* service page */
-
     section.section-padding {
         background-image: url("../img/services/galaxy.jpg");
         background-size: cover;
@@ -248,9 +252,9 @@
     #pricing-table .title h3 {
         font-size: 14px;
     }
-} */
+}
 
-
+*/
 /* only small tablets @media (min-width: 768px) and (max-width: 991px) {
     .contact-section {
         justify-content: center;
@@ -519,11 +523,36 @@
     .copyright .float-right {
         float: left !important;
     }
-
     /* services page */
-
     .services-section .slidecontainer {
         margin: 1rem;
         padding-right: 2rem;
+    }
+}
+
+@media (min-width: 1300px) {
+    /* .cd-section.container-fluid {
+        min-width: 80%;
+    } */
+    .header-sy-right div h1 {
+        font-size: 6rem;
+    }
+    .navbar {
+        min-height: 80px;
+    }
+    /* .container {
+        max-width: 2000px;
+    } */
+    .header-sy-left img {
+        width: 60%;
+    }
+    p {
+        font-size: 1.3rem;
+    }
+    .cd-section-text p {
+        font-size: 1.3rem;
+    }
+    .feature-item .icon-process {
+        height: 150px;
     }
 }
