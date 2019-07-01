@@ -1,3 +1,4 @@
 steps:
 - name: 'gcr.io/cloud-builders/gsutil'
-  args: ['rsync', '-d', '-x', '.git', '-j', '-n', '-r', '/workspace/', 'gs://www.synaptic.cl']
+  # args: ['rsync', '-d', '-x', '.git', '-j', '-n', '-r', '/workspace/', 'gs://www.synaptic.cl']
+  args: ['cp', '-r', '/workspace/', 'gs://www.synaptic.cl']
