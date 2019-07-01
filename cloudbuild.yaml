@@ -1,3 +1,3 @@
 steps:
-- name: 'gcr.io/cloud-builders/gsutil'
-  args: ['rsync', '-d', '-x', '".git|assets/img/Home/"', '-r', '/workspace/', 'gs://www.synaptic.cl']
+- name: 'gcr.io/cloud-builders/gsutil@sha256:9fb1184766f428d36527e76e7a43395f5668a55fc3680a78eeea14df47acf57a'
+  args: ['rsync', '-d', '-x', '".git|assets/img"', '-r', '/workspace/', 'gs://www.synaptic.cl']
