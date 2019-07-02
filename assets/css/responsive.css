@@ -429,9 +429,6 @@
         font-size: 1.2rem;
         line-height: 2.5rem;
     }
-    .header-sy-right div h1 {
-        font-size: 6rem;
-    }
     .navbar {
         min-height: 80px;
     }
@@ -450,5 +447,9 @@
     body {
         font-size: 1.2rem;
         line-height: 2.5rem;
+    }
+
+    .header-sy-right div h1 {
+        font-size: 6rem;
     }
 }

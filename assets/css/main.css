@@ -22,7 +22,6 @@ h1,
 h2,
 h3,
 h4 {
-    font-size: 38px;
     color: #fff;
     font-weight: 550;
     font-family: 'Titillium Web', sans-serif;
@@ -345,6 +344,7 @@ hr {
 
 .feature-item {
     padding: 15px;
+    display: flex;
 }
 
 .feature-item .icon {
@@ -376,6 +376,7 @@ hr {
     transition: all .6s ease;
     -moz-transition: all .6s ease;
     -webkit-transition: all .6s ease;
+    margin-right: 0.8rem;
 }
 
 .feature-item .icon-process i {
@@ -1235,7 +1236,7 @@ hr {
 
 
 /* ==========================================================================
-  17. Blog 
+  17. Blog
    ========================================================================== */
 
 #blog .blog-item-wrapper {
