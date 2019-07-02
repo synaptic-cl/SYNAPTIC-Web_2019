@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Create Signature for Email</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+
+  <style>
+    form div {
+      margin-bottom: 10px;
+    }
+    div input {
+      margin-left: 30px;
+      width: 200px;
+    }
+    div label {
+      width: 130px;
+      display: inline-block;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+  <script text="text/javascrip" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <form id="create_signature">
+    <div>
+      <label>Name:</label>
+      <input name="name" placeholder="Héctor Villarroel">
+    </div>
+    <div>
+      <label>Current Position:</label>
+      <input name="current_position" placeholder="Software Engineer">
+    </div>
+    <div>
+      <label>Email:</label>
+      <input name="email" placeholder="hvillarroel@synaptic.cl">
+    </div>
+    <!-- <div>
+      <label>Address:</label>
+      <input name="address" value="Av. Mariano Sánchez Fontecilla 368">
+    </div>
+    <div>
+      <label></label>
+      <input name="address2" value="Las Condes">
+    </div> -->
+    <div>
+      <label>Cell Phone:</label>
+      <input name="cell_phone" value="+56 9 8248 0731">
+    </div>
+    <div>
+      <label>Office Phone:</label>
+      <input name="office_phone" value="+56 2 2938 2697">
+    </div>
+    <div>
+      <label>Linkedin:</label>
+      <input name="linkedin" placeholder="https://www.linkedin.com/in/hvillarroel/">
+    </div>
+    <div>
+      <label>Twitter:</label>
+      <input name="twitter" placeholder="https://twitter.com/__hvillarroel__">
+    </div>
+    <div>
+      <label>Github:</label>
+      <input name="github" placeholder="https://github.com/hvillarroel">
+    </div>
+
+    <button>Create Signature</button>
+
+  </form>
+
+  <br>
+
+  <!-- <form>
+    <input name="clipboard" id="clipboard">
+    <button id="copy_signature">Copy Signature</button>
+  </form> -->
+
+  <!-- <br> -->
+
+  <div id="draw_signature"></div>
+
+  <script>
+    $(function(){
+
+      function GetUrlParams(sParam){
+        var sPageURL = window.location.search.substring(1);
+        var sURLVariables = sPageURL.split('&');
+        for (var i = 0; i < sURLVariables.length; i++) {
+          var sParameterName = sURLVariables[i].split('=');
+          if (sParameterName[0] == sParam) {
+            return decodeURIComponent(sParameterName[1]);
+          }
+        }
+      }
+      function setData(){
+        $("[name=name]").val(GetUrlParams("name"))
+        $("[name=current_position]").val(GetUrlParams("current_position"))
+        $("[name=email]").val(GetUrlParams("email"))
+        // if($("[name=address]").val() == ""){
+        //   $("[name=address]").val(GetUrlParams("address"))
+        // }
+        // if ($("[name=address]").val() == "") {
+        //   $("[name=address2]").val(GetUrlParams("address2"))
+        // }
+        if ($("[name=address]").val() == "") {
+          $("[name=cell_phone]").val(GetUrlParams("cell_phone"))
+        }
+        if ($("[name=address]").val() == "") {
+          $("[name=office_phone]").val(GetUrlParams("office_phone"))
+        }
+        $("[name=linkedin]").val(GetUrlParams("linkedin"))
+        $("[name=twitter]").val(GetUrlParams("twitter"))
+        $("[name=github]").val(GetUrlParams("github"))
+      }
+      function create_signature(){
+        let data = {
+          "name": $("[name=name]").val(),
+          "current_position": $("[name=current_position]").val(),
+          "email": $("[name=email]").val(),
+          // "address": $("[name=address]").val(),
+          // "address2": $("[name=address2]").val(),
+          "cell_phone": $("[name=cell_phone]").val(),
+          "office_phone": $("[name=office_phone]").val(),
+          "linkedin": $("[name=linkedin]").val(),
+          "twitter": $("[name=twitter]").val(),
+          "github": $("[name=github]").val(),
+        }
+
+        var source = document.getElementById("signature").innerHTML;
+        var template = Handlebars.compile(source);
+        $('#draw_signature').html(template(data))
+      }
+
+      $('#copy_signature').click(function(e){
+        e.preventDefault()
+        $("#clipboard").val(document.getElementById("draw_signature").innerHTML)
+        $("#clipboard").select()
+        document.execCommand("copy");
+      });
+
+      $('#create_signature').submit(function(e){
+        e.preventDefault()
+        create_signature()
+      })
+      setData()
+      create_signature()
+    })
+  </script>
+
+  <script text="tex/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.js"></script>
+  <script id="signature" type="text/x-handlebars-template">
+    <br><br>
+
+  <table style="letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: 12px; font-family: Tahoma, sans-serif; border-top-style: dotted; border-top-width: 1px; border-top-color: #36b049; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: #36b049; margin-bottom: 10px;">
+    <tbody>
+      <tr>
+        <td style="padding: 0px;">
+          <div>
+            <span style="font-family: tahoma,geneva,sans-serif;">
+              <img src="https://www.synaptic.cl/firmas/firma-logo.gif" alt="" width="100px" />
+            </span>
+          </div>
+        </td>
+        <td style="padding: 2px;">
+          <table style="border-left-style: dotted; border-left-width: 1px; border-left-color: #36b049;">
+            <tbody>
+              <tr>
+                <td style="padding: 0px; color: #505050; font-weight: bold;">
+                  <div>
+                    <span style="font-size: 11px;">
+                      <span style="font-family: tahoma,geneva,sans-serif;">&nbsp;
+                      {{name}}
+                    </span>
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 0px; color: #505050;">
+                  <div>
+                    <span style="font-size: 11px;">
+                      <span style="font-family: tahoma,geneva,sans-serif;">&nbsp;
+                      {{current_position}}
+                        <br />
+                      </span>
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 0px; color: #505050;">
+                  <div>
+                    <span style="font-size: 11px;">
+                      <span style="font-family: tahoma,geneva,sans-serif;">&nbsp;&nbsp;E-mail:
+                      <a style="color: #505050; text-decoration: none;" href="mailto:{{email}}" target="_blank">
+                          {{email}}
+                      </a>
+                      </span>
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 0px; color: #a5a5a5;">
+                  <div>
+                    <span style="font-size: 11px;">
+                      <span style="font-family: tahoma,geneva,sans-serif;">&nbsp;
+                      <a style="color: #a5a5a5; text-decoration: none;" target="_blank" href="https://maps.google.com/maps?q=Mariano+S%C3%A1nchez+Fontecilla+368,+Santiago,+Chile&hl=en&ie=UTF8&ll=-33.420257,-70.598252&spn=0.008221,0.016512&sll=37.0625,-95.677068&sspn=62.70117,135.263672&hnear=Mariano+S%C3%A1nchez+Fontecilla+368,+Las+Condes,+Santiago,+Regi%C3%B3n+Metropolitana,+Chile&t=m&z=17">Av. Mariano S&aacute;nchez Fontecilla 368</a>
+                      </span>
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 0px; color: #a5a5a5;">
+                  <div>
+                    <span style="font-size: 11px;">
+                      <span style="font-family: tahoma,geneva,sans-serif;">&nbsp;&nbsp;Las Condes</span>
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 0px; color: #a5a5a5;">
+                  <div>
+                    <span style="font-size: 11px;">
+                      <span style="font-family: tahoma,geneva,sans-serif;">&nbsp;&nbsp;C:
+                      <a style="color: #a5a5a5; text-decoration: none;" href="tel:{{cell_phone}}">
+                          <span class="Apple-converted-space">&nbsp;</span>
+                          {{cell_phone}}
+                      </a>
+                      </span>
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 0px; color: #a5a5a5;">
+                  <div>
+                    <span style="font-size: 11px;">
+                      <span style="font-family: tahoma,geneva,sans-serif;">&nbsp;&nbsp;F:
+                      <a style="color: #a5a5a5; text-decoration: none;" href="tel:{{office_phone}}">
+                          <span class="Apple-converted-space">&nbsp;</span>
+                          {{office_phone}}
+                      </a>
+                      </span>
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 0px; color: #a5a5a5;">
+                  <div style="margin-top: 5px;">
+                    &nbsp;
+                    {{#if linkedin}}
+                      <a href="{{linkedin}}" target="_blank" style=""><img src="https://www.synaptic.cl/firmas/linkedin.png" style="width: 20px; margin-right: 5px"></a>
+                    {{/if}}
+                    {{#if twitter}}
+                      <a href="{{twitter}}" target="_blank" style=""><img src="https://www.synaptic.cl/firmas/twitter.png" style="width: 20px; margin-right: 5px"></a>
+                    {{/if}}
+                    {{#if github}}
+                      <a href="{{github}}" target="_blank" style=""><img src="https://www.synaptic.cl/firmas/github.png" style="width: 20px;"></a>
+                    {{/if}}
+                  </div>
+                </td>
+              </tr>
+          </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  </script>
+
+
+
+</body>
+</html>
