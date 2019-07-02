@@ -429,9 +429,12 @@
         font-size: 1.2rem;
         line-height: 2.5rem;
     }
+<<<<<<< HEAD
     .header-sy-right div h1 {
         font-size: 4rem;
     }
+=======
+>>>>>>> 8b20724ac8de99913ca4a69e75d5d3b3fe42b8ce
     .navbar {
         min-height: 80px;
     }
@@ -455,6 +458,7 @@
         font-size: 1.6rem;
         line-height: 2.5rem;
     }
+<<<<<<< HEAD
     h1 {
         font-size: 4rem;
     }
@@ -479,3 +483,10 @@
         margin-top: 1rem;
     }
 }
+=======
+
+    .header-sy-right div h1 {
+        font-size: 6rem;
+    }
+}
+>>>>>>> 8b20724ac8de99913ca4a69e75d5d3b3fe42b8ce
