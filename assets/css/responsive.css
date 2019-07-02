@@ -5,6 +5,17 @@
         font-size: 1rem;
         line-height: 2rem;
     }
+    .footer-section-right {
+        display: contents;
+        margin-top: 0;
+    }
+    .footer-section-left {
+        display: initial;
+        margin-top: 0;
+    }
+    .crew-section-right {
+        display: none;
+    }
     .feature-item .icon-process {
         height: 180px;
     }
