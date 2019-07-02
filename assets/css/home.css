@@ -218,6 +218,7 @@ div.feature-content p {
 
 .footer-section {
     padding: 2rem;
+    color: white;
 }
 
 .cd-section.footer div:nth-child(3) {
@@ -243,7 +244,6 @@ div.feature-content p {
 
 .footer-section-right {
     margin-top: 6rem;
-    height: 50%;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -251,7 +251,6 @@ div.feature-content p {
 
 .footer-section-left {
     margin-top: 6rem;
-    height: 50%;
     align-items: center;
     display: flex;
     justify-content: center;
