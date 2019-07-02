@@ -5,6 +5,9 @@
         font-size: 1rem;
         line-height: 2rem;
     }
+    .footer-section {
+        margin-top: 1rem;
+    }
     .footer-section-right {
         display: contents;
         margin-top: 0;
@@ -446,7 +449,13 @@
 @media (min-width: 1367px) and (max-width: 1920px) {
     body {
         font-size: 1.2rem;
-        line-height: 2.5rem;
+        line-height: 2rem;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    h3 {
+        font-size: 1.4rem;
     }
     .header-sy-right div h1 {
         font-size: 4rem;
