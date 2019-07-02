@@ -223,13 +223,13 @@
     let amountMonths = months > 1 ? 'meses' : 'mes'
     outputPeople.innerHTML = people + ' ' + 'Synápticos';
     outputMonths.innerHTML = months + ' ' + amountMonths;
-    outputPrice.innerHTML = people < 30 && months < 12 ? (value * months * people).toLocaleString('es') + templateUF :
+    outputPrice.innerHTML = people < 30 && months < 13 ? (value * months * people).toLocaleString('es') + templateUF :
         '...';
 
     sliderPeople.oninput = function() {
         people = this.valueAsNumber;
         outputPeople.innerHTML = people + ' ' + 'Synápticos';
-        outputPrice.innerHTML = people < 30 && months < 12 ? (value * months * people).toLocaleString('es') + templateUF :
+        outputPrice.innerHTML = people < 30 && months < 13 ? (value * months * people).toLocaleString('es') + templateUF :
             '...';
     }
 
@@ -237,7 +237,7 @@
         months = this.valueAsNumber;
         amountMonths = months > 1 ? 'meses' : 'mes'
         outputMonths.innerHTML = months + ' ' + amountMonths;
-        outputPrice.innerHTML = people < 30 && months < 12 ? (value * months * people).toLocaleString('es') + templateUF :
+        outputPrice.innerHTML = people < 30 && months < 13 ? (value * months * people).toLocaleString('es') + templateUF :
             '...';
     }
 </script>

@@ -97,6 +97,7 @@ h2.result {
     width: 90%;
     display: flex;
     justify-content: space-between;
+    line-height: 0.9rem;
 }
 
 .box-minmax span {
