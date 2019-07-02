@@ -8,8 +8,7 @@
 .crew-sy {
     background-image: url("../img/Home/crew-background@2x.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
+    background-size: contain;
 }
 
 .contact-sy {
@@ -36,16 +35,6 @@
 }
 
 .feature-item-sy .icon-sy {
-    cursor: pointer;
-    margin-top: 1rem;
-    float: left;
-    border: 1px solid #fff;
-    width: 250px;
-    height: 50px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
     transition: all 0.6s ease;
     -moz-transition: all 0.6s ease;
     -webkit-transition: all 0.6s ease;
@@ -81,7 +70,7 @@
 .cd-section-text {
     line-height: 0.8;
     color: white;
-    max-width: 30rem;
+    max-width: 40rem;
 }
 
 .cd-section-text p {
@@ -136,7 +125,7 @@
 }
 
 .header-sy-left object {
-    width: 90%;
+    width: 60%;
 }
 
 .header-image {

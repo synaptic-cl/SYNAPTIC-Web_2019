@@ -22,10 +22,16 @@ h1,
 h2,
 h3,
 h4 {
-    font-size: 38px;
     color: #fff;
     font-weight: 550;
     font-family: 'Titillium Web', sans-serif;
+}
+
+button.btn.icon-sy {
+    display: inline-block;
+    padding: 15px 30px;
+    border: 1px solid white;
+    font-size: 2rem;
 }
 
 a {
@@ -114,7 +120,6 @@ a:not([href]):not([tabindex]) {
     cursor: pointer;
     font-weight: 400;
     color: #fff;
-    width: 250px;
     background: none;
     border: 1px solid #fff;
     -webkit-transition: all 0.2s linear;
@@ -392,7 +397,6 @@ hr {
 .feature-content h3 {
     color: #03D0D8;
     text-transform: uppercase;
-    font-size: 18px;
 }
 
 .feature-item:hover .icon {
@@ -1235,7 +1239,7 @@ hr {
 
 
 /* ==========================================================================
-  17. Blog 
+  17. Blog
    ========================================================================== */
 
 #blog .blog-item-wrapper {
@@ -1741,7 +1745,6 @@ hr {
 .form-control {
     width: 100%;
     margin-bottom: 20px;
-    font-size: 14px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
