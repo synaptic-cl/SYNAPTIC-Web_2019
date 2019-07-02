@@ -1,7 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8" />
+<html><head>
+  <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Create Signature for Email</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -10,7 +8,9 @@
 
   <style>
     form div {
-      margin-bottom: 10px;
+      margin-bottom: 20px;
+      margin: auto;
+      padding: .3rem;
     }
     div input {
       margin-left: 30px;
@@ -26,49 +26,57 @@
   </style>
   <script text="text/javascrip" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-  <form id="create_signature">
-    <div>
-      <label>Name:</label>
-      <input name="name" placeholder="Héctor Villarroel">
-    </div>
-    <div>
-      <label>Current Position:</label>
-      <input name="current_position" placeholder="Software Engineer">
-    </div>
-    <div>
-      <label>Email:</label>
-      <input name="email" placeholder="hvillarroel@synaptic.cl">
-    </div>
-    <!-- <div>
-      <label>Address:</label>
-      <input name="address" value="Av. Mariano Sánchez Fontecilla 368">
-    </div>
-    <div>
-      <label></label>
-      <input name="address2" value="Las Condes">
-    </div> -->
-    <div>
-      <label>Cell Phone:</label>
-      <input name="cell_phone" value="+56 9 8248 0731">
-    </div>
-    <div>
-      <label>Office Phone:</label>
-      <input name="office_phone" value="+56 2 2938 2697">
-    </div>
-    <div>
-      <label>Linkedin:</label>
-      <input name="linkedin" placeholder="https://www.linkedin.com/in/hvillarroel/">
-    </div>
-    <div>
-      <label>Twitter:</label>
-      <input name="twitter" placeholder="https://twitter.com/__hvillarroel__">
-    </div>
-    <div>
-      <label>Github:</label>
-      <input name="github" placeholder="https://github.com/hvillarroel">
+  <form id="create_signature" style="display: flex; flex-direction: column; width: 100%; margin: auto; margin-top: 3rem; padding-top: 2rem;">
+    <div style="padding: 2rem;background-color: #252525;border-radius: 10px;color: white;">
+        <div>
+        <label>Name:</label>
+        <input name="name" placeholder="Héctor Villarroel" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAfBJREFUWAntVk1OwkAUZkoDKza4Utm61iP0AqyIDXahN2BjwiHYGU+gizap4QDuegWN7lyCbMSlCQjU7yO0TOlAi6GwgJc0fT/fzPfmzet0crmD7HsFBAvQbrcrw+Gw5fu+AfOYvgylJ4TwCoVCs1ardYTruqfj8fgV5OUMSVVT93VdP9dAzpVvm5wJHZFbg2LQ2pEYOlZ/oiDvwNcsFoseY4PBwMCrhaeCJyKWZU37KOJcYdi27QdhcuuBIb073BvTNL8ln4NeeR6NRi/wxZKQcGurQs5oNhqLshzVTMBewW/LMU3TTNlO0ieTiStjYhUIyi6DAp0xbEdgTt+LE0aCKQw24U4llsCs4ZRJrYopB6RwqnpA1YQ5NGFZ1YQ41Z5S8IQQdP5laEBRJcD4Vj5DEsW2gE6s6g3d/YP/g+BDnT7GNi2qCjTwGd6riBzHaaCEd3Js01vwCPIbmWBRx1nwAN/1ov+/drgFWIlfKpVukyYihtgkXNp4mABK+1GtVr+SBhJDbBIubVw+Cd/TDgKO2DPiN3YUo6y/nDCNEIsqTKH1en2tcwA9FKEItyDi3aIh8Gl1sRrVnSDzNFDJT1bAy5xpOYGn5fP5JuL95ZjMIn1ya7j5dPGfv0A5eAnpZUY3n5jXcoec5J67D9q+VuAPM47D3XaSeL4AAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+        </div>
+        <div>
+        <label>Current Position:</label>
+        <input name="current_position" placeholder="Software Engineer">
+        </div>
+        <div>
+        <label>Email:</label>
+        <input name="email" placeholder="hvillarroel@synaptic.cl">
+        </div>
+        <!-- <div>
+        <label>Address:</label>
+        <input name="address" value="Av. Mariano Sánchez Fontecilla 368">
+        </div>
+        <div>
+        <label></label>
+        <input name="address2" value="Las Condes">
+        </div> -->
+        <div>
+        <label>Cell Phone:</label>
+        <input name="cell_phone" value="+56 9 8248 0731">
+        </div>
+        <div>
+        <label>Office Phone:</label>
+        <input name="office_phone" value="+56 2 2938 2697">
+        </div>
+        <div>
+        <label>Linkedin:</label>
+        <input name="linkedin" placeholder="https://www.linkedin.com/in/hvillarroel/">
+        </div>
+        <div>
+        <label>Twitter:</label>
+        <input name="twitter" placeholder="https://twitter.com/__hvillarroel__">
+        </div>
+        <div>
+        <label>Github:</label>
+        <input name="github" placeholder="https://github.com/hvillarroel">
+        </div>
+        <div>
+        <label>Medium:</label>
+        <input name="medium" placeholder="https://medium.com/@hvillarroel">
+        </div>
+        <div style="display: flex;margin-top: 20px;">
+            <button style="width: 200px; margin: auto; margin-bottom: 1rem; padding: .5rem; border-radius: 20px; ">Create Signature</button>
+        </div>
     </div>
 
-    <button>Create Signature</button>
 
   </form>
 
@@ -81,7 +89,124 @@
 
   <!-- <br> -->
 
-  <div id="draw_signature"></div>
+  <div id="draw_signature" style="display: flex;justify-content: center;margin-top: 2rem;">
+    <br><br>
+
+  <table style="letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: 12px; font-family: Tahoma, sans-serif; border-top-style: solid; border-top-width: 2px; border-top-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #36b049; margin-bottom: 10px;">
+    <tbody>
+      <tr>
+        <td style="padding: 0px;">
+          <div>
+            <span style="font-family: tahoma,geneva,sans-serif;">
+              <img src="/firmas/firma-logo.gif" alt="" width="100px">
+            </span>
+          </div>
+        </td>
+        <td style="padding: 2px;">
+          <table style="border-left-style: solid; border-left-width: 1px; border-left-color: #36b049;">
+            <tbody>
+              <tr>
+                <td style="padding: 0px; color: #505050; font-weight: bold;">
+                  <div>
+                    <span style="font-size: 11px;">
+                      <span style="font-family: tahoma,geneva,sans-serif;">&nbsp;
+                      Héctor Villarroel
+                    </span>
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 0px; color: #505050;">
+                  <div>
+                    <span style="font-size: 11px;">
+                      <span style="font-family: tahoma,geneva,sans-serif;">&nbsp;
+                      Software Engineer
+                        <br>
+                      </span>
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 0px; color: #505050;">
+                  <div>
+                    <span style="font-size: 11px;">
+                      <span style="font-family: tahoma,geneva,sans-serif;">&nbsp;&nbsp;E-mail:
+                      <a style="color: #505050; text-decoration: none;" href="mailto:hvillarroel@synaptic.cl" target="_blank">
+                          hvillarroel@synaptic.cl
+                      </a>
+                      </span>
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 0px; color: #a5a5a5;">
+                  <div>
+                    <span style="font-size: 11px;">
+                      <span style="font-family: tahoma,geneva,sans-serif;">&nbsp;
+                      <a style="color: #a5a5a5; text-decoration: none;" target="_blank" href="https://maps.google.com/maps?q=Mariano+S%C3%A1nchez+Fontecilla+368,+Santiago,+Chile&amp;hl=en&amp;ie=UTF8&amp;ll=-33.420257,-70.598252&amp;spn=0.008221,0.016512&amp;sll=37.0625,-95.677068&amp;sspn=62.70117,135.263672&amp;hnear=Mariano+S%C3%A1nchez+Fontecilla+368,+Las+Condes,+Santiago,+Regi%C3%B3n+Metropolitana,+Chile&amp;t=m&amp;z=17">Av. Mariano Sánchez Fontecilla 368</a>
+                      </span>
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 0px; color: #a5a5a5;">
+                  <div>
+                    <span style="font-size: 11px;">
+                      <span style="font-family: tahoma,geneva,sans-serif;">&nbsp;&nbsp;Las Condes</span>
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 0px; color: #a5a5a5;">
+                  <div>
+                    <span style="font-size: 11px;">
+                      <span style="font-family: tahoma,geneva,sans-serif;">&nbsp;&nbsp;C:
+                      <a style="color: #a5a5a5; text-decoration: none;" href="tel:+56 9 8248 0731">
+                          <span class="Apple-converted-space">&nbsp;</span>
+                          +56 9 8248 0731
+                      </a>
+                      </span>
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 0px; color: #a5a5a5;">
+                  <div>
+                    <span style="font-size: 11px;">
+                      <span style="font-family: tahoma,geneva,sans-serif;">&nbsp;&nbsp;F:
+                      <a style="color: #a5a5a5; text-decoration: none;" href="tel:+56 2 2938 2697">
+                          <span class="Apple-converted-space">&nbsp;</span>
+                          +56 2 2938 2697
+                      </a>
+                      </span>
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 0px; color: #a5a5a5;">
+                  <div style="margin-top: 5px;">
+                    &nbsp;
+                      <a href="https://www.linkedin.com/in/hvillarroel" target="_blank" style=""><img src="/firmas/linkedin.png" style="width: 20px; margin-right: 5px"></a>
+                      <a href="https://twitter.com/__hvillarroel__" target="_blank" style=""><img src="/firmas/twitter.png" style="width: 20px; margin-right: 5px"></a>
+                      <a href="https://github.com/hvillarroel" target="_blank" style=""><img src="/firmas/github.png" style="width: 20px;"></a>
+                  </div>
+                </td>
+              </tr>
+          </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  </div>
 
   <script>
     $(function(){
@@ -115,6 +240,7 @@
         $("[name=linkedin]").val(GetUrlParams("linkedin"))
         $("[name=twitter]").val(GetUrlParams("twitter"))
         $("[name=github]").val(GetUrlParams("github"))
+        $("[name=medium]").val(GetUrlParams("medium"))
       }
       function create_signature(){
         let data = {
@@ -128,6 +254,7 @@
           "linkedin": $("[name=linkedin]").val(),
           "twitter": $("[name=twitter]").val(),
           "github": $("[name=github]").val(),
+          "medium": $("[name=medium]").val(),
         }
 
         var source = document.getElementById("signature").innerHTML;
@@ -155,18 +282,18 @@
   <script id="signature" type="text/x-handlebars-template">
     <br><br>
 
-  <table style="letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: 12px; font-family: Tahoma, sans-serif; border-top-style: dotted; border-top-width: 1px; border-top-color: #36b049; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: #36b049; margin-bottom: 10px;">
+  <table style="letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: 12px; font-family: Tahoma, sans-serif; border-top-style: solid; border-top-width: 2px; border-top-color: #000000; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #000000; margin-bottom: 10px;">
     <tbody>
       <tr>
         <td style="padding: 0px;">
           <div>
             <span style="font-family: tahoma,geneva,sans-serif;">
-              <img src="https://www.synaptic.cl/firmas/firma-logo.gif" alt="" width="100px" />
+              <img src="https://www.synaptic.cl/firmas/sy-signature@2x.png" alt="" width="100px" />
             </span>
           </div>
         </td>
         <td style="padding: 2px;">
-          <table style="border-left-style: dotted; border-left-width: 1px; border-left-color: #36b049;">
+          <table style="margin-left: 5px;">
             <tbody>
               <tr>
                 <td style="padding: 0px; color: #505050; font-weight: bold;">
@@ -265,6 +392,9 @@
                     {{#if github}}
                       <a href="{{github}}" target="_blank" style=""><img src="https://www.synaptic.cl/firmas/github.png" style="width: 20px;"></a>
                     {{/if}}
+                    {{#if medium}}
+                      <a href="{{medium}}" target="_blank" style=""><img src="https://www.synaptic.cl/firmas/medium.png" style="width: 20px;"></a>
+                    {{/if}}
                   </div>
                 </td>
               </tr>
@@ -279,5 +409,6 @@
 
 
 
-</body>
-</html>
+
+
+</body></html>
