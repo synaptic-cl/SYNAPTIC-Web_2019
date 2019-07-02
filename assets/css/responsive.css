@@ -441,6 +441,10 @@
     .feature-item .icon-process {
         height: 150px;
     }
+    button.btn.icon-sy {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
 }
 
 
@@ -465,7 +469,7 @@
         max-width: 2000px;
     }
     .header-sy-right div h1 {
-        font-size: 8rem;
+        font-size: 6rem;
     }
     a.footer-social i {
         font-size: 2.7rem;
