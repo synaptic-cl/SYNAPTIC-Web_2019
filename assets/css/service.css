@@ -1,8 +1,9 @@
 /* background */
 
 section.section-padding {
-    background-image: url("../img/services/galaxy2.png");
-    background-size: contain;
+    background-image: url("../img/services/galaxy.png");
+    background-size: cover;
+    background-attachment: fixed;
     margin-top: 60px;
     padding-bottom: 2rem;
 }
@@ -141,10 +142,7 @@ h2.result {
 
 /* contact */
 
-.services .row.contact {
-    max-width: 1000px;
-    display: flex;
-    align-items: center;
-    margin: auto;
-    padding: 2rem;
+.services-section .row.contact {
+    margin-top: 6rem;
+    padding-bottom: 3rem;
 }
