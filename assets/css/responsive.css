@@ -208,11 +208,19 @@
         margin-bottom: 30px;
     }
     /* service page */
-    section.section-padding {
-        background-image: url("../img/services/galaxy.jpg");
-        background-size: cover;
-        margin-top: 0px;
+
+    .services-section-items {
+        margin: 0px;
     }
+
+    .services-section-items .service-item {
+        margin-bottom: 1.2rem;
+    }
+
+    .services-section .slidecontainer {
+        padding: 0 1.2rem;
+    }
+
 }
 
 
@@ -409,11 +417,11 @@
         margin-bottom: 30px;
     }
     /* service page */
-    section.section-padding {
+    /* section.section-padding {
         background-image: url("../img/services/galaxy.jpg");
         background-size: cover;
         margin-top: 0px;
-    }
+    } */
 }
 
 
