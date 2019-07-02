@@ -213,6 +213,11 @@
     .services-section-items .service-item {
         margin-bottom: 1.2rem;
     }
+
+    .services-section .slidecontainer {
+        padding: 0 1.2rem;
+    }
+
 }
 
 
