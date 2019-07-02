@@ -144,6 +144,6 @@ h2.result {
 /* contact */
 
 .services-section .row.contact {
-    margin-top: 6rem;
-    padding-bottom: 3rem;
+    margin: 6rem 0;
+    padding: 3rem 0;
 }
