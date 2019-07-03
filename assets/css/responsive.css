@@ -1,9 +1,19 @@
+/* General */
+
+
 /* small (mobile) */
 
 @media (max-width: 767px) {
     body {
         font-size: 1rem;
         line-height: 2rem;
+    }
+    .contact-section {
+        height: auto;
+    }
+    .mr-auto,
+    .mx-auto {
+        padding: 1rem 0;
     }
     .cd-section.container-fluid {
         display: block;
@@ -26,7 +36,7 @@
         height: 180px;
     }
     .process-sy {
-        background-image: url("../img/Home/mobile-process.png");
+        background-image: url("../img/Home/mobile-process@2x.png");
         background-repeat: no-repeat;
         background-size: cover;
     }
