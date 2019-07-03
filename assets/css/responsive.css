@@ -1,9 +1,26 @@
 /* small (mobile) */
 
-@media (max-width: 769px) {
+@media (max-width: 767px) {
     body {
         font-size: 1rem;
         line-height: 2rem;
+    }
+    .cd-section.container-fluid {
+        display: block;
+    }
+    .footer-section {
+        margin-top: 1rem;
+    }
+    .footer-section-right {
+        display: contents;
+        margin-top: 0;
+    }
+    .footer-section-left {
+        display: initial;
+        margin-top: 0;
+    }
+    .crew-section-right {
+        display: none;
     }
     .feature-item .icon-process {
         height: 180px;
@@ -39,7 +56,7 @@
         display: none;
     }
     .header-sy-right div h1 {
-        margin-left: 4rem;
+        margin-left: 2rem;
         font-size: 3rem;
     }
     .process-section-left {
@@ -64,15 +81,13 @@
         padding: 0;
         justify-content: initial;
     }
-    .form-group input {
-        width: 65%;
-    }
     textarea {
-        min-width: 20rem;
+        min-width: 100%;
     }
     .cd-section-form {
         margin-top: 3rem;
         margin-bottom: 3rem;
+        width: 100%;
     }
     .process-section-right {
         display: none;
@@ -194,20 +209,47 @@
         margin-bottom: 30px;
     }
     /* service page */
-    section.section-padding {
-        background-image: url("../img/services/galaxy.jpg");
-        background-size: cover;
-        margin-top: 0px;
+    .services-section-items {
+        margin: 0px;
+    }
+    .services-section-items .service-item {
+        margin-bottom: 1.2rem;
+    }
+    .services-section .slidecontainer {
+        padding: 2rem 1.2rem;
     }
 }
 
 
 /* medium (tablet) */
 
-@media (min-width: 769px) and (max-width: 1025px) {
+@media (min-width: 768px) and (max-width: 1025px) {
     body {
-        font-size: 1.2rem;
-        line-height: 1.5rem;
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    .team-item .info-text {
+        min-height: 7rem;
+    }
+    .header-sy-left object {
+        width: 90%;
+    }
+    .footer-section {
+        margin-top: 1rem;
+    }
+    .footer-container {
+        padding-top: 2rem;
+    }
+    .footer-section-right {
+        display: contents;
+        margin-top: 0;
+    }
+    .footer-section-left {
+        display: initial;
+        margin-top: 0;
+    }
+    .feature-item .icon-process {
+        height: 180px;
     }
     .process-sy {
         background-image: url("../img/Home/mobile-process.png");
@@ -236,11 +278,8 @@
     .navbar-brand img {
         width: 100px;
     }
-    .header-sy-left {
-        display: none;
-    }
     .header-sy-right div h1 {
-        margin-left: 4rem;
+        margin-left: 2rem;
         font-size: 3rem;
     }
     .process-section-left {
@@ -265,15 +304,13 @@
         padding: 0;
         justify-content: initial;
     }
-    .form-group input {
-        width: 65%;
-    }
     textarea {
-        min-width: 20rem;
+        min-width: 100%;
     }
     .cd-section-form {
         margin-top: 3rem;
         margin-bottom: 3rem;
+        width: 100%;
     }
     .process-section-right {
         display: none;
@@ -395,10 +432,14 @@
         margin-bottom: 30px;
     }
     /* service page */
-    section.section-padding {
-        background-image: url("../img/services/galaxy.jpg");
-        background-size: cover;
-        margin-top: 0px;
+    .services-section-items {
+        margin: 0px;
+    }
+    .services-section-items .service-item {
+        margin-bottom: 1.2rem;
+    }
+    .services-section .slidecontainer {
+        padding: 2rem 1.2rem;
     }
 }
 
@@ -408,15 +449,24 @@
 @media (min-width: 1025px) and (max-width: 1366px) {
     body {
         font-size: 1rem;
-        line-height: 2.5rem;
+        line-height: 1.5rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 1.2rem;
     }
     .container {
         margin: 0 auto;
         max-width: 1024px;
     }
+    .header-sy-left object {
+        width: 70%;
+    }
     /* services page */
     .services-section .slidecontainer {
-        margin: 1rem;
+        margin: 4rem;
         padding-right: 2rem;
     }
 }
@@ -427,10 +477,16 @@
 @media (min-width: 1367px) and (max-width: 1920px) {
     body {
         font-size: 1.2rem;
-        line-height: 2.5rem;
+        line-height: 2rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 1.4rem;
     }
     .header-sy-right div h1 {
-        font-size: 6rem;
+        font-size: 4rem;
     }
     .navbar {
         min-height: 80px;
@@ -441,6 +497,10 @@
     .feature-item .icon-process {
         height: 150px;
     }
+    button.btn.icon-sy {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
 }
 
 
@@ -448,7 +508,30 @@
 
 @media (min-width: 1921px) {
     body {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         line-height: 2.5rem;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    h3 {
+        font-size: 1.8rem;
+    }
+    .header-sy-right div h1 {
+        font-size: 6rem;
+    }
+    .container {
+        margin: 0 auto;
+        max-width: 2000px;
+    }
+    .header-sy-right div h1 {
+        font-size: 6rem;
+    }
+    a.footer-social i {
+        font-size: 2.7rem;
+    }
+    button.btn.icon-sy {
+        font-size: 1.2rem;
+        margin-top: 1rem;
     }
 }
