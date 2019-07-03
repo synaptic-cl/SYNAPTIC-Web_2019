@@ -4,7 +4,6 @@ section.section-padding {
     background-image: url("../img/services/galaxy.png");
     background-size: cover;
     background-attachment: fixed;
-    margin-top: 60px;
     padding-bottom: 2rem;
 }
 
@@ -41,7 +40,6 @@ section.section-padding {
 }
 
 .cd-section-text {
-    margin-bottom: 5rem;
     max-width: none;
 }
 
@@ -79,6 +77,7 @@ section.section-padding {
 .services-section .slidecontainer {
     display: flex;
     flex-flow: row wrap;
+    margin-top: 3rem;
 }
 
 .slidecontainer input.slider {
@@ -138,12 +137,4 @@ h2.result {
     height: 20px;
     background: #0FD1B9;
     cursor: pointer;
-}
-
-
-/* contact */
-
-.services-section .row.contact {
-    margin: 6rem 0;
-    padding: 3rem 0;
 }
