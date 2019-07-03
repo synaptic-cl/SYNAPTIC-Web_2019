@@ -211,12 +211,6 @@ div.feature-content p {
     width: 60%;
 }
 
-.contact-section {
-    display: flex;
-    line-height: 0.8;
-    overflow: hidden;
-}
-
 .footer-section {
     padding: 2rem;
     color: white;
@@ -264,6 +258,10 @@ div.feature-content p {
 
 .contact-section {
     align-items: center;
+    display: flex;
+    line-height: 0.8;
+    overflow: hidden;
+    height: 100vh;
 }
 
 .contact-section-left {
