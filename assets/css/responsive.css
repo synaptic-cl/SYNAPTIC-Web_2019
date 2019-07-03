@@ -81,9 +81,6 @@
         padding: 0;
         justify-content: initial;
     }
-    /* .form-group input {
-        width: 56%;
-    } */
     textarea {
         min-width: 100%;
     }
@@ -230,6 +227,9 @@
     body {
         font-size: 1rem;
         line-height: 2rem;
+    }
+    .team-item .info-text {
+        min-height: 7rem;
     }
     .header-sy-left object {
         width: 90%;
