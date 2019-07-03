@@ -20,6 +20,7 @@
 .container {
     margin: 0 auto;
     max-width: 1024px;
+    height: 100%;
 }
 
 .button-synaptic {
@@ -213,7 +214,7 @@ div.feature-content p {
 .contact-section {
     display: flex;
     line-height: 0.8;
-    height: 100vh;
+    overflow: hidden;
 }
 
 .footer-section {
@@ -258,6 +259,7 @@ div.feature-content p {
 
 .footer-section-info {
     justify-content: space-between;
+    margin-top: 1rem;
 }
 
 .contact-section {
@@ -295,8 +297,8 @@ a.footer-social i {
 }
 
 div.form-group {
-    width: 30rem;
     margin-bottom: 2rem;
+    width: 100%;
 }
 
 .form-group input {
@@ -306,7 +308,7 @@ div.form-group {
 }
 
 textarea {
-    background: #000;
+    background: #00000063;
     border: 1px solid #fff;
     min-width: 30rem;
     min-height: 5rem;
