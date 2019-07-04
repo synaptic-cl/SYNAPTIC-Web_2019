@@ -138,3 +138,9 @@ h2.result {
     background: #0FD1B9;
     cursor: pointer;
 }
+
+/* contact section */
+
+.services-section .contact.row {
+    padding: 6rem 0;
+}
