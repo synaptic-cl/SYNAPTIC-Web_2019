@@ -15,6 +15,9 @@
     .mx-auto {
         padding: 1rem 0;
     }
+    .services-section .contact.row {
+        padding: 0;
+    }
     .cd-section.container-fluid {
         display: block;
     }
