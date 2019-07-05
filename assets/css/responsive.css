@@ -53,6 +53,17 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .team-section {
+        background-image: url("../img/team/mobile-team-background@2x.png");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    section.section-padding.services {
+        background-image: url("../img/services/mobile-services-background@2x.png");
+        background-size: cover;
+        background-attachment: fixed;
+        padding-bottom: 2rem;
+    }
     .navbar-expand-md .navbar-nav .nav-link {
         color: #000;
     }
@@ -278,6 +289,17 @@
         background-image: url("../img/Home/footer-background.png");
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    .team-section {
+        background-image: url("../img/team/ipad-team-background@2x.png");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    section.section-padding.services {
+        background-image: url("../img/services/ipad-services-background@2x.png");
+        background-size: cover;
+        background-attachment: fixed;
+        padding-bottom: 2rem;
     }
     .navbar-expand-md .navbar-nav .nav-link {
         color: #000;
