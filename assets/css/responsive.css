@@ -84,10 +84,32 @@
         font-size: 3rem;
     }
     .process-section-left {
-        height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .process-section-right {
+        justify-content: flex-start;
+        margin-top: 1.5rem;
+    }
+    .process-section.row {
+        align-items: initial;
+        height: auto;
+    }
+    .process-sy .container.cd-section {
+        height: auto;
+    }
+    .process-section-right .feature-thumb, .process-section-right .feature-item {
+        padding: 0;
+    }
+    .process-section-right .feature-item {
+        margin-bottom: 1.3rem;
+    }
+    .process-section .icon-process {
+        display: none;
+    }
+    .process-section h3 {
+        font-size: 1.5rem;
     }
     .feature-item {
         padding: 1rem;
@@ -112,9 +134,6 @@
         margin-top: 3rem;
         margin-bottom: 3rem;
         width: 100%;
-    }
-    .process-section-right {
-        display: none;
     }
     .contact-section-info {
         padding: 0;
@@ -233,14 +252,17 @@
         margin-bottom: 30px;
     }
     /* service page */
+    .services-section {
+        padding: 2rem;
+    }
     .services-section-items {
         margin: 0px;
     }
     .services-section-items .service-item {
         margin-bottom: 1.2rem;
     }
-    .services-section .slidecontainer {
-        padding: 2rem 1.2rem;
+    .cd-section-text p {
+        width: 100%;
     }
 }
 
@@ -347,9 +369,6 @@
         margin-bottom: 3rem;
         width: 100%;
     }
-    .process-section-right {
-        display: none;
-    }
     .contact-section-info {
         padding: 0;
     }
@@ -400,9 +419,6 @@
     }
     .why-content {
         margin-left: 110px;
-    }
-    .feature-thumb {
-        padding: 10px;
     }
     .testimonial-item {
         padding: 0;
@@ -465,6 +481,10 @@
     }
     .counter-box {
         margin-bottom: 30px;
+    }
+
+    .process-section-right .feature-item {
+        padding-left: 0px;
     }
     /* service page */
     .services-section-items {
