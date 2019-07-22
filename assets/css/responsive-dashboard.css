@@ -1,23 +1,78 @@
-/* small (mobile) */
+    /* small (mobile) */
 
-@media (max-width: 767px) {}
+    @media (max-width: 767px) {
+        p {
+            font-size: .8rem;
+        }
+        h5 {
+            font-size: .8rem;
+        }
+        .navbar-content {
+            margin: 1rem 0;
+            max-width: 100%;
+        }
+        .navbar-brand {
+            max-width: 40%;
+        }
+        .navbar-content button {
+            float: right;
+        }
+        .navbar-text {
+            margin-top: 1rem;
+        }
+        .nav-pills {
+            display: inline-grid;
+        }
+        .content-about div {
+            margin-bottom: 1rem;
+        }
+        div.footer-social {
+            justify-content: flex-start;
+            margin: 1rem;
+        }
+        .card-synaptic-reference {
+            margin-bottom: 1rem;
+        }
+        #id-synaptic {
+            max-width: 90%;
+            padding: 1rem;
+        }
+        .id-perfil {
+            display: flex;
+            align-items: center;
+            margin: 1rem 0;
+        }
+        .navbar-brand-id {
+            max-width: 50%;
+        }
+        .id-img {
+            width: 100%;
+        }
+        .qr-img {
+            width: 40%;
+        }
+        .info-id {
+            margin: .8rem 0;
+        }
+        .info-id.mobile {
+            display: none;
+        }
+        .description-id {
+            display: none;
+        }
+        .qr-content {
+            margin-top: 1rem;
+        }
+    }
+    /* medium (tablet) */
 
+    @media (min-width: 768px) and (max-width: 1025px) {}
+    /* large (desktop) */
 
-/* medium (tablet) */
+    @media (min-width: 1025px) and (max-width: 1366px) {}
+    /* xl large */
 
-@media (min-width: 768px) and (max-width: 1025px) {}
+    @media (min-width: 1367px) and (max-width: 1920px) {}
+    /* xxlarge */
 
-
-/* large (desktop) */
-
-@media (min-width: 1025px) and (max-width: 1366px) {}
-
-
-/* xl large */
-
-@media (min-width: 1367px) and (max-width: 1920px) {}
-
-
-/* xxlarge */
-
-@media (min-width: 1921px) {}
+    @media (min-width: 1921px) {}
