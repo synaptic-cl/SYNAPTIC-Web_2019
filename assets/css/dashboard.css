@@ -1,0 +1,347 @@
+     html {
+         overflow-x: hidden;
+     }
+
+     body {
+         background: #f4f6f7 !important;
+         font-size: .9rem;
+         font-weight: 400;
+         font-family: 'Open Sans', sans-serif;
+         -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+         box-sizing: border-box;
+         -webkit-font-smoothing: subpixel-antialiased;
+         color: #2a2a2a;
+         line-height: 25px;
+         -webkit-backface-visibility: hidden;
+         backface-visibility: hidden;
+         overflow-x: hidden;
+     }
+
+     h1,
+     h2,
+     h3,
+     h4 {
+         color: #000;
+         font-weight: 550;
+         font-family: 'Titillium Web', sans-serif;
+     }
+
+     h5,
+     h6 {
+         color: #ffffff;
+         margin-bottom: 0;
+     }
+
+     button.btn.icon-sy {
+         display: inline-block;
+         padding: 15px 10px;
+         border: 1px solid white;
+     }
+
+     .nav-pills .nav-link.active,
+     .nav-pills .show>.nav-link {
+         border-bottom: solid 1px #fff;
+     }
+
+     .nav-pills .nav-link {
+         border-radius: 0;
+     }
+
+     .nav-item a {
+         color: #fff
+     }
+
+     .bg-light {
+         background-color: #181919 !important;
+     }
+
+     .nav-pills .nav-link.active,
+     .nav-pills .show>.nav-link {
+         background-color: #ff000000;
+     }
+
+     a {
+         -webkit-transition: all 0.2s linear;
+         -moz-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+         transition: all 0.2s linear;
+         color: #;
+     }
+
+     a:hover {
+         text-decoration: none;
+         color: #0FD1B9;
+     }
+
+     a a:focus {
+         outline: none;
+         color: #0FD1B9;
+     }
+
+     p {
+         font-weight: 400;
+         font-family: 'Open Sans', sans-serif;
+         margin: 0px;
+     }
+
+     label {
+         color: white;
+     }
+
+     ul,
+     ol {
+         list-style: outside none none;
+         margin: 0;
+         padding: 0;
+     }
+
+     ul li,
+     ol li {
+         list-style: none;
+     }
+
+     .nav-link {
+         display: block;
+     }
+
+     a:not([href]):not([tabindex]) {
+         color: #0FD1B9;
+     }
+     /* Icons */
+
+     .lni-heart,
+     .lni-laptop,
+     .lni-target,
+     .lni-eye,
+     .lni-emoji-happy,
+     .lni-book,
+     .lni-hand {
+         font-size: 2rem;
+         color: #0FD1B9;
+     }
+
+     #main {
+         width: 80%;
+     }
+
+     .navbar-sy {
+         display: block;
+         color: white;
+     }
+
+     .tabs-sy {
+         margin-top: 1rem;
+     }
+
+     .navbar-brand {
+         width: 100%;
+         max-width: 15%;
+     }
+
+     .navbar-brand-id {
+         width: 100%;
+         max-width: 30%;
+     }
+
+     .navbar-content {
+         max-width: 80%;
+         margin: 2rem auto 1rem;
+         padding: 0 15px;
+     }
+
+     .culture-content {
+         margin-top: 2rem!important;
+     }
+
+     .content-footer {
+         margin: 4rem auto 1rem !important;
+     }
+
+     .card-synaptic {
+         background-color: #fff;
+         padding: 40px 20px;
+         min-height: 301.33px;
+     }
+
+     .card-synaptic-id {
+         background-color: #fff;
+         padding: 20px 20px;
+         margin: .8rem;
+     }
+
+     .card-synaptic-reference {
+         background-color: #fff;
+         padding: 40px 20px;
+         text-align: center;
+         min-height: 385.5px;
+     }
+
+     .id-content {
+         margin: 2rem auto !important;
+     }
+
+     .id-content div {
+         justify-content: space-between;
+     }
+
+     .perfil-img {
+         width: 30%;
+         border-radius: 50%;
+     }
+
+     .content-about {
+         margin-top: 3rem;
+     }
+
+     .content-values {
+         margin-top: 3rem;
+     }
+
+     .culture-content .row {
+         justify-content: space-between;
+     }
+
+     .img-values {
+         padding: 0 2rem 2rem 0;
+         display: flex;
+         max-width: 80%;
+         height: auto;
+         width: 100%;
+         margin: auto;
+     }
+
+     .img-personality {
+         padding: .8rem;
+     }
+
+     img.img-fluid.img-personality.astronaut {
+         max-width: 52%;
+     }
+
+     .perfil-card {
+         background: #F1F2F3;
+         padding: 1rem;
+         margin: 1rem;
+         width: 50px;
+     }
+
+     .reference-content {
+         margin-top: 2rem;
+     }
+
+     .book-reference {
+         width: 100%;
+         max-width: 8rem;
+         margin: auto;
+     }
+
+     .content-personality {
+         margin: auto;
+         justify-content: center;
+         display: flex;
+     }
+
+     .history-content {
+         margin: 2rem 0;
+     }
+
+     .footer-social {
+         display: flex;
+         justify-content: flex-end;
+     }
+
+     .footer-brand {
+         width: 100%;
+         display: block;
+         margin-bottom: 0.4rem;
+     }
+
+     .social-icons {
+         display: inline-flex;
+     }
+
+     a.footer-social i {
+         font-size: 1.7rem;
+         margin: 0.25rem;
+     }
+
+     div.footer-social {
+         display: flex;
+         justify-content: flex-end;
+         padding: 0;
+     }
+     /* ID Synaptic */
+
+     #id-synaptic {
+         max-width: 40%;
+         width: 100%;
+         background-color: black;
+         margin: 4rem auto;
+         padding: 2rem;
+         color: white;
+         margin: 2rem auto;
+     }
+
+     #id-synaptic p {
+         color: #e7e5e5;
+     }
+
+     #id-synaptic h4 {
+         color: white;
+     }
+
+     #id-synaptic hr {
+         border-color: white;
+     }
+
+     .id-perfil {
+         display: flex;
+         align-items: flex-end;
+     }
+
+     .id-perfil div:nth-child(1) {
+         align-items: flex-end;
+         display: column;
+     }
+
+     .id-img {
+         width: 70%;
+         border-radius: 100%;
+         display: flex;
+         margin: auto;
+     }
+
+     .synaptic-links {
+         display: grid;
+         justify-items: center;
+     }
+
+     .qr-img {
+         width: 80%;
+     }
+
+     .info-id {
+         margin: 2rem 0;
+     }
+
+     .share-id {
+         padding: .5rem 0;
+     }
+
+     .lni-mastercard,
+     .lni-plug {
+         font-size: 2rem;
+         color: #3be7d3;
+     }
+
+     .lni-envelope,
+     .lni-phone-handset,
+     .lni-arrow-top-right {
+         padding-right: .5rem;
+     }
+
+     .social-icons-id {
+         display: inline-flex;
+         color: white;
+     }
