@@ -1,0 +1,23 @@
+/* small (mobile) */
+
+@media (max-width: 767px) {}
+
+
+/* medium (tablet) */
+
+@media (min-width: 768px) and (max-width: 1025px) {}
+
+
+/* large (desktop) */
+
+@media (min-width: 1025px) and (max-width: 1366px) {}
+
+
+/* xl large */
+
+@media (min-width: 1367px) and (max-width: 1920px) {}
+
+
+/* xxlarge */
+
+@media (min-width: 1921px) {}
