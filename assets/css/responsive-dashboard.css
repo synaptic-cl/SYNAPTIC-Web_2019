@@ -1,8 +1,12 @@
     /* small (mobile) */
 
     @media (max-width: 767px) {
+        body {
+            font-size: 1rem;
+            line-height: 2rem;
+        }
         p {
-            font-size: .8rem;
+            font-size: 1rem;
         }
         h5 {
             font-size: .8rem;
@@ -20,8 +24,11 @@
         .navbar-text {
             margin-top: 1rem;
         }
+        .nav-item {
+            margin: .5rem 0;
+        }
         .nav-pills {
-            display: inline-grid;
+            display: -webkit-box;
         }
         .content-about div {
             margin-bottom: 1rem;
@@ -63,13 +70,38 @@
         .qr-content {
             margin-top: 1rem;
         }
+        .nav-pills::after {
+            display: none;
+        }
+        .nav-link-desktop {
+            display: none;
+        }
+        .nav-link-mobile {
+            font-size: 12px;
+            margin-right: 1.2rem;
+        }
+        .nav-link-mobile p {
+            vertical-align: text-top;
+            justify-content: center;
+            display: flex;
+        }
+        .navbar-toggler {
+            display: none;
+        }
     }
     /* medium (tablet) */
 
     @media (min-width: 768px) and (max-width: 1025px) {}
     /* large (desktop) */
 
-    @media (min-width: 1025px) and (max-width: 1366px) {}
+    @media (min-width: 1025px) and (max-width: 1366px) {
+        .nav-link .lni-emoji-happy {
+            display: none;
+        }
+        .nav-link-mobile {
+            display: none;
+        }
+    }
     /* xl large */
 
     @media (min-width: 1367px) and (max-width: 1920px) {}
