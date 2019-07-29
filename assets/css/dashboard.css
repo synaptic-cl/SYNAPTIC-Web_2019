@@ -3,7 +3,7 @@
      }
 
      body {
-         background: #f4f6f7 !important;
+         background: #212121 !important;
          font-size: .9rem;
          font-weight: 400;
          font-family: 'Open Sans', sans-serif;
@@ -11,7 +11,7 @@
          -moz-box-sizing: border-box;
          box-sizing: border-box;
          -webkit-font-smoothing: subpixel-antialiased;
-         color: #2a2a2a;
+         color: #fff;
          line-height: 25px;
          -webkit-backface-visibility: hidden;
          backface-visibility: hidden;
@@ -132,7 +132,16 @@
      .lni-book,
      .lni-hand {
          font-size: 2rem;
-         color: #0FD1B9;
+         color: #fff;
+     }
+     /* svgs */
+
+     .keyboard-sy {
+         width: 65%;
+     }
+
+     .astronaut-sy {
+         width: 80%;
      }
 
      #main {
@@ -146,6 +155,39 @@
 
      .tabs-sy {
          margin-top: 1rem;
+     }
+
+     .main-culture p {
+         color: #2a2a2a;
+     }
+
+     .main-culture li {
+         color: #2a2a2a;
+     }
+
+     .culture-info-lg {
+         background-color: #1FDBA7;
+         padding: 1rem 0;
+     }
+
+     .culture-info-md {
+         background-color: #F2EEE2;
+         padding: 1rem 0;
+     }
+
+     .culture-info-md-a {
+         background-color: #04C6CE;
+         padding: 1rem 0;
+     }
+
+     .culture-info-sm {
+         background-color: #0FD1B9;
+         padding: 1rem 0;
+     }
+
+     .culture-info-sm-a {
+         background-color: #F2EEE2;
+         padding: 1rem 0;
      }
 
      .navbar-brand {
@@ -170,6 +212,9 @@
 
      .content-footer {
          margin: 4rem auto 1rem !important;
+         display: flex;
+         flex-flow: column nowrap;
+         color: #fff;
      }
 
      .card-synaptic {
@@ -191,6 +236,24 @@
          min-height: 385.5px;
      }
 
+     .card-synaptic-reference p {
+         color: #2d2d2d;
+     }
+
+     .card-synaptic-history {
+         background-color: #fff;
+         padding: 40px 20px;
+         min-height: 385.5px;
+         max-height: 100%;
+         height: 28rem;
+     }
+
+     .card-synaptic-history p {
+         font-size: 12px;
+         line-height: 19px;
+         color: #2d2d2d;
+     }
+
      .id-content {
          margin: 2rem auto !important;
      }
@@ -204,9 +267,12 @@
          border-radius: 50%;
      }
 
-     .content-about {
-         margin-top: 3rem;
+     .img-history {
+         padding: 1rem 0;
      }
+     /* .content-about {
+         padding: 2rem 0;
+     } */
 
      .content-values {
          margin-top: 3rem;
@@ -214,6 +280,11 @@
 
      .culture-content .row {
          justify-content: space-between;
+     }
+
+     .astronaut-content {
+         justify-content: center;
+         display: flex;
      }
 
      .img-values {
@@ -242,6 +313,14 @@
 
      .reference-content {
          margin-top: 2rem;
+     }
+
+     .main-reference h2 {
+         color: #1FDBA7;
+     }
+
+     .main-history h2 {
+         color: #1FDBA7;
      }
 
      .book-reference {
