@@ -107,7 +107,11 @@
     }
     /* xl large */
 
-    @media (min-width: 1367px) and (max-width: 1920px) {}
+    @media (min-width: 1367px) and (max-width: 1920px) {
+        .nav-link-mobile {
+            display: none;
+        }
+    }
     /* xxlarge */
 
     @media (min-width: 1921px) {}
