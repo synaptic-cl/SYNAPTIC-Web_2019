@@ -77,10 +77,10 @@
             display: none;
         }
         .nav-link-mobile {
-            font-size: 12px;
-            margin-right: 1.2rem;
+            margin-right: 1rem;
         }
         .nav-link-mobile p {
+            font-size: 14px;
             vertical-align: text-top;
             justify-content: center;
             display: flex;
@@ -91,13 +91,46 @@
         .card-synaptic-history {
             margin-bottom: 1rem;
         }
+        .planet-sy {
+            display: none;
+        }
+        .keyboard-sy {
+            width: 40%;
+        }
+        .astronaut-sy {
+            width: 40%;
+        }
     }
     /* medium (tablet) */
 
-    @media (min-width: 768px) and (max-width: 1025px) {}
+    @media (min-width: 768px) and (max-width: 1025px) {
+        body {
+            font-size: 1rem;
+            line-height: 2rem;
+        }
+        .nav-link-mobile {
+            display: none;
+        }
+        .planet-sy {
+            display: none;
+        }
+        .card-synaptic-id {
+            min-height: 12rem;
+        }
+        .card-synaptic-reference {
+            min-height: 27rem;
+        }
+    }
     /* large (desktop) */
 
     @media (min-width: 1025px) and (max-width: 1366px) {
+        body {
+            font-size: .9rem;
+            line-height: 1.5rem;
+        }
+        .container {
+            max-width: 80%;
+        }
         .nav-link .lni-emoji-happy {
             display: none;
         }
@@ -108,10 +141,25 @@
     /* xl large */
 
     @media (min-width: 1367px) and (max-width: 1920px) {
+        body {
+            font-size: 1rem;
+            line-height: 1.8rem;
+        }
         .nav-link-mobile {
             display: none;
+        }
+        .card-synaptic-history p {
+            font-size: 14px;
+        }
+        .container {
+            max-width: 1224px;
         }
     }
     /* xxlarge */
 
-    @media (min-width: 1921px) {}
+    @media (min-width: 1921px) {
+        body {
+            font-size: 1.6rem;
+            line-height: 2.5rem;
+        }
+    }
