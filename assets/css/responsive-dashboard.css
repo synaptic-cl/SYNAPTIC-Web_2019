@@ -1,4 +1,4 @@
-    /* small (mobile) */
+/* small (mobile) */
 
     @media (max-width: 767px) {
         body {
@@ -30,9 +30,6 @@
         .nav-pills {
             display: -webkit-box;
         }
-        /* .content-about div {
-            margin-bottom: 1rem;
-        } */
         div.footer-social {
             justify-content: flex-start;
             margin: 1rem;
@@ -41,31 +38,64 @@
             margin-bottom: 1rem;
         }
         #id-synaptic {
-            max-width: 90%;
-            padding: 1rem;
+            max-width: 100%;
+            padding: 1.8rem;
+            margin: 0;
+            text-align: center;
         }
         .id-perfil {
+            grid-template-columns: 100%;
+        }
+        .id-perfil .col {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .id-perfil h4 {
+            margin-bottom: 0.3rem;
+        }
+        .id-perfil h5, .info-id h5 {
+            font-size: 1.2rem;
+            line-height: 1.4rem;
+            margin-bottom: 0.3rem;
+        }
+        #id-synaptic p {
+            line-height: 1rem;
+            font-size: 0.8rem;
+        }
+        .description-id {
+            margin-top: 0.5rem;
+        }
+        .info-id.row, .social.row {
+            padding: 0.6rem 0 0 0;
+            margin: 0.6rem 0 0 0;
+        }
+        .info-id.row {
             display: flex;
-            align-items: center;
-            margin: 1rem 0;
+            flex-flow: column;
+        }
+        .info-id.row .col {
+            flex-basis: auto;
+        }
+        #id-synaptic .info-id.row a p {
+            font-size: 0.9rem;
+        }
+        .info-id .social div {
+            margin: auto;
+        }
+        .info-id .row a i {
+            font-size: 2rem;
+            margin: 0.5rem 0.4rem 0;
         }
         .navbar-brand-id {
             max-width: 50%;
         }
         .id-img {
-            width: 100%;
+            width: 30%;
+            margin: auto;
         }
         .qr-img {
             width: 40%;
-        }
-        .info-id {
-            margin: .8rem 0;
-        }
-        .info-id.mobile {
-            display: none;
-        }
-        .description-id {
-            display: none;
+            margin: auto;
         }
         .qr-content {
             margin-top: 1rem;
@@ -155,7 +185,8 @@
             max-width: 1224px;
         }
     }
-    /* xxlarge */
+
+/* xxlarge */
 
     @media (min-width: 1921px) {
         body {

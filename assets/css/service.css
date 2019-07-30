@@ -26,6 +26,7 @@ section.section-padding {
 .services-section {
     display: flex;
     flex-flow: column;
+    padding: 2rem;
 }
 
 .services-section h2 {
