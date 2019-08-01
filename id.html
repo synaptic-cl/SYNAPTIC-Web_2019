@@ -44,64 +44,16 @@
 </head>
 
 <body>
-    <div id="id-synaptic">
-        <div class="row">
-            <a href="dashboard.html" class="close-id"><i class="lni-close"></i></a>
-        </div>
-        <div class="row id-perfil">
-            <div class="col">
-                <img class="id-img img-fluid" src="assets/img/team/manuel-sy.png" alt="">
-            </div>
-            <div class="col">
-                <h4>Héctor Villarroel</h4>
-                <h5>Ingeniero de Software</h5>
-                <h6>Sueldo: 2.000.000 CLP</h6>
-            </div>
-        </div>
-        <div class="row description-id col">
-            <p>Enfocado en generar sinergia entre la problemática de negocio y la solución tecnológica en conjunto con el Team de Synaptic y el Cliente.</p>
-        </div>
-        <div class="info-id row">
-            <h5>Datos de Contacto</h5>
-            <div class="col">
-                <i class="lni-envelope"></i>
-                <a href="mailto:hvillarroel@synaptic.cl" target="_blank"><p>hvillarroel@synaptic.cl</p></a>
-            </div>
-            <div class="col">
-                <i class="lni-phone-handset"></i>
-                <a href="tel:+569 68186911" target="_blank"><p>+569 68186911</p></a>
-            </div>
-            <div class="social row">
-                <h5>Redes Sociales</h5>
-                <div>
-                    <a class=" twitter " href="https://twitter.com/synaptic_cl " target="_blank " aria-label="twitter ">
-                        <i class="fab fa-twitter-square "></i>
-                    </a>
-                    <a class=" medium " href="https://medium.com/synaptic-cl " target="_blank " aria-label="medium ">
-                        <i class="fab fa-medium "></i>
-                    </a>
-                    <a class=" linkedin " href="https://www.linkedin.com/company/synaptic-cl " target="_blank " aria-label="linkedin ">
-                        <i class="fab fa-linkedin "></i>
-                    </a>
-                    <a class=" instagram " href="https://www.instagram.com/synaptic_cl/ " target="_blank " aria-label="instagram ">
-                        <i class="fab fa-instagram "></i>
-                    </a>
-                </div>
-            </div>
-            <div class="qr-content row">
-                <img class="qr-img" src="assets/img/id-synaptic/qrcode.svg" alt="">
-            </div>
-            <div class="row">
-                <p class="share-id">Compartir <i class="lni-share"></i></p>
-            </div>
-        </div>
-
-
-    </div>
+    <div id="id-synaptic"></div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="assets/js/jquery-min.js "></script>
     <script src="assets/js/bootstrap.min.js "></script>
+    <script src="assets/js/handlebars.js"></script>
+    <script src="assets/js/team.js"></script>
+    <script type="text/javascript">
+        person();
+    </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-29882238-4"></script>
     <script>
@@ -113,6 +65,67 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-29882238-4');
+    </script>
+    <script id="entry-template" type="text/x-handlebars-template">
+        <div class="row">
+            <a href="dashboard.html" class="close-id"><i class="lni-close"></i></a>
+        </div>
+        <div class="row id-perfil">
+            <div class="col">
+                <img class="id-img img-fluid" src="{{image}}" alt="">
+            </div>
+            <div class="col">
+                <h4>{{name}}</h4>
+                <h5>{{position}}</h5>
+            </div>
+        </div>
+        <div class="row description-id col">
+            <p>{{description}}{{#unless description}}Sin Descripción{{/unless}}</p>
+        </div>
+        <div class="info-id row">
+            <h5>Datos de Contacto</h5>
+            <div class="col">
+                <i class="lni-envelope"></i>
+                <a href="mailto:{{email}}" target="_blank"><p>{{email}}</p></a>
+            </div>
+            <div class="col">
+                <i class="lni-phone-handset"></i>
+                <a href="tel:{{personal_phone}}" target="_blank"><p>{{personal_phone}}</p></a>
+            </div>
+            <div class="social row">
+                <h5>Redes Sociales</h5>
+                <div>
+                    {{#each social}}
+                        {{#ifFind this "twitter.com"}}
+                            <a class="twitter" href="{{this}}" target="_blank" aria-label="twitter">
+                                <i class="fab fa-twitter-square"></i>
+                            </a>
+                        {{/ifFind}}
+                        {{#ifFind this "medium.com"}}
+                            <a class=" medium " href="{{this}}" target="_blank" aria-label="medium">
+                                <i class="fab fa-medium"></i>
+                            </a>
+                        {{/ifFind}}
+                        {{#ifFind this "linkedin.com"}}
+                            <a class="linkedin" href="{{this}}" target="_blank" aria-label="linkedin">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        {{/ifFind}}
+                        {{#ifFind this "instagram.com"}}
+                            <a class="instagram" href="{{this}}" target="_blank" aria-label="instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        {{/ifFind}}
+                    {{/each}}
+                </div>
+            </div>
+            <div class="qr-content row">
+                <img class="qr-img" src="assets/img/team/qr/{{id}}.png" alt="">
+            </div>
+            <div class="row">
+                <p class="share-id">Compartir <i class="lni-share"></i></p>
+            </div>
+        </div>
     </script>
 </body>
 
