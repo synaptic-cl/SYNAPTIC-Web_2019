@@ -1,196 +1,205 @@
 /* small (mobile) */
 
-    @media (max-width: 767px) {
-        body {
-            font-size: 1rem;
-            line-height: 2rem;
-        }
-        p {
-            font-size: 1rem;
-        }
-        h5 {
-            font-size: .8rem;
-        }
-        .navbar-content {
-            margin: 1rem 0;
-            max-width: 100%;
-        }
-        .navbar-brand {
-            max-width: 40%;
-        }
-        .navbar-content button {
-            float: right;
-        }
-        .navbar-text {
-            margin-top: 1rem;
-        }
-        .nav-item {
-            margin: .5rem 0;
-        }
-        .nav-pills {
-            display: -webkit-box;
-        }
-        div.footer-social {
-            justify-content: flex-start;
-            margin: 1rem;
-        }
-        .card-synaptic-reference {
-            margin-bottom: 1rem;
-        }
-        #id-synaptic {
-            max-width: 100%;
-            padding: 1.8rem;
-            margin: 0;
-            text-align: center;
-        }
-        .id-perfil {
-            grid-template-columns: 100%;
-        }
-        .id-perfil .col {
-            text-align: center;
-            margin-top: 10px;
-        }
-        .id-perfil h4 {
-            margin-bottom: 0.3rem;
-        }
-        .id-perfil h5, .info-id h5 {
-            font-size: 1.2rem;
-            line-height: 1.4rem;
-            margin-bottom: 0.3rem;
-        }
-        #id-synaptic p {
-            line-height: 1rem;
-            font-size: 0.8rem;
-        }
-        .description-id {
-            margin-top: 0.5rem;
-        }
-        .info-id.row, .social.row {
-            padding: 0.6rem 0 0 0;
-            margin: 0.6rem 0 0 0;
-        }
-        .info-id.row {
-            display: flex;
-            flex-flow: column;
-        }
-        .info-id.row .col {
-            flex-basis: auto;
-        }
-        #id-synaptic .info-id.row a p {
-            font-size: 0.9rem;
-        }
-        .info-id .social div {
-            margin: auto;
-        }
-        .info-id .row a i {
-            font-size: 2rem;
-            margin: 0.5rem 0.4rem 0;
-        }
-        .navbar-brand-id {
-            max-width: 50%;
-        }
-        .id-img {
-            width: 30%;
-            margin: auto;
-        }
-        .qr-img {
-            width: 40%;
-            margin: auto;
-        }
-        .qr-content {
-            margin-top: 1rem;
-        }
-        .nav-pills::after {
-            display: none;
-        }
-        .nav-link-desktop {
-            display: none;
-        }
-        .nav-link-mobile {
-            margin-right: 1rem;
-        }
-        .nav-link-mobile p {
-            font-size: 14px;
-            vertical-align: text-top;
-            justify-content: center;
-            display: flex;
-        }
-        .navbar-toggler {
-            display: none;
-        }
-        .card-synaptic-history {
-            margin-bottom: 1rem;
-        }
-        .planet-sy {
-            display: none;
-        }
-        .keyboard-sy {
-            width: 40%;
-        }
-        .astronaut-sy {
-            width: 40%;
-        }
+@media (max-width: 767px) {
+    body {
+        font-size: 1rem;
+        line-height: 2rem;
     }
-    /* medium (tablet) */
+    p {
+        font-size: 1rem;
+    }
+    h5 {
+        font-size: .8rem;
+    }
+    .navbar-content {
+        margin: 1rem 0;
+        max-width: 100%;
+    }
+    .navbar-brand {
+        max-width: 40%;
+    }
+    .navbar-content button {
+        float: right;
+    }
+    .navbar-text {
+        margin-top: 1rem;
+    }
+    .nav-item {
+        margin: .5rem 0;
+    }
+    .nav-pills {
+        display: -webkit-box;
+    }
+    div.footer-social {
+        justify-content: flex-start;
+        margin: 1rem;
+    }
+    .card-synaptic-reference {
+        margin-bottom: 1rem;
+    }
+    #id-synaptic {
+        max-width: 100%;
+        padding: 1.8rem;
+        margin: 0;
+        text-align: center;
+    }
+    .id-perfil {
+        grid-template-columns: 100%;
+    }
+    .id-perfil .col {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .id-perfil h4 {
+        margin-bottom: 0.3rem;
+    }
+    .id-perfil h5,
+    .info-id h5 {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        margin-bottom: 0.3rem;
+    }
+    #id-synaptic p {
+        line-height: 1rem;
+        font-size: 0.8rem;
+    }
+    .description-id {
+        margin-top: 0.5rem;
+    }
+    .info-id.row,
+    .social.row {
+        padding: 0.6rem 0 0 0;
+        margin: 0.6rem 0 0 0;
+    }
+    .info-id.row {
+        display: flex;
+        flex-flow: column;
+    }
+    .info-id.row .col {
+        flex-basis: auto;
+    }
+    #id-synaptic .info-id.row a p {
+        font-size: 0.9rem;
+    }
+    .info-id .social div {
+        margin: auto;
+    }
+    .info-id .row a i {
+        font-size: 2rem;
+        margin: 0.5rem 0.4rem 0;
+    }
+    .navbar-brand-id {
+        max-width: 50%;
+    }
+    .id-img {
+        width: 30%;
+        margin: auto;
+    }
+    .qr-img {
+        width: 40%;
+        margin: auto;
+    }
+    .qr-content {
+        margin-top: 1rem;
+    }
+    .nav-pills::after {
+        display: none;
+    }
+    .nav-link-desktop {
+        display: none;
+    }
+    .nav-link-mobile {
+        margin-right: 1rem;
+    }
+    .nav-link-mobile p {
+        font-size: 14px;
+        vertical-align: text-top;
+        justify-content: center;
+        display: flex;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    .card-synaptic-history {
+        margin-bottom: 1rem;
+    }
+    .planet-sy {
+        display: none;
+    }
+    .keyboard-sy {
+        width: 40%;
+    }
+    .astronaut-sy {
+        width: 40%;
+    }
+}
 
-    @media (min-width: 768px) and (max-width: 1025px) {
-        body {
-            font-size: 1rem;
-            line-height: 2rem;
-        }
-        .nav-link-mobile {
-            display: none;
-        }
-        .planet-sy {
-            display: none;
-        }
-        .card-synaptic-id {
-            min-height: 12rem;
-        }
-        .card-synaptic-reference {
-            min-height: 27rem;
-        }
-    }
-    /* large (desktop) */
 
-    @media (min-width: 1025px) and (max-width: 1366px) {
-        body {
-            font-size: .9rem;
-            line-height: 1.5rem;
-        }
-        .container {
-            max-width: 80%;
-        }
-        .nav-link .lni-emoji-happy {
-            display: none;
-        }
-        .nav-link-mobile {
-            display: none;
-        }
-    }
-    /* xl large */
+/* medium (tablet) */
 
-    @media (min-width: 1367px) and (max-width: 1920px) {
-        body {
-            font-size: 1rem;
-            line-height: 1.8rem;
-        }
-        .nav-link-mobile {
-            display: none;
-        }
-        .card-synaptic-history p {
-            font-size: 14px;
-        }
-        .container {
-            max-width: 1224px;
-        }
+@media (min-width: 768px) and (max-width: 1025px) {
+    body {
+        font-size: 1rem;
+        line-height: 2rem;
     }
+    .nav-link-mobile {
+        display: none;
+    }
+    .planet-sy {
+        display: none;
+    }
+    .card-synaptic-id {
+        min-height: 12rem;
+    }
+    .card-synaptic-reference {
+        min-height: 27rem;
+    }
+}
+
+
+/* large (desktop) */
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+    body {
+        font-size: .9rem;
+        line-height: 1.5rem;
+    }
+    .container {
+        max-width: 80%;
+    }
+    .nav-link .lni-emoji-happy {
+        display: none;
+    }
+    .nav-link-mobile {
+        display: none;
+    }
+}
+
+
+/* xl large */
+
+@media (min-width: 1367px) and (max-width: 1920px) {
+    body {
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+    .nav-link-mobile {
+        display: none;
+    }
+    .card-synaptic-history p {
+        font-size: 14px;
+    }
+    .container {
+        max-width: 1224px;
+    }
+}
+
 
 /* xxlarge */
 
-    @media (min-width: 1921px) {
-        body {
-            font-size: 1.6rem;
-            line-height: 2.5rem;
-        }
+@media (min-width: 1921px) {
+    body {
+        font-size: 1.6rem;
+        line-height: 2.5rem;
     }
+}
