@@ -115,6 +115,10 @@ ol li {
     list-style: none;
 }
 
+.tab-content {
+    border: none;
+}
+
 .nav-link {
     display: block;
 }
@@ -122,6 +126,8 @@ ol li {
 a:not([href]):not([tabindex]) {
     color: #0FD1B9;
 }
+
+
 /* Icons */
 
 .lni-heart,
@@ -134,6 +140,8 @@ a:not([href]):not([tabindex]) {
     font-size: 2rem;
     color: #fff;
 }
+
+
 /* svgs */
 
 .keyboard-sy {
@@ -207,9 +215,7 @@ a:not([href]):not([tabindex]) {
 }
 
 .navbar-content {
-    max-width: 80%;
     margin: 2rem auto 1rem;
-    padding: 0 15px;
 }
 
 .culture-content {
@@ -376,6 +382,8 @@ div.footer-social-id {
     font-size: 25px;
     padding: .2rem;
 }
+
+
 /* ID Synaptic */
 
 #id-synaptic {
@@ -437,7 +445,8 @@ div.footer-social-id {
     margin-top: 4rem;
 }
 
-.info-id.row, .social.row {
+.info-id.row,
+.social.row {
     padding: 1rem 0 0 0;
     margin: 1rem 0 0 0;
     border-top: 1px solid;
@@ -485,4 +494,3 @@ a .lni-close {
     font-size: 2.5rem;
     margin: 1rem 1rem 0 0;
 }
-
