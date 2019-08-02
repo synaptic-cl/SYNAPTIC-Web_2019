@@ -1,241 +1,240 @@
-[
-  {
-    "id": "msuarez",
-    "image": "assets/img/team/manuel-sy.png",
-    "name": "Manuel Suarez",
-    "position": "Synáptico",
-    "descripcion": "",
-    "email": "msuarez@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://twitter.com/hvillarroel",
-      "https://medium.com/@hvillarroel"
-    ]
-  },
-  {
-    "id": "hvillarroel",
-    "image": "assets/img/team/hector-sy.png",
-    "name": "Héctor Villarroel",
-    "position": "Synáptico",
-    "descripcion": "",
-    "email": "hvillarroel@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://twitter.com/hvillarroel",
-      "https://medium.com/@hvillarroel"
-    ]
-  },
-  {
-    "id": "nataly.medina",
-    "image": "assets/img/team/nataly-sy.png",
-    "name": "Nataly Medina",
-    "position": "Synáptico",
-    "descripcion": "",
-    "email": "nataly.medina@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://twitter.com/nataly.medina",
-      "https://medium.com/@nataly.medina"
-    ]
-  },
-  {
-    "id": "diego.diaz",
-    "image": "assets/img/team/diegod-sy.png",
-    "name": "Diego Diaz",
-    "position": "Synáptico",
-    "descripcion": "",
-    "email": "diego.diaz@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://twitter.com/diego.diaz",
-      "https://medium.com/@diego.diaz"
-    ]
-  },
+[{
+        "id": "msuarez",
+        "image": "assets/img/team/manuel-sy.png",
+        "name": "Manuel Suarez",
+        "position": "Synáptico",
+        "descripcion": "",
+        "email": "msuarez@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://twitter.com/hvillarroel",
+            "https://medium.com/@hvillarroel"
+        ]
+    },
+    {
+        "id": "hvillarroel",
+        "image": "assets/img/team/hector-sy.png",
+        "name": "Héctor Villarroel",
+        "position": "Synáptico",
+        "description": "",
+        "email": "hvillarroel@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://twitter.com/hvillarroel",
+            "https://medium.com/@hvillarroel"
+        ]
+    },
+    {
+        "id": "nataly.medina",
+        "image": "assets/img/team/nataly-sy.png",
+        "name": "Nataly Medina",
+        "position": "Synáptico",
+        "description": "prueba 222",
+        "email": "nataly.medina@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://twitter.com/nataly.medina",
+            "https://medium.com/@nataly.medina"
+        ]
+    },
+    {
+        "id": "diego.diaz",
+        "image": "assets/img/team/diegod-sy.png",
+        "name": "Diego Diaz",
+        "position": "Synáptico",
+        "descripcion": "",
+        "email": "diego.diaz@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://twitter.com/diego.diaz",
+            "https://medium.com/@diego.diaz"
+        ]
+    },
 
-  {
-    "id": "alexis.gallardo",
-    "image": "assets/img/team/alexis-sy.png",
-    "name": "Alexis Gallardo",
-    "position": "Synáptico",
-    "descripcion": "",
-    "email": "alexis.gallardo@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://twitter.com/diego.diaz",
-      "https://medium.com/@diego.diaz"
-    ]
-  },
-  {
-    "id": "alvaro.leon",
-    "image": "assets/img/team/alvaro-sy.png",
-    "name": "Alvaro Leon",
-    "position": "Synáptico",
-    "descripcion": "",
-    "email": "alvaro.leon@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://twitter.com/diego.diaz",
-      "https://medium.com/@diego.diaz"
-    ]
-  },
-  {
-    "id": "diego.bano",
-    "image": "assets/img/team/diegob-sy.png",
-    "name": "Diego Baño",
-    "position": "Synáptico",
-    "descripcion": "",
-    "email": "diego.bano@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://twitter.com/diego.diaz",
-      "https://medium.com/@diego.diaz"
-    ]
-  },
-  {
-    "id": "dusan.juretic",
-    "image": "assets/img/team/dusan-sy.png",
-    "name": "Dušan Juretić",
-    "position": "Synáptico",
-    "descripcion": "",
-    "email": "dusan.juretic@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://twitter.com/diego.diaz",
-      "https://medium.com/@diego.diaz"
-    ]
-  },
-  {
-    "id": "eduardo.cruells",
-    "image": "assets/img/team/eduardo-sy.png",
-    "name": "Eduardo Cruells",
-    "position": "Synáptico",
-    "descripcion": "",
-    "email": "eduardo.cruells@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://twitter.com/diego.diaz",
-      "https://medium.com/@diego.diaz"
-    ]
-  },
-  {
-    "id": "esteban.abarca",
-    "image": "assets/img/team/esteban-sy.png",
-    "name": "Esteban Abarca",
-    "position": "Synáptico",
-    "descripcion": "",
-    "email": "esteban.abarca@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://twitter.com/diego.diaz",
-      "https://medium.com/@diego.diaz"
-    ]
-  },
-  {
-    "id": "felipe.rubilar",
-    "image": "assets/img/team/felipe-sy.png",
-    "name": "Felipe Rubilar",
-    "position": "Synáptico",
-    "descripcion": "",
-    "email": "felipe.rubilar@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://twitter.com/diego.diaz",
-      "https://medium.com/@diego.diaz"
-    ]
-  },
-  {
-    "id": "francisca.cerda",
-    "image": "assets/img/team/fran-sy.png",
-    "name": "Francisca Cerda",
-    "position": "Synáptico",
-    "descripcion": "",
-    "email": "francisca.cerda@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://twitter.com/diego.diaz",
-      "https://medium.com/@diego.diaz"
-    ]
-  },
-  {
-    "id": "jhon.salgado",
-    "image": "assets/img/team/jhon-sy.png",
-    "name": "Jhon Salgado",
-    "position": "Synáptico",
-    "descripcion": "",
-    "email": "jhon.salgado@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://twitter.com/diego.diaz",
-      "https://medium.com/@diego.diaz"
-    ]
-  },
-  {
-    "id": "johnny.vargas",
-    "image": "assets/img/team/johnny-sy.png",
-    "name": "Johnny Vargas",
-    "position": "Synáptico",
-    "descripcion": "",
-    "email": "johnny.vargas@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://twitter.com/diego.diaz",
-      "https://medium.com/@diego.diaz"
-    ]
-  },
-  {
-    "id": "manuel.aguilera",
-    "image": "assets/img/team/manolo-sy.png",
-    "name": "Manuel Aguilera",
-    "position": "Synáptico",
-    "descripcion": "",
-    "email": "manuel.aguilera@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://twitter.com/diego.diaz",
-      "https://medium.com/@diego.diaz"
-    ]
-  },
-  {
-    "id": "pdonoso",
-    "image": "assets/img/team/pamela-sy.png",
-    "name": "Pamela Donoso",
-    "position": "Synáptico",
-    "descripcion": "",
-    "email": "pdonoso@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://twitter.com/diego.diaz",
-      "https://medium.com/@diego.diaz"
-    ]
-  },
-  {
-    "id": "sebastian.sanchez",
-    "image": "assets/img/team/seba-sy.png",
-    "name": "Sebastian Sanchez",
-    "position": "Synáptico",
-    "descripcion": "",
-    "email": "sebastian.sanchez@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://twitter.com/diego.diaz",
-      "https://medium.com/@diego.diaz"
-    ]
-  }
+    {
+        "id": "alexis.gallardo",
+        "image": "assets/img/team/alexis-sy.png",
+        "name": "Alexis Gallardo",
+        "position": "Synáptico",
+        "descripcion": "",
+        "email": "alexis.gallardo@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://twitter.com/diego.diaz",
+            "https://medium.com/@diego.diaz"
+        ]
+    },
+    {
+        "id": "alvaro.leon",
+        "image": "assets/img/team/alvaro-sy.png",
+        "name": "Alvaro Leon",
+        "position": "Synáptico",
+        "descripcion": "",
+        "email": "alvaro.leon@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://twitter.com/diego.diaz",
+            "https://medium.com/@diego.diaz"
+        ]
+    },
+    {
+        "id": "diego.bano",
+        "image": "assets/img/team/diegob-sy.png",
+        "name": "Diego Baño",
+        "position": "Synáptico",
+        "descripcion": "",
+        "email": "diego.bano@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://twitter.com/diego.diaz",
+            "https://medium.com/@diego.diaz"
+        ]
+    },
+    {
+        "id": "dusan.juretic",
+        "image": "assets/img/team/dusan-sy.png",
+        "name": "Dušan Juretić",
+        "position": "Synáptico",
+        "descripcion": "",
+        "email": "dusan.juretic@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://twitter.com/diego.diaz",
+            "https://medium.com/@diego.diaz"
+        ]
+    },
+    {
+        "id": "eduardo.cruells",
+        "image": "assets/img/team/eduardo-sy.png",
+        "name": "Eduardo Cruells",
+        "position": "Synáptico",
+        "descripcion": "",
+        "email": "eduardo.cruells@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://twitter.com/diego.diaz",
+            "https://medium.com/@diego.diaz"
+        ]
+    },
+    {
+        "id": "esteban.abarca",
+        "image": "assets/img/team/esteban-sy.png",
+        "name": "Esteban Abarca",
+        "position": "Synáptico",
+        "descripcion": "",
+        "email": "esteban.abarca@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://twitter.com/diego.diaz",
+            "https://medium.com/@diego.diaz"
+        ]
+    },
+    {
+        "id": "felipe.rubilar",
+        "image": "assets/img/team/felipe-sy.png",
+        "name": "Felipe Rubilar",
+        "position": "Synáptico",
+        "descripcion": "",
+        "email": "felipe.rubilar@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://twitter.com/diego.diaz",
+            "https://medium.com/@diego.diaz"
+        ]
+    },
+    {
+        "id": "francisca.cerda",
+        "image": "assets/img/team/fran-sy.png",
+        "name": "Francisca Cerda",
+        "position": "Synáptico",
+        "descripcion": "",
+        "email": "francisca.cerda@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://twitter.com/diego.diaz",
+            "https://medium.com/@diego.diaz"
+        ]
+    },
+    {
+        "id": "jhon.salgado",
+        "image": "assets/img/team/jhon-sy.png",
+        "name": "Jhon Salgado",
+        "position": "Synáptico",
+        "descripcion": "",
+        "email": "jhon.salgado@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://twitter.com/diego.diaz",
+            "https://medium.com/@diego.diaz"
+        ]
+    },
+    {
+        "id": "johnny.vargas",
+        "image": "assets/img/team/johnny-sy.png",
+        "name": "Johnny Vargas",
+        "position": "Synáptico",
+        "descripcion": "",
+        "email": "johnny.vargas@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://twitter.com/diego.diaz",
+            "https://medium.com/@diego.diaz"
+        ]
+    },
+    {
+        "id": "manuel.aguilera",
+        "image": "assets/img/team/manolo-sy.png",
+        "name": "Manuel Aguilera",
+        "position": "Synáptico",
+        "descripcion": "",
+        "email": "manuel.aguilera@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://twitter.com/diego.diaz",
+            "https://medium.com/@diego.diaz"
+        ]
+    },
+    {
+        "id": "pdonoso",
+        "image": "assets/img/team/pamela-sy.png",
+        "name": "Pamela Donoso",
+        "position": "Synáptico",
+        "descripcion": "",
+        "email": "pdonoso@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://twitter.com/diego.diaz",
+            "https://medium.com/@diego.diaz"
+        ]
+    },
+    {
+        "id": "sebastian.sanchez",
+        "image": "assets/img/team/seba-sy.png",
+        "name": "Sebastian Sanchez",
+        "position": "Synáptico",
+        "descripcion": "",
+        "email": "sebastian.sanchez@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://twitter.com/diego.diaz",
+            "https://medium.com/@diego.diaz"
+        ]
+    }
 ]

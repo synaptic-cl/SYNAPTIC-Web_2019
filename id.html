@@ -86,37 +86,36 @@
             <h5>Datos de Contacto</h5>
             <div class="col">
                 <i class="lni-envelope"></i>
-                <a href="mailto:{{email}}" target="_blank"><p>{{email}}</p></a>
+                <a href="mailto:{{email}}" target="_blank">
+                    <p>{{email}}</p>
+                </a>
             </div>
             <div class="col">
                 <i class="lni-phone-handset"></i>
-                <a href="tel:{{personal_phone}}" target="_blank"><p>{{personal_phone}}</p></a>
+                <a href="tel:{{personal_phone}}" target="_blank">
+                    <p>{{personal_phone}}</p>
+                </a>
             </div>
             <div class="social row">
                 <h5>Redes Sociales</h5>
                 <div>
-                    {{#each social}}
-                        {{#ifFind this "twitter.com"}}
-                            <a class="twitter" href="{{this}}" target="_blank" aria-label="twitter">
-                                <i class="fab fa-twitter-square"></i>
-                            </a>
-                        {{/ifFind}}
-                        {{#ifFind this "medium.com"}}
-                            <a class=" medium " href="{{this}}" target="_blank" aria-label="medium">
-                                <i class="fab fa-medium"></i>
-                            </a>
-                        {{/ifFind}}
-                        {{#ifFind this "linkedin.com"}}
-                            <a class="linkedin" href="{{this}}" target="_blank" aria-label="linkedin">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                        {{/ifFind}}
-                        {{#ifFind this "instagram.com"}}
-                            <a class="instagram" href="{{this}}" target="_blank" aria-label="instagram">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        {{/ifFind}}
-                    {{/each}}
+                    {{#each social}} {{#ifFind this "twitter.com"}}
+                    <a class="twitter" href="{{this}}" target="_blank" aria-label="twitter">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                    {{/ifFind}} {{#ifFind this "medium.com"}}
+                    <a class=" medium " href="{{this}}" target="_blank" aria-label="medium">
+                        <i class="fab fa-medium"></i>
+                    </a>
+                    {{/ifFind}} {{#ifFind this "linkedin.com"}}
+                    <a class="linkedin" href="{{this}}" target="_blank" aria-label="linkedin">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    {{/ifFind}} {{#ifFind this "instagram.com"}}
+                    <a class="instagram" href="{{this}}" target="_blank" aria-label="instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    {{/ifFind}} {{/each}}
                 </div>
             </div>
             <div class="qr-content row">
@@ -127,6 +126,8 @@
             </div>
         </div>
     </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-29882238-4"></script>
 </body>
 
 </html>
