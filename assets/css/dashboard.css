@@ -136,7 +136,8 @@ a:not([href]):not([tabindex]) {
 .lni-eye,
 .lni-emoji-happy,
 .lni-book,
-.lni-hand {
+.lni-hand,
+.lni-money-location {
     font-size: 2rem;
     color: #fff;
 }
@@ -490,4 +491,21 @@ a .lni-close {
 .info-id .row a i {
     font-size: 2.5rem;
     margin: 1rem 1rem 0 0;
+}
+
+
+/* Transparency  */
+
+.salary-list {
+    margin: 2rem 0;
+}
+
+.salary-list li {
+    padding: 1rem 0;
+    margin: 0;
+    border-bottom: 1px solid #55586b;
+}
+
+.salary-list li>span {
+    float: right;
 }
