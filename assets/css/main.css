@@ -1909,6 +1909,10 @@ textarea {
     background: #34363a;
 }
 
+.links-footer {
+    font-size: .8rem;
+}
+
 .footer-area .footer-titel {
     font-size: 20px;
     color: #fff;
