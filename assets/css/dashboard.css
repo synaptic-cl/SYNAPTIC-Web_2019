@@ -44,6 +44,14 @@ button.btn.icon-sy {
     padding: 0;
 }
 
+.nav-link:hover {
+    border-bottom: 1px solid #F1F2F3
+}
+
+.nav-link:focus {
+    border-bottom: 1px solid #F1F2F3
+}
+
 .mb-3,
 .my-3 {
     margin-bottom: 0!important;
@@ -136,7 +144,8 @@ a:not([href]):not([tabindex]) {
 .lni-eye,
 .lni-emoji-happy,
 .lni-book,
-.lni-hand {
+.lni-hand,
+.lni-money-location {
     font-size: 2rem;
     color: #fff;
 }
@@ -257,7 +266,7 @@ a:not([href]):not([tabindex]) {
     padding: 40px 20px;
     min-height: 385.5px;
     max-height: 100%;
-    min-height: 28rem;
+    min-height: 31rem;
 }
 
 .card-synaptic-history p {
@@ -490,4 +499,21 @@ a .lni-close {
 .info-id .row a i {
     font-size: 2.5rem;
     margin: 1rem 1rem 0 0;
+}
+
+
+/* Transparency  */
+
+.salary-list {
+    margin: 2rem 0;
+}
+
+.salary-list li {
+    padding: 1rem 0;
+    margin: 0;
+    border-bottom: 1px solid #55586b;
+}
+
+.salary-list li>span {
+    float: right;
 }
