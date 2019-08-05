@@ -90,12 +90,12 @@
         "image": "assets/img/team/diegob-sy.png",
         "name": "Diego Baño",
         "position": "Synáptico",
-        "description": "",
+        "description": "Ingeniero Civil en Computación y jugador de Overwatch en @Paltawatch. Interesado en HCI, Desarrollo Web, Optimización de Procesos, Machine Learning, Robótica y otros temas entretenidos.",
         "email": "diego.bano@synaptic.cl",
-        "personal_phone": "‭+56994427755‬",
+        "personal_phone": "‭+56990157003‬",
         "office_phone": "+56232104837",
         "social": [
-            "https://medium.com/@diego.bano_86723",
+            "https://medium.com/@diego.bano",
             "https://www.linkedin.com/in/diego-ba%C3%B1o-ram%C3%ADrez-712933111/"
         ]
     },
@@ -146,7 +146,7 @@
         "image": "assets/img/team/felipe-sy.png",
         "name": "Felipe Rubilar",
         "position": "Synáptico",
-        "description": "",
+        "description": "Ingeniero Civil en Computación. Fui un gato en mi vida pasada.",
         "email": "felipe.rubilar@synaptic.cl",
         "personal_phone": "‭+56994427755‬",
         "office_phone": "+56232104837",
