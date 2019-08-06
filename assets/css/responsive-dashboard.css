@@ -131,6 +131,9 @@
     .astronaut-sy {
         width: 40%;
     }
+    .card-synaptic-history {
+        min-height: 25rem;
+    }
 }
 
 

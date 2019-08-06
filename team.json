@@ -1,240 +1,239 @@
-[
-  {
-    "id": "msuarez",
-    "image": "assets/img/team/manuel-sy.png",
-    "name": "Manuel Suarez",
-    "position": "Synáptico",
-    "description": "",
-    "email": "msuarez@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://twitter.com/hvillarroel",
-      "https://medium.com/@msuarez",
-      "https://www.linkedin.com/in/manueljesussuarez"
-    ]
-  },
-  {
-    "id": "hvillarroel",
-    "image": "assets/img/team/hector-sy.png",
-    "name": "Héctor Villarroel",
-    "position": "Synáptico",
-    "description": "Enfocado en generar sinergia entre la problemática de negocio y la solución tecnológica en conjunto con el Team de Synaptic y el Cliente.",
-    "email": "hvillarroel@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://twitter.com/hvillarroel",
-      "https://medium.com/@hvillarroel",
-      "https://www.linkedin.com/in/hvillarroel/"
-    ]
-  },
-  {
-    "id": "nataly.medina",
-    "image": "assets/img/team/nataly-sy.png",
-    "name": "Nataly Medina",
-    "position": "Synáptico",
-    "description": "",
-    "email": "nataly.medina@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://medium.com/@natalymedina.nu",
-      "https://www.linkedin.com/in/natalymedinanu/"
-    ]
-  },
-  {
-    "id": "diego.diaz",
-    "image": "assets/img/team/diegod-sy.png",
-    "name": "Diego Diaz",
-    "position": "Synáptico",
-    "description": "",
-    "email": "diego.diaz@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://medium.com/@diego.diaz_20935",
-      "https://www.linkedin.com/in/diego-diaz-osorio/"
-    ]
-  },
+[{
+        "id": "msuarez",
+        "image": "assets/img/team/manuel-sy.png",
+        "name": "Manuel Suarez",
+        "position": "Synáptico",
+        "description": "",
+        "email": "msuarez@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://twitter.com/hvillarroel",
+            "https://medium.com/@msuarez",
+            "https://www.linkedin.com/in/manueljesussuarez"
+        ]
+    },
+    {
+        "id": "hvillarroel",
+        "image": "assets/img/team/hector-sy.png",
+        "name": "Héctor Villarroel",
+        "position": "Synáptico",
+        "description": "Enfocado en generar sinergia entre la problemática de negocio y la solución tecnológica en conjunto con el Team de Synaptic y el Cliente.",
+        "email": "hvillarroel@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://twitter.com/hvillarroel",
+            "https://medium.com/@hvillarroel",
+            "https://www.linkedin.com/in/hvillarroel/"
+        ]
+    },
+    {
+        "id": "nataly.medina",
+        "image": "assets/img/team/nataly-sy.png",
+        "name": "Nataly Medina",
+        "position": "Synáptico",
+        "description": "",
+        "email": "nataly.medina@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://medium.com/@natalymedina.nu",
+            "https://www.linkedin.com/in/natalymedinanu/"
+        ]
+    },
+    {
+        "id": "diego.diaz",
+        "image": "assets/img/team/diegod-sy.png",
+        "name": "Diego Diaz",
+        "position": "Synáptico",
+        "description": "",
+        "email": "diego.diaz@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://medium.com/@diego.diaz_20935",
+            "https://www.linkedin.com/in/diego-diaz-osorio/"
+        ]
+    },
 
-  {
-    "id": "alexis.gallardo",
-    "image": "assets/img/team/alexis-sy.png",
-    "name": "Alexis Gallardo",
-    "position": "Synáptico",
-    "description": "",
-    "email": "alexis.gallardo@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://medium.com/@alexisgallardoaracena",
-      "https://www.linkedin.com/in/alexis-gallardo/"
-    ]
-  },
-  {
-    "id": "alvaro.leon",
-    "image": "assets/img/team/alvaro-sy.png",
-    "name": "Alvaro Leon",
-    "position": "Synáptico",
-    "description": "",
-    "email": "alvaro.leon@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://medium.com/@alvaro.leon_27741",
-      "https://www.linkedin.com/in/álvaro-león-sánchez-314257149/"
-    ]
-  },
-  {
-    "id": "diego.bano",
-    "image": "assets/img/team/diegob-sy.png",
-    "name": "Diego Baño",
-    "position": "Synáptico",
-    "description": "",
-    "email": "diego.bano@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://medium.com/@diego.bano_86723",
-      "https://www.linkedin.com/in/diego-ba%C3%B1o-ram%C3%ADrez-712933111/"
-    ]
-  },
-  {
-    "id": "dusan.juretic",
-    "image": "assets/img/team/dusan-sy.png",
-    "name": "Dušan Juretić",
-    "position": "Synáptico",
-    "description": "",
-    "email": "dusan.juretic@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://medium.com/@dusan.juretic",
-      "https://www.linkedin.com/in/dusan-juretic/"
-    ]
-  },
-  {
-    "id": "eduardo.cruells",
-    "image": "assets/img/team/eduardo-sy.png",
-    "name": "Eduardo Cruells",
-    "position": "Synáptico",
-    "description": "",
-    "email": "eduardo.cruells@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://medium.com/@eduardo.cruells",
-      "https://www.linkedin.com/in/ecruells/"
-    ]
-  },
-  {
-    "id": "esteban.abarca",
-    "image": "assets/img/team/esteban-sy.png",
-    "name": "Esteban Abarca",
-    "position": "Synáptico",
-    "description": "",
-    "email": "esteban.abarca@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://medium.com/@cl.esteban.abarca",
-      "https://www.linkedin.com/in/tebancl/"
-    ]
-  },
-  {
-    "id": "felipe.rubilar",
-    "image": "assets/img/team/felipe-sy.png",
-    "name": "Felipe Rubilar",
-    "position": "Synáptico",
-    "description": "",
-    "email": "felipe.rubilar@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://www.linkedin.com/in/felipe-rubilar-14376b188/ "
-    ]
-  },
-  {
-    "id": "francisca.cerda",
-    "image": "assets/img/team/fran-sy.png",
-    "name": "Francisca Cerda",
-    "position": "Synáptica",
-    "description": "",
-    "email": "francisca.cerda@synaptic.cl",
-    "personal_phone": "‭+56979692246‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://linkedin.com/in/franpazcerdae",
-      "https://medium.com/@francisca.cerda"
-    ]
-  },
-  {
-    "id": "jhon.salgado",
-    "image": "assets/img/team/jhon-sy.png",
-    "name": "Jhon Salgado",
-    "position": "Synáptico",
-    "description": "",
-    "email": "jhon.salgado@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://medium.com/@jhon.salgado",
-      "https://www.linkedin.com/in/JhonSalgadoU"
-    ]
-  },
-  {
-    "id": "johnny.vargas",
-    "image": "assets/img/team/johnny-sy.png",
-    "name": "Johnny Vargas",
-    "position": "Synáptico",
-    "description": "",
-    "email": "johnny.vargas@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://twitter.com/diego.diaz",
-      "https://medium.com/@diego.diaz"
-    ]
-  },
-  {
-    "id": "manuel.aguilera",
-    "image": "assets/img/team/manolo-sy.png",
-    "name": "Manuel Aguilera",
-    "position": "Synáptico",
-    "description": "",
-    "email": "manuel.aguilera@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://medium.com/@manuel.aguilera",
-      "https://www.linkedin.com/in/jmaguilerai/"
-    ]
-  },
-  {
-    "id": "pdonoso",
-    "image": "assets/img/team/pamela-sy.png",
-    "name": "Pamela Donoso",
-    "position": "Synáptico",
-    "description": "",
-    "email": "pdonoso@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-       "https://www.linkedin.com/in/pamela-donoso-b6615958/"
-    ]
-  },
-  {
-    "id": "sebastian.sanchez",
-    "image": "assets/img/team/seba-sy.png",
-    "name": "Sebastian Sanchez",
-    "position": "Synáptico",
-    "description": "",
-    "email": "sebastian.sanchez@synaptic.cl",
-    "personal_phone": "‭+56994427755‬",
-    "office_phone": "+56232104837",
-    "social": [
-      "https://www.linkedin.com/in/sanchez-sebastian-r/"
-    ]
-  }
+    {
+        "id": "alexis.gallardo",
+        "image": "assets/img/team/alexis-sy.png",
+        "name": "Alexis Gallardo",
+        "position": "Synáptico",
+        "description": "",
+        "email": "alexis.gallardo@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://medium.com/@alexisgallardoaracena",
+            "https://www.linkedin.com/in/alexis-gallardo/"
+        ]
+    },
+    {
+        "id": "alvaro.leon",
+        "image": "assets/img/team/alvaro-sy.png",
+        "name": "Alvaro Leon",
+        "position": "Synáptico",
+        "description": "",
+        "email": "alvaro.leon@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://medium.com/@alvaro.leon_27741",
+            "https://www.linkedin.com/in/álvaro-león-sánchez-314257149/"
+        ]
+    },
+    {
+        "id": "diego.bano",
+        "image": "assets/img/team/diegob-sy.png",
+        "name": "Diego Baño",
+        "position": "Synáptico",
+        "description": "Ingeniero Civil en Computación y jugador de Overwatch en @Paltawatch. Interesado en HCI, Desarrollo Web, Optimización de Procesos, Machine Learning, Robótica y otros temas entretenidos.",
+        "email": "diego.bano@synaptic.cl",
+        "personal_phone": "‭+56990157003‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://medium.com/@diego.bano",
+            "https://www.linkedin.com/in/diego-ba%C3%B1o-ram%C3%ADrez-712933111/"
+        ]
+    },
+    {
+        "id": "dusan.juretic",
+        "image": "assets/img/team/dusan-sy.png",
+        "name": "Dušan Juretić",
+        "position": "Synáptico",
+        "description": "",
+        "email": "dusan.juretic@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://medium.com/@dusan.juretic",
+            "https://www.linkedin.com/in/dusan-juretic/"
+        ]
+    },
+    {
+        "id": "eduardo.cruells",
+        "image": "assets/img/team/eduardo-sy.png",
+        "name": "Eduardo Cruells",
+        "position": "Synáptico",
+        "description": "",
+        "email": "eduardo.cruells@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://medium.com/@eduardo.cruells",
+            "https://www.linkedin.com/in/ecruells/"
+        ]
+    },
+    {
+        "id": "esteban.abarca",
+        "image": "assets/img/team/esteban-sy.png",
+        "name": "Esteban Abarca",
+        "position": "Synáptico",
+        "description": "",
+        "email": "esteban.abarca@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://medium.com/@cl.esteban.abarca",
+            "https://www.linkedin.com/in/tebancl/"
+        ]
+    },
+    {
+        "id": "felipe.rubilar",
+        "image": "assets/img/team/felipe-sy.png",
+        "name": "Felipe Rubilar",
+        "position": "Synáptico",
+        "description": "Ingeniero Civil en Computación. Fui un gato en mi vida pasada.",
+        "email": "felipe.rubilar@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://www.linkedin.com/in/felipe-rubilar-14376b188/ "
+        ]
+    },
+    {
+        "id": "francisca.cerda",
+        "image": "assets/img/team/fran-sy.png",
+        "name": "Francisca Cerda",
+        "position": "Synáptica",
+        "description": "",
+        "email": "francisca.cerda@synaptic.cl",
+        "personal_phone": "‭+56979692246‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://linkedin.com/in/franpazcerdae",
+            "https://medium.com/@francisca.cerda"
+        ]
+    },
+    {
+        "id": "jhon.salgado",
+        "image": "assets/img/team/jhon-sy.png",
+        "name": "Jhon Salgado",
+        "position": "Synáptico",
+        "description": "",
+        "email": "jhon.salgado@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://medium.com/@jhon.salgado",
+            "https://www.linkedin.com/in/JhonSalgadoU"
+        ]
+    },
+    {
+        "id": "johnny.vargas",
+        "image": "assets/img/team/johnny-sy.png",
+        "name": "Johnny Vargas",
+        "position": "Synáptico",
+        "description": "",
+        "email": "johnny.vargas@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://twitter.com/diego.diaz",
+            "https://medium.com/@diego.diaz"
+        ]
+    },
+    {
+        "id": "manuel.aguilera",
+        "image": "assets/img/team/manolo-sy.png",
+        "name": "Manuel Aguilera",
+        "position": "Synáptico",
+        "description": "",
+        "email": "manuel.aguilera@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://medium.com/@manuel.aguilera",
+            "https://www.linkedin.com/in/jmaguilerai/"
+        ]
+    },
+    {
+        "id": "pdonoso",
+        "image": "assets/img/team/pamela-sy.png",
+        "name": "Pamela Donoso",
+        "position": "Synáptico",
+        "description": "",
+        "email": "pdonoso@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://www.linkedin.com/in/pamela-donoso-b6615958/"
+        ]
+    },
+    {
+        "id": "sebastian.sanchez",
+        "image": "assets/img/team/seba-sy.png",
+        "name": "Sebastian Sanchez",
+        "position": "Synáptico",
+        "description": "",
+        "email": "sebastian.sanchez@synaptic.cl",
+        "personal_phone": "‭+56994427755‬",
+        "office_phone": "+56232104837",
+        "social": [
+            "https://www.linkedin.com/in/sanchez-sebastian-r/"
+        ]
+    }
 ]
