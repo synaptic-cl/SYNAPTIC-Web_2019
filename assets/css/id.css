@@ -1,0 +1,107 @@
+/* ID Synaptic */
+
+#id-synaptic {
+    max-width: 40%;
+    width: 100%;
+    background-color: black;
+    margin: 4rem auto;
+    padding: 2rem 3rem;
+    color: white;
+    margin: 2rem auto;
+}
+
+#id-synaptic p {
+    color: #e7e5e5;
+    font-size: 1rem;
+}
+
+#id-synaptic h4 {
+    color: white;
+}
+
+#id-synaptic hr {
+    border-color: white;
+}
+
+.id-perfil {
+    display: grid;
+    grid-template-columns: 30% 60%;
+}
+
+.id-perfil .col {
+    padding: 0;
+    margin: auto;
+}
+
+.description-id {
+    margin-top: 20px;
+    padding: 0;
+}
+
+.id-img {
+    width: 80%;
+    border-radius: 100%;
+    display: flex;
+}
+
+.synaptic-links {
+    display: grid;
+    justify-items: center;
+}
+
+.qr-img {
+    width: 35%;
+    margin: auto;
+    margin-top: 1rem;
+    height: min-intrinsic;
+}
+
+.info-id.row,
+.social.row {
+    padding: 1rem 0 0 0;
+    margin: 1rem 0 0 0;
+    border-top: 1px solid #b7b7b7;
+}
+
+.social.row div {
+    margin-top: -0.8rem;
+}
+
+.info-id h5 {
+    width: 100%;
+    margin: 0 0 0.6rem;
+    font-size: 1.2rem;
+}
+
+.info-id .col {
+    padding: 0px;
+    white-space: nowrap;
+    margin: 0 10px 0 0;
+}
+
+#id-synaptic .info-id.row a p {
+    display: inline-block;
+    font-size: 1rem;
+    color: #10d1b8;
+}
+
+a .lni-close {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.close-id {
+    margin-left: auto;
+}
+
+.lni-envelope,
+.lni-phone-handset,
+.lni-arrow-top-right {
+    font-size: 1.1rem;
+    vertical-align: sub;
+}
+
+.info-id .row a i {
+    font-size: 2.5rem;
+    margin: 1rem 1rem 0 0;
+}

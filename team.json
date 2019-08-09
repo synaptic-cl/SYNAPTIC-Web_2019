@@ -1,4 +1,5 @@
 [{
+        "numero": 1,
         "id": "msuarez",
         "image": "assets/img/team/manuel-sy.png",
         "name": "Manuel Suarez",
@@ -8,12 +9,14 @@
         "personal_phone": "‭+56994427755‬",
         "office_phone": "+56232104837",
         "social": [
-            "https://twitter.com/hvillarroel",
             "https://medium.com/@msuarez",
-            "https://www.linkedin.com/in/manueljesussuarez"
+            "https://www.linkedin.com/in/manueljesussuarez",
+            "https://github.com/manuelsuarezsabugal"
+
         ]
     },
     {
+        "numero": 2,
         "id": "hvillarroel",
         "image": "assets/img/team/hector-sy.png",
         "name": "Héctor Villarroel",
@@ -25,10 +28,12 @@
         "social": [
             "https://twitter.com/hvillarroel",
             "https://medium.com/@hvillarroel",
-            "https://www.linkedin.com/in/hvillarroel/"
+            "https://www.linkedin.com/in/hvillarroel/",
+            "https://github.com/hvillarroel"
         ]
     },
     {
+        "numero": 3,
         "id": "nataly.medina",
         "image": "assets/img/team/nataly-sy.png",
         "name": "Nataly Medina",
@@ -39,10 +44,12 @@
         "office_phone": "+56232104837",
         "social": [
             "https://medium.com/@natalymedina.nu",
-            "https://www.linkedin.com/in/natalymedinanu/"
+            "https://www.linkedin.com/in/natalymedinanu/",
+            "https://github.com/Natinu"
         ]
     },
     {
+        "numero": 4,
         "id": "diego.diaz",
         "image": "assets/img/team/diegod-sy.png",
         "name": "Diego Diaz",
@@ -53,11 +60,13 @@
         "office_phone": "+56232104837",
         "social": [
             "https://medium.com/@diego.diaz_20935",
-            "https://www.linkedin.com/in/diego-diaz-osorio/"
+            "https://www.linkedin.com/in/diego-diaz-osorio/",
+            "https://github.com/diegodi"
         ]
     },
 
     {
+        "numero": 5,
         "id": "alexis.gallardo",
         "image": "assets/img/team/alexis-sy.png",
         "name": "Alexis Gallardo",
@@ -68,10 +77,12 @@
         "office_phone": "+56232104837",
         "social": [
             "https://medium.com/@alexisgallardoaracena",
-            "https://www.linkedin.com/in/alexis-gallardo/"
+            "https://www.linkedin.com/in/alexis-gallardo/",
+            "https://github.com/kerz1488"
         ]
     },
     {
+        "numero": 6,
         "id": "alvaro.leon",
         "image": "assets/img/team/alvaro-sy.png",
         "name": "Alvaro Leon",
@@ -82,10 +93,12 @@
         "office_phone": "+56232104837",
         "social": [
             "https://medium.com/@alvaro.leon_27741",
-            "https://www.linkedin.com/in/álvaro-león-sánchez-314257149/"
+            "https://www.linkedin.com/in/álvaro-león-sánchez-314257149/",
+            "https://github.com/aleonss"
         ]
     },
     {
+        "numero": 7,
         "id": "diego.bano",
         "image": "assets/img/team/diegob-sy.png",
         "name": "Diego Baño",
@@ -96,10 +109,12 @@
         "office_phone": "+56232104837",
         "social": [
             "https://medium.com/@diego.bano",
-            "https://www.linkedin.com/in/diego-ba%C3%B1o-ram%C3%ADrez-712933111/"
+            "https://www.linkedin.com/in/diego-ba%C3%B1o-ram%C3%ADrez-712933111/",
+            "https://github.com/diegobano"
         ]
     },
     {
+        "numero": 8,
         "id": "dusan.juretic",
         "image": "assets/img/team/dusan-sy.png",
         "name": "Dušan Juretić",
@@ -110,10 +125,12 @@
         "office_phone": "+56232104837",
         "social": [
             "https://medium.com/@dusan.juretic",
-            "https://www.linkedin.com/in/dusan-juretic/"
+            "https://www.linkedin.com/in/dusan-juretic/",
+            "https://github.com/djuretic"
         ]
     },
     {
+        "numero": 9,
         "id": "eduardo.cruells",
         "image": "assets/img/team/eduardo-sy.png",
         "name": "Eduardo Cruells",
@@ -124,10 +141,12 @@
         "office_phone": "+56232104837",
         "social": [
             "https://medium.com/@eduardo.cruells",
-            "https://www.linkedin.com/in/ecruells/"
+            "https://www.linkedin.com/in/ecruells/",
+            "https://github.com/ecruells"
         ]
     },
     {
+        "numero": 10,
         "id": "esteban.abarca",
         "image": "assets/img/team/esteban-sy.png",
         "name": "Esteban Abarca",
@@ -138,10 +157,12 @@
         "office_phone": "+56232104837",
         "social": [
             "https://medium.com/@cl.esteban.abarca",
-            "https://www.linkedin.com/in/tebancl/"
+            "https://www.linkedin.com/in/tebancl/",
+            "https://github.com/TebanCL"
         ]
     },
     {
+        "numero": 11,
         "id": "felipe.rubilar",
         "image": "assets/img/team/felipe-sy.png",
         "name": "Felipe Rubilar",
@@ -151,10 +172,12 @@
         "personal_phone": "‭+56994427755‬",
         "office_phone": "+56232104837",
         "social": [
-            "https://www.linkedin.com/in/felipe-rubilar-14376b188/ "
+            "https://www.linkedin.com/in/felipe-rubilar-14376b188/ ",
+            "https://github.com/FelipeRubilar"
         ]
     },
     {
+        "numero": 12,
         "id": "francisca.cerda",
         "image": "assets/img/team/fran-sy.png",
         "name": "Francisca Cerda",
@@ -165,10 +188,12 @@
         "office_phone": "+56232104837",
         "social": [
             "https://linkedin.com/in/franpazcerdae",
-            "https://medium.com/@francisca.cerda"
+            "https://medium.com/@francisca.cerda",
+            "https://github.com/FranCeres"
         ]
     },
     {
+        "numero": 13,
         "id": "jhon.salgado",
         "image": "assets/img/team/jhon-sy.png",
         "name": "Jhon Salgado",
@@ -179,10 +204,12 @@
         "office_phone": "+56232104837",
         "social": [
             "https://medium.com/@jhon.salgado",
-            "https://www.linkedin.com/in/JhonSalgadoU"
+            "https://www.linkedin.com/in/JhonSalgadoU",
+            "https://github.com/JhonSalgado"
         ]
     },
     {
+        "numero": 14,
         "id": "johnny.vargas",
         "image": "assets/img/team/johnny-sy.png",
         "name": "Johnny Vargas",
@@ -197,6 +224,7 @@
         ]
     },
     {
+        "numero": 15,
         "id": "manuel.aguilera",
         "image": "assets/img/team/manolo-sy.png",
         "name": "Manuel Aguilera",
@@ -207,10 +235,12 @@
         "office_phone": "+56232104837",
         "social": [
             "https://medium.com/@manuel.aguilera",
-            "https://www.linkedin.com/in/jmaguilerai/"
+            "https://www.linkedin.com/in/jmaguilerai/",
+            "https://github.com/Daxjma"
         ]
     },
     {
+        "numero": 16,
         "id": "pdonoso",
         "image": "assets/img/team/pamela-sy.png",
         "name": "Pamela Donoso",
@@ -224,6 +254,7 @@
         ]
     },
     {
+        "numero": 17,
         "id": "sebastian.sanchez",
         "image": "assets/img/team/seba-sy.png",
         "name": "Sebastian Sanchez",
@@ -233,7 +264,23 @@
         "personal_phone": "‭+56994427755‬",
         "office_phone": "+56232104837",
         "social": [
-            "https://www.linkedin.com/in/sanchez-sebastian-r/"
+            "https://www.linkedin.com/in/sanchez-sebastian-r/",
+            "https://github.com/SanchezSeba"
+        ]
+    },
+    {
+        "numero": 18,
+        "id": "synaptico",
+        "image": "assets/img/team/astronaut-sy.png",
+        "name": "tú",
+        "position": "Synáptico",
+        "description": "",
+        "email": "",
+        "personal_phone": "‭‬",
+        "office_phone": "",
+        "social": [
+            ""
         ]
     }
+
 ]

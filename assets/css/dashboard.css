@@ -145,7 +145,7 @@ a:not([href]):not([tabindex]) {
 .lni-emoji-happy,
 .lni-book,
 .lni-hand,
-.lni-money-location {
+{
     font-size: 2rem;
     color: #fff;
 }
@@ -504,8 +504,8 @@ a .lni-close {
 
 /* Transparency  */
 
-.salary-list {
-    margin: 2rem 0;
+.salary-link a {
+    color: #F2EEE2;
 }
 
 .salary-list li {
