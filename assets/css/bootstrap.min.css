@@ -5379,7 +5379,7 @@ button.close {
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 1050;
+    z-index: 999999;
     display: none;
     overflow: hidden;
     outline: 0
@@ -5427,16 +5427,16 @@ button.close {
 .modal-content {
     position: relative;
     display: -ms-flexbox;
-    display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
     width: 100%;
     pointer-events: auto;
-    background-color: #fff;
+    background-color: #000;
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, .2);
     border-radius: .3rem;
-    outline: 0
+    outline: 0;
+    padding: 2rem;
 }
 
 .modal-backdrop {

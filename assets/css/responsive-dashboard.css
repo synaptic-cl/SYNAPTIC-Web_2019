@@ -175,6 +175,12 @@
     .nav-link-mobile {
         display: none;
     }
+    /* Icons */
+    i.lni-book,
+    i.lni-hand {
+        font-size: 2rem;
+        color: #fff;
+    }
 }
 
 
@@ -194,6 +200,18 @@
     .container {
         max-width: 1224px;
     }
+    /* Icons */
+    .lni-heart,
+    .lni-laptop,
+    .lni-target,
+    .lni-eye,
+    .lni-emoji-happy,
+    .lni-book,
+    .lni-hand,
+    {
+        font-size: 2rem;
+        color: #fff;
+    }
 }
 
 
@@ -203,5 +221,17 @@
     body {
         font-size: 1.6rem;
         line-height: 2.5rem;
+    }
+    /* Icons */
+    .lni-heart,
+    .lni-laptop,
+    .lni-target,
+    .lni-eye,
+    .lni-emoji-happy,
+    .lni-book,
+    .lni-hand,
+    {
+        font-size: 2rem;
+        color: #fff;
     }
 }
