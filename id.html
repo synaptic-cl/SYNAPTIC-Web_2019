@@ -99,10 +99,6 @@
             <div class="social row">
                 <h5>Redes Sociales</h5>
                 <div>
-                    {{#each social}} {{#ifFind this "twitter.com"}}
-                    <a class="twitter" href="{{this}}" target="_blank" aria-label="twitter">
-                        <i class="fab fa-twitter-square"></i>
-                    </a>
                     {{/ifFind}} {{#ifFind this "medium.com"}}
                     <a class=" medium " href="{{this}}" target="_blank" aria-label="medium">
                         <i class="fab fa-medium"></i>
@@ -111,8 +107,8 @@
                     <a class="linkedin" href="{{this}}" target="_blank" aria-label="linkedin">
                         <i class="fab fa-linkedin"></i>
                     </a>
-                    {{/ifFind}} {{#ifFind this "instagram.com"}}
-                    <a class="instagram" href="{{this}}" target="_blank" aria-label="instagram">
+                    {{/ifFind}} {{#ifFind this "github.com"}}
+                    <a class="github" href="{{this}}" target="_blank" aria-label="github">
                         <i class="fab fa-instagram"></i>
                     </a>
                     {{/ifFind}} {{/each}}
