@@ -52,7 +52,7 @@
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <a href="index.html" class="navbar-brand"><img src="assets/img/Home/brand-sy.svg" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <i class="lni-menu"></i>
         </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -114,6 +114,9 @@
                 <p><i class="lni-envelope "></i> <a href="mailto:info@synaptic.cl" target="_blank">info@synaptic.cl</a></p>
                 <p><i class="lni-map-marker "></i> <a href="https://maps.google.com/maps?q=Mariano+S%C3%A1nchez+Fontecilla+368,+Santiago,+Chile&amp;hl=en&amp;ie=UTF8&amp;ll=-33.420257,-70.598252&amp;spn=0.008221,0.016512&amp;sll=37.0625,-95.677068&amp;sspn=62.70117,135.263672&amp;hnear=Mariano+S%C3%A1nchez+Fontecilla+368,+Las+Condes,+Santiago,+Regi%C3%B3n+Metropolitana,+Chile&amp;t=m&amp;z=17"
                         target="_blank">Av. Mariano Sánchez Fontecilla #368</a></p>
+                <br>
+                <p class="links-footer"><i class="lni-clipboard"></i><a href="dashboard.html">Conoce más de nuestra Cultura Interna</a></p>
+                <p class="links-footer"><i class="lni-download"></i><a href="https://synaptic.cl/assets/SynapticBrandElements.zip">Descargar Material Gráfico</a></p>
             </div>
             <div class="footer-social col-md-6 col-sm-6 col-lg-6 feature-bg ">
                 <div>
@@ -172,29 +175,29 @@
             <!-- Team Item Starts -->
             <div class=" team-item text-center animated fadeInRight delay-5s">
                 <div class="team-img">
-                    <img class="img-fluid " src="{{image}} " alt=" ">
+                    <img class="img-fluid " src="{{image}}" alt=" ">
                     <div class="team-overlay ">
                         <div class="overlay-social-icon text-center ">
                             <ul class="social-icons ">
-                                {{#each social}} {{#ifFind this "twitter.com "}}
+                                {{#each social}} {{#ifFind this "twitter.com"}}
                                 <li>
                                     <a class="twitter " href="{{this}} " target="_blank " aria-label="twitter ">
                                         <i class="fab fa-twitter "></i>
                                     </a>
                                 </li>
-                                {{/ifFind}} {{#ifFind this "medium.com "}}
+                                {{/ifFind}} {{#ifFind this "medium.com"}}
                                 <li>
                                     <a class=" medium " href="{{this}} " target="_blank " aria-label="medium ">
                                         <i class="fab fa-medium-m "></i>
                                     </a>
                                 </li>
-                                {{/ifFind}} {{#ifFind this "linkedin.com "}}
+                                {{/ifFind}} {{#ifFind this "linkedin.com"}}
                                 <li>
                                     <a class="linkedin " href="{{this}} " target="_blank " aria-label="linkedin ">
                                         <i class="fab fa-linkedin-in "></i>
                                     </a>
                                 </li>
-                                {{/ifFind}} {{#ifFind this "github.com "}}
+                                {{/ifFind}} {{#ifFind this "github.com"}}
                                 <li>
                                     <a class="github " href="{{this}} " target="_blank " aria-label="github ">
                                         <i class="fab fa-github-alt "></i>
@@ -254,9 +257,9 @@
                         <div class="social row">
                             <h5>Redes Sociales</h5>
                             <div>
-                                {{#each social}} {{#ifFind this "twitter.com"}}
-                                <a class="twitter" href="{{this}}" target="_blank" aria-label="twitter">
-                                    <i class="fab fa-twitter-square"></i>
+                                {{#each social}} {{#ifFind this "github.com"}}
+                                <a class="github" href="{{this}}" target="_blank" aria-label="github">
+                                    <i class="fab fa-github"></i>
                                 </a>
                                 {{/ifFind}} {{#ifFind this "medium.com"}}
                                 <a class=" medium " href="{{this}}" target="_blank" aria-label="medium">
@@ -265,10 +268,6 @@
                                 {{/ifFind}} {{#ifFind this "linkedin.com"}}
                                 <a class="linkedin" href="{{this}}" target="_blank" aria-label="linkedin">
                                     <i class="fab fa-linkedin"></i>
-                                </a>
-                                {{/ifFind}} {{#ifFind this "instagram.com"}}
-                                <a class="instagram" href="{{this}}" target="_blank" aria-label="instagram">
-                                    <i class="fab fa-instagram"></i>
                                 </a>
                                 {{/ifFind}} {{/each}}
                             </div>
