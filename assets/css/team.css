@@ -4,6 +4,10 @@
     background-attachment: fixed;
 }
 
+html [type=button] {
+    -webkit-appearance: initial;
+}
+
 .team-cards {
     max-width: 65rem;
     margin: -15px auto;
