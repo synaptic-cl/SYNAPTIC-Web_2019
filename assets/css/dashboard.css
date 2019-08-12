@@ -144,8 +144,7 @@ a:not([href]):not([tabindex]) {
 .lni-eye,
 .lni-emoji-happy,
 .lni-book,
-.lni-hand,
-{
+.lni-hand {
     font-size: 2rem;
     color: #fff;
 }
@@ -472,12 +471,6 @@ div.footer-social-id {
     padding: 0px;
     white-space: nowrap;
     margin: 0 10px 0 0;
-}
-
-#id-synaptic .info-id.row a p {
-    display: inline-block;
-    font-size: 1rem;
-    color: #10d1b8;
 }
 
 a .lni-close {
