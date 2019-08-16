@@ -263,20 +263,5 @@
             "https://www.linkedin.com/in/sanchez-sebastian-r/",
             "https://github.com/SanchezSeba"
         ]
-    },
-    {
-        "numero": 18,
-        "id": "synaptico",
-        "image": "assets/img/team/astronaut-sy.png",
-        "name": "tú",
-        "position": "Synáptico",
-        "description": "",
-        "email": "",
-        "personal_phone": "‭‬",
-        "office_phone": "",
-        "social": [
-            ""
-        ]
     }
-
 ]
