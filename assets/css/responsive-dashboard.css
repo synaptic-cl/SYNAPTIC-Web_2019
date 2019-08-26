@@ -116,9 +116,9 @@
         justify-content: center;
         display: flex;
     }
-    .navbar-toggler {
+    /* .navbar-toggler {
         display: none;
-    }
+    } */
     .card-synaptic-history {
         margin-bottom: 1rem;
     }
