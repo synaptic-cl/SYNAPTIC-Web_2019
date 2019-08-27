@@ -70,6 +70,9 @@
     .top-nav-collapse .navbar-nav .nav-link {
         color: #494747 !important;
     }
+    .nav-item {
+        margin: .5rem 0;
+    }
     .contact-section {
         justify-content: center;
     }
