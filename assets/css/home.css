@@ -11,6 +11,10 @@
     min-height: 50px;
 }
 
+.navbar-brand img {
+    width: 80%;
+}
+
 .logo-image {
     margin-left: 2rem;
 }
@@ -173,7 +177,7 @@
 }
 
 
-/* icons */
+/* Icons */
 
 div.icon {
     float: left;
@@ -393,7 +397,7 @@ input.form-control {
 }
 
 
-/* carousel */
+/* Carousel */
 
 .carousel-inner .carousel-item.active,
 .carousel-inner .carousel-item {
