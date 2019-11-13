@@ -46,7 +46,6 @@
 }
 
 .header-sy-right {
-    background-image: url("../img/Home/header-background@2x.png");
     width: 100%;
     display: flex;
     align-items: center;
@@ -54,6 +53,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.80)),
+    url('../img/Home/header-background@2x.png');
 }
 
 .header-sy-right h1 {
@@ -81,7 +82,10 @@
     justify-content: center;
     background-color: #000;
     min-height: 100vh;
-    background-image: url("../img/Home/header-sy-background.png")
+    background-size: cover;
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.80)),
+    url('../img/Home/header-team@2x.png');
+
 }
 
 .header-sy-left div {
@@ -178,6 +182,11 @@
 
 
 /* Icons */
+
+i.lni-world {
+    cursor: none;
+    vertical-align: unset!important;
+}
 
 div.icon {
     float: left;
