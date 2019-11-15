@@ -53,7 +53,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.80)),
+    background-image: linear-gradient(to bottom, rgba(28, 0, 10, 0), rgba(0, 0, 0, 0.8)),
     url('../img/home/header-background@2x.png');
 }
 
@@ -83,7 +83,7 @@
     background-color: #000;
     min-height: 100vh;
     background-size: cover;
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.80)),
+    background-image:linear-gradient(to bottom, rgba(28, 0, 10, 0), rgba(0, 0, 0, 0.8)),
     url('../img/home/header-team@2x.png');
 
 }
