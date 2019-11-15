@@ -555,14 +555,6 @@ hr {
     background: transparent;
 }
 
-.navbar-expand-md .navbar-nav .nav-link.nav-active{
-    color:#0FD1B9!important;
-}
-
-a.nav-link.language {
-    display: flex;
-}
-
 .navbar-expand-md .navbar-nav .nav-link i {
     margin-left: 5px;
     vertical-align: middle;
@@ -581,6 +573,19 @@ a.nav-link.language {
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+}
+
+.navbar-expand-md .navbar-nav .nav-link.nav-active{
+    color:#0FD1B9!important;
+}
+
+p.language {
+    display: flex;
+    color: white;
+}
+
+span.language-text{
+    padding: .9rem .2rem;
 }
 
 .navbar-expand-md .navbar-nav li a:hover,

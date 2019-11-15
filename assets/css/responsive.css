@@ -8,6 +8,9 @@
         font-size: 1rem;
         line-height: 2rem;
     }
+    p.language {
+        color: black;
+    }
     .container-navbar-language {
         display: flex;
     }

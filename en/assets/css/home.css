@@ -54,7 +54,7 @@
     background-size: cover;
     min-height: 100vh;
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.80)),
-    url('../img/home/header-background@2x.png');
+    url('../img/Home/header-background@2x.png');
 }
 
 .header-sy-right h1 {
@@ -84,7 +84,7 @@
     min-height: 100vh;
     background-size: cover;
     background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.80)),
-    url('../img/home/header-team@2x.png');
+    url('../img/Home/header-team@2x.png');
 
 }
 
@@ -185,7 +185,7 @@
 
 i.lni-world {
     cursor: none;
-    padding: .7rem .5rem;
+    padding: 1.2rem .5rem;
 }
 
 div.icon {
@@ -212,7 +212,7 @@ div.icon {
 /* Process Section  */
 
 .process-sy {
-    background-image: url("../img/home/process-background@2x.png");
+    background-image: url("../img/Home/process-background@2x.png");
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
@@ -250,7 +250,7 @@ div.icon {
 /* Crew Section  */
 
 .crew-sy {
-    background-image: url("../img/home/crew-background@2x.png");
+    background-image: url("../img/Home/crew-background@2x.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -275,7 +275,7 @@ div.icon {
 /* Contact Section  */
 
 .contact-sy {
-    background-image: url("../img/home/footer-background@2x.png");
+    background-image: url("../img/Home/footer-background@2x.png");
     background-repeat: no-repeat;
     background-size: cover;
 }

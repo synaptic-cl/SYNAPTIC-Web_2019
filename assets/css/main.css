@@ -579,8 +579,13 @@ hr {
     color:#0FD1B9!important;
 }
 
-a.nav-link.language {
+p.language {
     display: flex;
+    color: white;
+}
+
+span.language-text{
+    padding: .9rem .2rem;
 }
 
 .navbar-expand-md .navbar-nav li a:hover,
