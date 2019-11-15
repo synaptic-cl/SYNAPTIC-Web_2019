@@ -584,8 +584,10 @@ p.language {
     color: white;
 }
 
-span.language-text{
-    padding: .9rem .2rem;
+p.language-text{
+    display: inline-block;
+    line-height: 40px;
+    padding: .5rem 0;
 }
 
 .navbar-expand-md .navbar-nav li a:hover,

@@ -49,17 +49,17 @@
         height: 180px;
     }
     .process-sy {
-        background-image: url("../img/Home/mobile-process@2x.png");
+        background-image: url("../img/home/mobile-process@2x.png");
         background-repeat: no-repeat;
         background-size: cover;
     }
     .crew-sy {
-        background-image: url("../img/Home/mobile-crew@2x.png");
+        background-image: url("../img/home/mobile-crew@2x.png");
         background-repeat: no-repeat;
         background-size: cover;
     }
     .contact-sy {
-        background-image: url("../img/Home/footer-background.png");
+        background-image: url("../img/home/footer-background.png");
         background-repeat: no-repeat;
         background-size: cover;
     }
