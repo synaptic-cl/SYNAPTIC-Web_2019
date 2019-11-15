@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Synaptic Sitio Público</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Animate -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- LineIcons -->
+    <link rel="stylesheet" href="https://cdn.lineicons.com/1.0.1/LineIcons.min.css">
+    <!-- Icon Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="assets/css/dashboard.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" href="assets/css/responsive-dashboard.css">
+    <!-- Https Redirect -->
+    <script src="assets/js/https-redirect.js"></script>
+</head>
+
+<body>
+    <div id="id-synaptic"></div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-min.js "></script>
+    <script src="assets/js/bootstrap.min.js "></script>
+    <script src="assets/js/handlebars.js"></script>
+    <script src="assets/js/team.js"></script>
+    <script type="text/javascript">
+        person();
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-29882238-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-29882238-4');
+    </script>
+    <script id="entry-template" type="text/x-handlebars-template">
+        <div class="row">
+            <a href="team.html" class="close-id"><i class="lni-close"></i></a>
+        </div>
+        <div class="row id-perfil">
+            <div class="col">
+                <img class="id-img img-fluid" src="{{image}}" alt="">
+            </div>
+            <div class="col">
+                <h4>{{name}}</h4>
+                <h5>{{position}}</h5>
+            </div>
+        </div>
+        <div class="row description-id col">
+            <p>{{description}}{{#unless description}}{{/unless}}</p>
+        </div>
+        <div class="info-id row">
+            <h5>Datos de Contacto</h5>
+            <div class="col">
+                <i class="lni-envelope"></i>
+                <a href="mailto:{{email}}" target="_blank">
+                    <p>{{email}}</p>
+                </a>
+            </div>
+            <div class="col">
+                <i class="lni-phone-handset"></i>
+                <a href="tel:{{personal_phone}}" target="_blank">
+                    <p>{{personal_phone}}</p>
+                </a>
+            </div>
+            <div class="social row">
+                <h5>Redes Sociales</h5>
+                <div>
+                    {{/ifFind}} {{#ifFind this "medium.com"}}
+                    <a class=" medium " href="{{this}}" target="_blank" aria-label="medium">
+                        <i class="fab fa-medium"></i>
+                    </a>
+                    {{/ifFind}} {{#ifFind this "linkedin.com"}}
+                    <a class="linkedin" href="{{this}}" target="_blank" aria-label="linkedin">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    {{/ifFind}} {{#ifFind this "github.com"}}
+                    <a class="github" href="{{this}}" target="_blank" aria-label="github">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    {{/ifFind}} {{/each}}
+                </div>
+            </div>
+            <div class="qr-content row">
+                <img class="qr-img" src="assets/img/team/qr/{{id}}.png" alt="">
+            </div>
+        </div>
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-29882238-4"></script>
+</body>
+
+</html>

@@ -38,7 +38,9 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/team.css">
     <link rel="stylesheet" href="assets/css/home.css">
-    <!-- Responsive Style -->
+    <link rel="stylesheet" href="assets/css/id.css">
+    <link rel="stylesheet" href="assets/css/responsive-dashboard.css">
+
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
@@ -47,30 +49,43 @@
     <header id="header-wrap">
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
-            <div class="container">
+            <div class="container ">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <a href="index.html" class="navbar-brand"><img src="assets/img/Home/brand-sy.svg" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="lni-menu"></i>
-        </button>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="lni-menu"></i>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
+                    <ul class="navbar-nav mr-auto w-100 justify-content-first clearfix">
                         <li class="nav-item">
                             <a class="nav-link" href="service.html">
-                Servicios
-              </a>
+                                Servicios
+                            </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="team.html">
-                Team
-              </a>
+                                Team
+                            </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="https://medium.com/synaptic-cl" target="blank">
-                Blog
-              </a>
+                                Blog
+                            </a>
                         </li>
                     </ul>
+                    <div class="container-navbar-language">
+                            <div class="navbar-nav navbar-language desktop-language mr-auto w-100 justify-content-end clearfix">
+                                <div class="nav-item" style="display: inherit; color: #efe7e7;">
+                                    <i class="lni-world"></i>
+                                    <p class="language-text"> Idioma</p>
+                                </div>
+                                <a class="nav-link nav-active" href="#">
+                                    ES.
+                                </a>
+                                <a class="nav-link" href="en/team.html">
+                                    EN.
+                                </a>
+                            </div>
                 </div>
             </div>
         </nav>
@@ -78,7 +93,7 @@
     </header>
 
     <!-- Team Section Start -->
-    <section id="team" class="section-padding">
+    <section id="team_container" class="section-padding">
         <div class="team-section">
             <div class="team-cards container">
                 <div class="row">
@@ -92,458 +107,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <!-- Team Item Starts -->
-                        <div class="team-item text-center wow fadeInRight" data-wow-delay="0.3s">
-                            <div class="team-img">
-                                <img class="img-fluid" src="assets/img/team/manuel-sy.png" alt="">
-                                <div class="team-overlay">
-                                    <div class="overlay-social-icon text-center">
-                                        <ul class="social-icons">
-                                            <li><a href="https://medium.com/@msuarez" target="blank"><i class="fab fa-medium-m"
-                            aria-hidden="true"></i></a></li>
-                                            <li><a href="https://www.linkedin.com/in/manueljesussuarez" target="blank"><i
-                            class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                                            <li><a href="https://github.com/manuelsuarezsabugal" target="blank"><i class="fab fa-github-alt"
-                            aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="info-text">
-                                <h3><a href="#">Manuel Suárez</a></h3>
-                                <p>Synáptico</p>
-                            </div>
-                        </div>
-                        <!-- Team Item Ends -->
+                <div class="id-content container">
+                    <div class="row" id="team">
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <!-- Team Item Starts -->
-                        <div class="team-item text-center wow fadeInRight" data-wow-delay="0.6s">
-                            <div class="team-img">
-                                <img class="img-fluid" src="assets/img/team/diegod-sy.png" alt="">
-                                <div class="team-overlay">
-                                    <div class="overlay-social-icon text-center">
-                                        <ul class="social-icons">
-                                            <li><a href="https://medium.com/@diego.diaz_20935" target="blank"><i class="fab fa-medium-m"
-                            aria-hidden="true"></i></a></li>
-                                            <li><a href="https://www.linkedin.com/in/diego-diaz-osorio/" target="blank"><i
-                            class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                                            <li><a href="https://github.com/diegodi" target="blank"><i class="fab fa-github-alt"
-                            aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="info-text">
-                                <h3><a href="#">Diego Díaz</a></h3>
-                                <p>Synáptico</p>
-                            </div>
-                        </div>
-                        <!-- Team Item Ends -->
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <!-- Team Item Starts -->
-                        <div class="team-item text-center wow fadeInRight" data-wow-delay="0.9s">
-                            <div class="team-img">
-                                <img class="img-fluid" src="assets/img/team/hector-sy.png" alt="">
-                                <div class="team-overlay">
-                                    <div class="overlay-social-icon text-center">
-                                        <ul class="social-icons">
-                                            <li><a href="https://medium.com/@hvillarroel" target="blank"><i class="fab fa-medium-m"
-                            aria-hidden="true"></i></a></li>
-                                            <li><a href="https://www.linkedin.com/in/hvillarroel/" target="blank"><i
-                            class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                                            <li><a href="https://github.com/hvillarroel" target="blank"><i class="fab fa-github-alt"
-                            aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="info-text">
-                                <h3><a href="#">Héctor Villarroel</a></h3>
-                                <p>Synáptico</p>
-                            </div>
-                        </div>
-                        <!-- Team Item Ends -->
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <!-- Team Item Starts -->
-                        <div class="team-item text-center wow fadeInRight" data-wow-delay="1.2s">
-                            <div class="team-img">
-                                <img class="img-fluid" src="assets/img/team/alexis-sy.png" alt="">
-                                <div class="team-overlay">
-                                    <div class="overlay-social-icon text-center">
-                                        <ul class="social-icons">
-                                            <li><a href="https://medium.com/@alexisgallardoaracena" target="_blank "><i
-                            class="fab fa-medium-m" aria-hidden="true"></i></a></li>
-                                            <li><a href="https://www.linkedin.com/in/alexis-gallardo/" target="_blank "><i
-                            class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                                            <li><a href="https://github.com/kerz1488" target="_blank "><i class="fab fa-github-alt"
-                            aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="info-text">
-                                <h3><a href="#">Alexis Gallardo</a></h3>
-                                <p>Synáptico</p>
-                            </div>
-                        </div>
-                        <!-- Team Item Ends -->
-                    </div>
-
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <!-- Team Item Starts -->
-                        <div class="team-item text-center wow fadeInRight" data-wow-delay="0.3s">
-                            <div class="team-img">
-                                <img class="img-fluid" src="assets/img/team/fran-sy.png" alt="">
-                                <div class="team-overlay">
-                                    <div class="overlay-social-icon text-center">
-                                        <ul class="social-icons">
-                                            <li><a href="https://medium.com/@francisca.cerda" target="blank"><i class="fab fa-medium-m"
-                            aria-hidden="true"></i></a></li>
-                                            <li><a href="https://www.linkedin.com/in/franpazcerdae/" target="blank"><i
-                            class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                                            <li><a href="https://github.com/FranCeres" target="blank"><i class="fab fa-github-alt"
-                            aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="info-text">
-                                <h3><a href="#">Francisca Cerda</a></h3>
-                                <p>Synáptica</p>
-                            </div>
-                        </div>
-                        <!-- Team Item Ends -->
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <!-- Team Item Starts -->
-                        <div class="team-item text-center wow fadeInRight" data-wow-delay="0.6s">
-                            <div class="team-img">
-                                <img class="img-fluid" src="assets/img/team/esteban-sy.png" alt="">
-                                <div class="team-overlay">
-                                    <div class="overlay-social-icon text-center">
-                                        <ul class="social-icons">
-                                            <li><a href="https://medium.com/@cl.esteban.abarca" target="blank"><i class="fab fa-medium-m"
-                            aria-hidden="true"></i></a></li>
-                                            <li><a href="https://www.linkedin.com/in/tebancl/" target="blank"><i class="fab fa-linkedin-in"
-                            aria-hidden="true"></i></a></li>
-                                            <li><a href="https://github.com/TebanCL" target="blank"><i class="fab fa-github-alt"
-                            aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="info-text">
-                                <h3><a href="#">Esteban Abarca</a></h3>
-                                <p>Synáptico</p>
-                            </div>
-                        </div>
-                        <!-- Team Item Ends -->
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <!-- Team Item Starts -->
-                        <div class="team-item text-center wow fadeInRight" data-wow-delay="0.9s">
-                            <div class="team-img">
-                                <img class="img-fluid" src="assets/img/team/diegob-sy.png" alt="">
-                                <div class="team-overlay">
-                                    <div class="overlay-social-icon text-center">
-                                        <ul class="social-icons">
-                                            <li><a href="https://medium.com/@diego.bano_86723" target="blank"><i class="fab fa-medium-m"
-                            aria-hidden="true"></i></a></li>
-                                            <li><a href="https://www.linkedin.com/in/diego-ba%C3%B1o-ram%C3%ADrez-712933111/" target="blank"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                                            <li><a href="https://github.com/diegobano" target="blank"><i class="fab fa-github-alt"
-                            aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="info-text">
-                                <h3><a href="#">Diego Baño</a></h3>
-                                <p>Synáptico</p>
-                            </div>
-                        </div>
-                        <!-- Team Item Ends -->
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <!-- Team Item Starts -->
-                        <div class="team-item text-center wow fadeInRight" data-wow-delay="1.2s">
-                            <div class="team-img">
-                                <img class="img-fluid" src="assets/img/team/nataly-sy.png" alt="">
-                                <div class="team-overlay">
-                                    <div class="overlay-social-icon text-center">
-                                        <ul class="social-icons">
-                                            <li><a href="https://medium.com/@natalymedina.nu" target="blank"><i class="fab fa-medium-m"
-                            aria-hidden="true"></i></a></li>
-                                            <li><a href="https://www.linkedin.com/in/natalymedinanu/" target="blank"><i
-                            class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                                            <li><a href="https://github.com/Natinu" target="blank"><i class="fab fa-github-alt"
-                            aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="info-text">
-                                <h3><a href="#">Nataly Medina</a></h3>
-                                <p>Synáptica</p>
-                            </div>
-                        </div>
-                        <!-- Team Item Ends -->
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <!-- Team Item Starts -->
-                        <div class="team-item text-center wow fadeInRight" data-wow-delay="0.3s">
-                            <div class="team-img">
-                                <img class="img-fluid" src="assets/img/team/dusan-sy.png" alt="">
-                                <div class="team-overlay">
-                                    <div class="overlay-social-icon text-center">
-                                        <ul class="social-icons">
-                                            <li><a href="https://medium.com/@dusan.juretic" target="blank"><i class="fab fa-medium-m"
-                            aria-hidden="true"></i></a></li>
-                                            <li><a href="https://www.linkedin.com/in/dusan-juretic/" target="blank"><i
-                            class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                                            <li><a href="https://github.com/djuretic" target="blank"><i class="fab fa-github-alt"
-                            aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="info-text">
-                                <h3><a href="#">Dušan Juretić</a></h3>
-                                <p>Synáptico</p>
-                            </div>
-                        </div>
-                        <!-- Team Item Ends -->
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <!-- Team Item Starts -->
-                        <div class="team-item text-center wow fadeInRight" data-wow-delay="0.6s">
-                            <div class="team-img">
-                                <img class="img-fluid" src="assets/img/team/manolo-sy.png" alt="">
-                                <div class="team-overlay">
-                                    <div class="overlay-social-icon text-center">
-                                        <ul class="social-icons">
-                                            <li><a href="https://medium.com/@manuel.aguilera" target="blank"><i class="fab fa-medium-m"
-                            aria-hidden="true"></i></a></li>
-                                            <li><a href="https://www.linkedin.com/in/jmaguilerai/" target="blank"><i
-                            class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                                            <li><a href="https://github.com/Daxjma" target="blank"><i class="fab fa-github-alt"
-                            aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="info-text">
-                                <h3><a href="#">José MAnuel Aguilera</a></h3>
-                                <p>Synáptico</p>
-                            </div>
-                        </div>
-                        <!-- Team Item Ends -->
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <!-- Team Item Starts -->
-                        <div class="team-item text-center wow fadeInRight" data-wow-delay="0.9s">
-                            <div class="team-img">
-                                <img class="img-fluid" src="assets/img/team/pamela-sy.png" alt="">
-                                <div class="team-overlay">
-                                    <div class="overlay-social-icon text-center">
-                                        <ul class="social-icons">
-
-                                            <li><a href="https://www.linkedin.com/in/pamela-donoso-b6615958/" target="blank"><i
-                            class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="info-text">
-                                <h3><a href="#">Pamela Donoso</a></h3>
-                                <p>Synáptica</p>
-                            </div>
-                        </div>
-                        <!-- Team Item Ends -->
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <!-- Team Item Starts -->
-                        <div class="team-item text-center wow fadeInRight" data-wow-delay="1.2s">
-                            <div class="team-img">
-                                <img class="img-fluid" src="assets/img/team/seba-sy.png" alt="">
-                                <div class="team-overlay">
-                                    <div class="overlay-social-icon text-center">
-                                        <ul class="social-icons">
-                                            <li><a href="#" target="blank"><i class="fab fa-medium-m" aria-hidden="true"></i></a></li>
-                                            <li><a href="https://www.linkedin.com/in/sanchez-sebastian-r/" target="blank"><i
-                            class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                                            <li><a href="https://github.com/SanchezSeba" target="blank"><i class="fab fa-github-alt"
-                            aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="info-text">
-                                <h3><a href="#">Sebastián Sánchez</a></h3>
-                                <p>Synáptico</p>
-                            </div>
-                        </div>
-                        <!-- Team Item Ends -->
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6 col-md-6 col-lg-3">
-                            <!-- Team Item Starts -->
-                            <div class="team-item text-center wow fadeInRight" data-wow-delay="0.3s">
-                                <div class="team-img">
-                                    <img class="img-fluid" src="assets/img/team/jhon-sy.png" alt="">
-                                    <div class="team-overlay">
-                                        <div class="overlay-social-icon text-center">
-                                            <ul class="social-icons">
-                                                <li><a href="https://medium.com/@jhon.salgado" target="blank"><i class="fab fa-medium-m"
-                              aria-hidden="true"></i></a></li>
-                                                <li><a href="https://www.linkedin.com/in/JhonSalgadoU" target="blank"><i
-                              class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                                                <li><a href="https://github.com/JhonSalgado" target="blank"><i class="fab fa-github-alt"
-                              aria-hidden="true"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="info-text">
-                                    <h3><a href="#">Jhon Salgado</a></h3>
-                                    <p>Synáptico</p>
-                                </div>
-                            </div>
-                            <!-- Team Item Ends -->
-                        </div>
-                        <div class="col-sm-6 col-md-6 col-lg-3">
-                            <!-- Team Item Starts -->
-                            <div class="team-item text-center wow fadeInRight" data-wow-delay="0.6s">
-                                <div class="team-img">
-                                    <img class="img-fluid" src="assets/img/team/johnny-sy.png">
-                                    <div class="team-overlay ">
-                                        <div class="overlay-social-icon text-center ">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="info-text ">
-                                    <h3><a href="# ">Johnny Vargas</a></h3>
-                                    <p>Synáptico</p>
-                                </div>
-                            </div>
-                            <!-- Team Item Ends -->
-                        </div>
-
-                        <div class="col-sm-6 col-md-6 col-lg-3 ">
-                            <!-- Team Item Starts -->
-                            <div class="team-item text-center wow fadeInRight " data-wow-delay="0.9s ">
-                                <div class="team-img ">
-                                    <img class="img-fluid " src="assets/img/team/felipe-sy.png">
-                                    <div class="team-overlay ">
-                                        <div class="overlay-social-icon text-center ">
-                                            <ul class="social-icons ">
-                                                <li><a href="https://medium.com/synaptic-cl " target="blank "><i class="fab fa-medium-m "
-                              aria-hidden="true "></i></a></li>
-                                                <li><a href="https://www.linkedin.com/in/felipe-rubilar-14376b188/ " target="blank "><i
-                              class="fab fa-linkedin-in " aria-hidden="true "></i></a></li>
-                                                <li><a href="https://github.com/FelipeRubilar " target="blank "><i class="fab fa-github-alt "
-                              aria-hidden="true "></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="info-text ">
-                                    <h3><a href="# ">Felipe Rubilar</a></h3>
-                                    <p>Synáptico</p>
-                                </div>
-                            </div>
-                            <!-- Team Item Ends -->
-                        </div>
-
-                        <div class="col-sm-6 col-md-6 col-lg-3 ">
-                            <!-- Team Item Starts -->
-                            <div class="team-item text-center wow fadeInRight " data-wow-delay="1.2s ">
-                                <div class="team-img ">
-                                    <img class="img-fluid " src="assets/img/team/alvaro-sy.png " alt=" ">
-                                    <div class="team-overlay ">
-                                        <div class="overlay-social-icon text-center ">
-                                            <ul class="social-icons ">
-                                                <li><a href="https://medium.com/@alvaro.leon_27741" target="blank "><i class="fab fa-medium-m "
-                              aria-hidden="true "></i></a></li>
-                                                <li><a href="https://www.linkedin.com/in/álvaro-león-sánchez-314257149/" target="blank "><i
-                              class="fab fa-linkedin-in " aria-hidden="true "></i></a></li>
-                                                <li><a href="https://github.com/aleonss	" target="blank "><i class="fab fa-github-alt "
-                              aria-hidden="true "></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="info-text ">
-                                    <h3><a href="# ">Álvaro León</a></h3>
-                                    <p>Synáptico</p>
-                                </div>
-                            </div>
-                            <!-- Team Item Ends -->
-                        </div>
-                        <div class="row ">
-                            <div class="col-sm-6 col-md-6 col-lg-3 ">
-                                <!-- Team Item Starts -->
-                                <div class="team-item text-center wow fadeInRight " data-wow-delay="0.3s ">
-                                    <div class="team-img ">
-                                        <img class="img-fluid " src="assets/img/team/eduardo-sy.png " alt=" ">
-                                        <div class="team-overlay ">
-                                            <div class="overlay-social-icon text-center ">
-                                                <ul class="social-icons ">
-                                                    <li><a href="https://medium.com/@eduardo.cruells " target="blank "><i class="fab fa-medium-m "
-                                aria-hidden="true "></i></a></li>
-                                                    <li><a href="https://www.linkedin.com/in/ecruells/ " target="blank "><i
-                                class="fab fa-linkedin-in " aria-hidden="true "></i></a></li>
-                                                    <li><a href="https://github.com/ecruells " target="blank "><i class="fab fa-github-alt "
-                                aria-hidden="true "></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="info-text ">
-                                        <h3><a href="# ">Eduardo Cruells</a></h3>
-                                        <p>Synáptico</p>
-                                    </div>
-                                </div>
-                                <!-- Team Item Ends -->
-                            </div>
-                            <div class="col-sm-6 col-md-6 col-lg-3 ">
-                                <!-- Team Item Starts -->
-                                <div class="team-item text-center wow fadeInRight " data-wow-delay="0.6s ">
-                                    <div class="team-img ">
-                                        <img class="img-fluid " src="assets/img/team/astronaut-sy.png " alt=" ">
-                                        <div class="team-overlay ">
-                                            <div class="overlay-social-icon text-center ">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="info-text ">
-                                        <h3><a href="https://www.getonbrd.com/companies/synaptic-spa " target="blank "><i
-                          class="lni-rocket"></i> Tú</a></h3>
-                                        <p>Únete</p>
-                                    </div>
-                                </div>
-                                <!-- Team Item Ends -->
-                            </div>
-                        </div>
-
-                    </div>
-
                 </div>
             </div>
         </div>
@@ -557,9 +123,13 @@
     <div class="container footer-section-info col-md-12 col-sm-12 padding-none feature-bg ">
         <div class="footer-section row ">
             <div class="contact-section-info col-md-6 col-sm-6 col-lg-6 feature-bg ">
-                <p><i class="lni-phone-handset "></i> +56 (2) 3210 4837</p>
-                <p><i class="lni-envelope "></i> info@synaptic.cl</p>
-                <p><i class="lni-map-marker "></i> Av. Mariano Sánchez Fontecilla #368</p>
+                <p><i class="lni-phone-handset "></i> <a href="tel:+56232104837" target="_blank">+56 (2) 3210 4837</a></p>
+                <p><i class="lni-envelope "></i> <a href="mailto:info@synaptic.cl" target="_blank">info@synaptic.cl</a></p>
+                <p><i class="lni-map-marker "></i> <a href="https://maps.google.com/maps?q=Mariano+S%C3%A1nchez+Fontecilla+368,+Santiago,+Chile&amp;hl=en&amp;ie=UTF8&amp;ll=-33.420257,-70.598252&amp;spn=0.008221,0.016512&amp;sll=37.0625,-95.677068&amp;sspn=62.70117,135.263672&amp;hnear=Mariano+S%C3%A1nchez+Fontecilla+368,+Las+Condes,+Santiago,+Regi%C3%B3n+Metropolitana,+Chile&amp;t=m&amp;z=17"
+                        target="_blank">Av. Mariano Sánchez Fontecilla #368</a></p>
+                <!-- <br>
+                <p class="links-footer"><i class="lni-clipboard"></i><a href="dashboard.html">Conoce más de nuestra Cultura Interna</a></p>
+                <p class="links-footer"><i class="lni-download"></i><a href="https://synaptic.cl/assets/SynapticBrandElements.zip"> Descargar Material Gráfico</a></p> -->
             </div>
             <div class="footer-social col-md-6 col-sm-6 col-lg-6 feature-bg ">
                 <div>
@@ -604,6 +174,141 @@
     <script src="assets/js/waypoints.min.js "></script>
     <script src="assets/js/jquery.slicknav.js "></script>
     <script src="assets/js/main.js "></script>
+    <script src="assets/js/handlebars.js"></script>
+    <script src="assets/js/team.js"></script>
+
+    <script type="text/javascript">
+        dashboard();
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-29882238-4"></script>
+    <script id="entry-template" type="text/x-handlebars-template">
+        {{#each team}}
+        <div class="col-sm-6 col-md-6 col-lg-3">
+            <!-- Team Item Starts -->
+            <div class=" team-item text-center animated fadeInRight delay-5s">
+                <div class="team-img">
+                    <img class="img-fluid " src="{{image}}" alt=" ">
+                    <div class="team-overlay ">
+                        <div class="overlay-social-icon text-center ">
+                            <ul class="social-icons ">
+                                {{#each social}} {{#ifFind this "twitter.com"}}
+                                <li>
+                                    <a class="twitter " href="{{this}} " target="_blank " aria-label="twitter ">
+                                        <i class="fab fa-twitter "></i>
+                                    </a>
+                                </li>
+                                {{/ifFind}} {{#ifFind this "medium.com"}}
+                                <li>
+                                    <a class=" medium " href="{{this}} " target="_blank " aria-label="medium ">
+                                        <i class="fab fa-medium-m "></i>
+                                    </a>
+                                </li>
+                                {{/ifFind}} {{#ifFind this "linkedin.com"}}
+                                <li>
+                                    <a class="linkedin " href="{{this}} " target="_blank " aria-label="linkedin ">
+                                        <i class="fab fa-linkedin-in "></i>
+                                    </a>
+                                </li>
+                                {{/ifFind}} {{#ifFind this "github.com"}}
+                                <li>
+                                    <a class="github " href="{{this}} " target="_blank " aria-label="github ">
+                                        <i class="fab fa-github-alt "></i>
+                                    </a>
+                                </li>
+                                {{/ifFind}} {{/each}}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-text ">
+                    <h3>{{name}}</h3>
+                    <!-- Button trigger modal -->
+
+                    <a href="id.html?name={{id}}" type="button" data-toggle="modal" data-target="#{{numero}}">
+                        <!-- <p><i class="lni-rocket "></i>Synáptico</p> -->
+                    </a>
+                </div>
+            </div>
+            <!-- Team Item Ends -->
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="{{numero}}" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="row">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <i class="lni-close"></i>
+                        </button>
+                    </div>
+                    <div class="row id-perfil">
+                        <div class="col">
+                            <img class="id-img img-fluid" src="{{image}}" alt="">
+                        </div>
+                        <div class="col">
+                            <h4>{{name}}</h4>
+                            <h5>{{position}}</h5>
+                        </div>
+                    </div>
+                    <div class="row description-id col">
+                        <p>{{description}}{{#unless description}}{{/unless}}</p>
+                    </div>
+                    <div class="info-id row">
+                        <h5>Datos de Contacto</h5>
+                        <div class="col">
+                            <i class="lni-envelope"></i>
+                            <a href="mailto:{{email}}" target="_blank">
+                                <p>{{email}}</p>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <i class="lni-phone-handset"></i>
+                            <a href="tel:{{personal_phone}}" target="_blank">
+                                <p>{{personal_phone}}</p>
+                            </a>
+                        </div>
+                        <div class="social row">
+                            <h5>Redes Sociales</h5>
+                            <div>
+                                {{#each social}} {{#ifFind this "github.com"}}
+                                <a class="github" href="{{this}}" target="_blank" aria-label="github">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                {{/ifFind}} {{#ifFind this "medium.com"}}
+                                <a class=" medium " href="{{this}}" target="_blank" aria-label="medium">
+                                    <i class="fab fa-medium"></i>
+                                </a>
+                                {{/ifFind}} {{#ifFind this "linkedin.com"}}
+                                <a class="linkedin" href="{{this}}" target="_blank" aria-label="linkedin">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                {{/ifFind}} {{/each}}
+                            </div>
+                        </div>
+                        <div class="qr-content row">
+                            <img class="qr-img" src="assets/img/team/qr/{{id}}.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+        <!-- Astronaut Item Starts -->
+        <div class=" team-item text-center animated fadeInRight delay-5s col-sm-6 col-md-6 col-lg-3">
+            <div class="team-img">
+                <img class="img-fluid " src="assets/img/team/astronaut-sy.png" alt="">
+            </div>
+            <div class="info-text ">
+                <h3>Tú</h3>
+                <!-- Button trigger modal -->
+
+                <a href="https://www.getonbrd.com/jobs/programming/developer-synaptic-santiago-c259" target="_blank">
+                    <!-- <p><i class="lni-rocket "></i>Postula aquí</p> -->
+                </a>
+            </div>
+        </div>
+        <!-- Astronaut Item Ends -->
+    </script>
 </body>
 
 </html>
