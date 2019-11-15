@@ -575,6 +575,14 @@ hr {
     transition: all 0.3s ease-in-out;
 }
 
+.navbar-expand-md .navbar-nav .nav-link.nav-active{
+    color:#0FD1B9!important;
+}
+
+a.nav-link.language {
+    display: flex;
+}
+
 .navbar-expand-md .navbar-nav li a:hover,
 .navbar-expand-md .navbar-nav li .active>a,
 .navbar-expand-md .navbar-nav li a:focus {

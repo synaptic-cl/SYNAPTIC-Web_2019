@@ -1,0 +1,18 @@
+.team-section {
+    background-image: url("../img/team/team-background@2x.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+html [type=button] {
+    -webkit-appearance: initial;
+}
+
+.team-cards {
+    max-width: 65rem;
+    margin: -15px auto;
+}
+
+.cd-section-text {
+    padding: 4rem 1rem;
+}
