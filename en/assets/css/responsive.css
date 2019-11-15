@@ -83,6 +83,7 @@
     .nav-item {
         margin: .5rem 0;
         margin-right: 1.5rem;
+        color: black!important;
     }
     .contact-section {
         justify-content: center;
