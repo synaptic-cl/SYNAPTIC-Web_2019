@@ -134,17 +134,17 @@
                             <div class="first-slider col-sm-12 col-md-12 col-lg-6">
                                 <h2>How many people do you need </br> in your team?</h2>
                                 <h4 id="infoPeople"></h4>
-                                <input type="range" min="2" max="20" value="2" class="slider" id="peopleSlide">
+                                <input type="range" min="1" max="20" value="1" class="slider" id="peopleSlide">
                                 <div class="box-minmax">
-                                    <span>2 </span><span>20 or more</span>
+                                    <span>1 </span><span>20 or more</span>
                                 </div>
                             </div>
                             <div class="second-slider col-sm-12 col-md-12 col-lg-6">
                                 <h2>How many months do you need for your project?</h2>
                                 <h4 id="infoMonths"></h4>
-                                <input type="range" min="2" max="12" value="2" class="slider" id="monthsSlide">
+                                <input type="range" min="1" max="12" value="1" class="slider" id="monthsSlide">
                                 <div class="box-minmax">
-                                    <span>2</span><span>12 or more</span>
+                                    <span>1</span><span>12 or more</span>
                                 </div>
                             </div>
                             <h2 class="result">The cost of your team is <span id="price"></span></h2>
@@ -268,14 +268,14 @@
     let people = sliderPeople.valueAsNumber;
     let months = sliderMonths.valueAsNumber;
     let amountMonths = months > 1 ? 'months' : 'month'
-    outputPeople.innerHTML = people + ' ' + 'Synápticos';
+    outputPeople.innerHTML = people > 1? people + ' ' + 'Synápticos' : people + ' ' + 'Synáptico';
     outputMonths.innerHTML = months + ' ' + amountMonths;
     outputPrice.innerHTML = people < 30 && months < 13 ? (value * months * people).toLocaleString('es') + templateUF :
         '...';
 
     sliderPeople.oninput = function() {
         people = this.valueAsNumber;
-        outputPeople.innerHTML = people + ' ' + 'Synápticos';
+        outputPeople.innerHTML = people > 1? people + ' ' + 'Synápticos' : people + ' ' + 'Synáptico';
         outputPrice.innerHTML = people < 30 && months < 13 ? (value * months * people).toLocaleString('es') + templateUF :
             '...';
     }
