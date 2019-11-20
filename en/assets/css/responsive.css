@@ -287,6 +287,9 @@
         font-size: 1rem;
         line-height: 2rem;
     }
+    .nav-item.ipad-menu{
+        color: black!important;
+    }
     .team-item .info-text {
         min-height: 5rem;
     }
