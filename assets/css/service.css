@@ -172,6 +172,10 @@ h2.result {
     color: black;
 }
 
+.pricing-list {
+    display: inline-grid;
+}
+
 .pricing-list li {
     color: black;
     padding-bottom: 1rem;

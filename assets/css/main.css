@@ -87,10 +87,6 @@ a:not([href]):not([tabindex]) {
     line-height: 26px;
 }
 
-section.pricing-area {
-    padding: 4rem 0;
-}
-
 .navbar-language .nav-link {
     padding: .5rem!important;
 }

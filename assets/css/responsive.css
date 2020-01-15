@@ -555,6 +555,9 @@
         margin: 4rem;
         padding-right: 2rem;
     }
+    .pricing-list li {
+        font-size: 1rem;
+    }
 }
 
 
@@ -586,6 +589,9 @@
     button.btn.icon-sy {
         font-size: 1.2rem;
         margin-top: 1rem;
+    }
+    .pricing-list li {
+        font-size: 1.1rem;
     }
 }
 
@@ -619,5 +625,8 @@
     button.btn.icon-sy {
         font-size: 1.2rem;
         margin-top: 1rem;
+    }
+    .pricing-list li {
+        font-size: 1.2rem;
     }
 }
