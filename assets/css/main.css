@@ -19,6 +19,7 @@ body {
     overflow-x: hidden;
 }
 
+
 h1,
 h2,
 h3,
@@ -84,6 +85,10 @@ a:not([href]):not([tabindex]) {
     text-align: center;
     font-weight: 400;
     line-height: 26px;
+}
+
+section.pricing-area {
+    padding: 4rem 0;
 }
 
 .navbar-language .nav-link {

@@ -277,6 +277,21 @@
         width: 100%;
         font-size: 1.2rem;
     }
+    .pricing-list {
+        display: inline-grid;
+        margin: auto;
+    }
+    .pricing-list li {
+        line-height: 1.2rem;
+        font-size: 14px;
+        padding-bottom: .5rem
+    }
+    /* .pricing-list li i {
+        padding-right: .5rem !important;
+    } */
+    .pricing-card {
+        padding: 1rem;
+    }
 }
 
 
