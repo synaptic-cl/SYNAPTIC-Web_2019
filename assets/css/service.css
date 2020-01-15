@@ -151,6 +151,7 @@ h2.result {
     background-color:aliceblue;
     padding: 1.2rem;
     border-radius: 10px;
+    min-height: 35rem;
 }
 
 .pricing-card {
