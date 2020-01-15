@@ -629,4 +629,8 @@
     .pricing-list li {
         font-size: 1.2rem;
     }
+    .form-services {
+        width: 70%;
+        margin: auto;
+    }
 }
