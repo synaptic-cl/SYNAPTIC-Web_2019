@@ -140,6 +140,67 @@ h2.result {
     cursor: pointer;
 }
 
+/* Slider pricing */
+
+[aria-expanded="false"] > .expanded,
+[aria-expanded="true"] > .collapsed {
+  display: none;
+}
+
+.single-pricing {
+    background-color:aliceblue;
+    padding: 1.2rem;
+    border-radius: 10px;
+    min-height: 30rem;
+}
+
+.pricing-card {
+    margin: 3rem 0;
+    border-radius: 5px;
+}
+
+.pricing-title h3 {
+    color: #0FD1B9;
+    padding: 2rem 0 1rem 0;
+    font-size: 1.5rem;
+}
+
+.pricing-price {
+    padding: 1.5rem;
+}
+
+.pricing-price h3{
+    color: black;
+}
+
+.pricing-list {
+    display: inline-grid;
+}
+
+.pricing-list li {
+    color: black;
+    padding-bottom: 1rem;
+    line-height: 1.2rem;
+    display: flex;
+    font-size: .9rem;
+}
+
+
+
+.pricing-list li i {
+    color: #0FD1B9;
+    height: 16px;
+    width: 16px;
+}
+
+.pricing-list li> i> p {
+    padding-left: .5rem;
+}
+
+.pricing-btn {
+    padding: 1rem 0;
+}
+
 /* contact section */
 
 .services-section .contact.row {

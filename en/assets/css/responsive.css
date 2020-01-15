@@ -49,17 +49,17 @@
         height: 180px;
     }
     .process-sy {
-        background-image: url("../img/home/mobile-process@2x.png");
+        background-image: url("../img/Home/mobile-process@2x.png");
         background-repeat: no-repeat;
         background-size: cover;
     }
     .crew-sy {
-        background-image: url("../img/home/mobile-crew@2x.png");
+        background-image: url("../img/Home/mobile-crew@2x.png");
         background-repeat: no-repeat;
         background-size: cover;
     }
     .contact-sy {
-        background-image: url("../img/home/footer-background.png");
+        background-image: url("../img/Home/footer-background.png");
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -277,6 +277,21 @@
         width: 100%;
         font-size: 1.2rem;
     }
+    .pricing-list {
+        display: inline-grid;
+        margin: auto;
+    }
+    .pricing-list li {
+        line-height: 1.2rem;
+        font-size: 14px;
+        padding-bottom: .5rem
+    }
+    /* .pricing-list li i {
+        padding-right: .5rem !important;
+    } */
+    .pricing-card {
+        padding: 1rem;
+    }
 }
 
 
@@ -314,17 +329,17 @@
         height: 180px;
     }
     .process-sy {
-        background-image: url("../img/home/mobile-process.png");
+        background-image: url("../img/Home/mobile-process.png");
         background-repeat: no-repeat;
         background-size: cover;
     }
     .crew-sy {
-        background-image: url("../img/home/mobile-crew@2x.png");
+        background-image: url("../img/Home/mobile-crew@2x.png");
         background-repeat: no-repeat;
         background-size: cover;
     }
     .contact-sy {
-        background-image: url("../img/home/footer-background.png");
+        background-image: url("../img/Home/footer-background.png");
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -540,6 +555,9 @@
         margin: 4rem;
         padding-right: 2rem;
     }
+    .pricing-list li {
+        font-size: 1rem;
+    }
 }
 
 
@@ -571,6 +589,9 @@
     button.btn.icon-sy {
         font-size: 1.2rem;
         margin-top: 1rem;
+    }
+    .pricing-list li {
+        font-size: 1.1rem;
     }
 }
 
@@ -604,5 +625,8 @@
     button.btn.icon-sy {
         font-size: 1.2rem;
         margin-top: 1rem;
+    }
+    .pricing-list li {
+        font-size: 1.2rem;
     }
 }
