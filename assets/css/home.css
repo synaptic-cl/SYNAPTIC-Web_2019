@@ -45,34 +45,41 @@
     max-width: 1000px;
 }
 
+/* main header */
+/* left or right is now used just as a name*/
+
 .header-sy-right {
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: #181819;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #DBEEF2;
     min-height: 100vh;
-    background-image: linear-gradient(to bottom,rgba(245, 246, 252, 0), rgba(0, 0, 0, 0)),
-    url('../img/Home/header-background@2x.png');
 }
 
 .header-sy-right h1 {
     line-height: 1;
+    color: #363636;
+    font-size: 3rem;
+    margin-top: 40px;
 }
 
 .header-sy-right h1>span {
-    color: #27edb6;
+    color: #13B5AF;
 }
 
-.header-sy-right div h1 {
-    margin-left: 10rem;
-    color: white;
-    font-size: 4rem;
+.header-sy-right h2 .pre-title {
+    font-size: 2.5rem;
+    color: #363636;
 }
 
-.header-sy-right div h1:nth-child(3) {
-    color: #27edb6 !important;
+.header-sy-right h2 .pre-title img {
+    width: 55px;
+    margin-right: 10px;
+    margin-top: -5px;
+}
+
+.header-sy-right div h1, .header-sy-right div h2 {
+    margin-left: 15rem;
 }
 
 .header-sy-left {
@@ -80,11 +87,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #000;
     min-height: 100vh;
     background-size: cover;
-    background-image:linear-gradient(to bottom,  rgba(245, 246, 252, 0), rgba(0, 0, 0, 0)),
-    url('../img/Home/header-team@2x.png');
+    background-image: url('../img/Home/landing.png');
 
 }
 

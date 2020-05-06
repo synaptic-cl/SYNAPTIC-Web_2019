@@ -94,7 +94,7 @@
     .header-sy-left {
         display: none;
     }
-    .header-sy-right div h1 {
+    .header-sy-right div h1, .header-sy-right div h2 {
         margin-left: 2rem;
         font-size: 3rem;
     }
@@ -366,7 +366,7 @@
     .navbar-brand img {
         width: 100px;
     }
-    .header-sy-right div h1 {
+    .header-sy-right div h1, .header-sy-right div h2 {
         margin-left: 2rem;
         font-size: 3rem;
     }
@@ -575,7 +575,7 @@
         font-size: 1.4rem;
     }
     .header-sy-right div h1 {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
     .navbar {
         min-height: 80px;
