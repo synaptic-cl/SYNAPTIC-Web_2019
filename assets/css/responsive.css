@@ -566,7 +566,6 @@
 @media (min-width: 1367px) and (max-width: 1920px) {
     body {
         font-size: 1.2rem;
-        line-height: 2rem;
     }
     h1 {
         font-size: 3rem;
@@ -614,7 +613,7 @@
     }
     .container {
         margin: 0 auto;
-        max-width: 2000px;
+        max-width: 1300px;
     }
     .header-sy-right div h1 {
         font-size: 6rem;

@@ -103,17 +103,6 @@
 
 /* Button */
 
-.button-synaptic {
-    height: 50px;
-    width: 200px;
-    border: 1px solid white;
-    background: none;
-    color: white;
-    margin-top: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
 
 .btn icon-sy {
     margin-top: 1rem;
@@ -185,6 +174,7 @@
 
 i.lni-world {
     padding: 1.2rem .5rem;
+    color: #363636;
 }
 
 div.icon {
