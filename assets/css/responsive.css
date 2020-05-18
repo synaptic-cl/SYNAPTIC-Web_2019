@@ -576,6 +576,9 @@
     .header-sy-right div h1 {
         font-size: 3.5rem;
     }
+    .secondary-page div h1 {
+        font-size: 2.2rem;
+    }
     .navbar {
         min-height: 80px;
     }
