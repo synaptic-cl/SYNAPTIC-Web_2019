@@ -1,7 +1,10 @@
-.team-section {
-    background-image: url("../img/team/team-background@2x.png");
-    background-size: cover;
-    background-attachment: fixed;
+#team_container {
+    margin-top: -130px;
+}
+
+.title-section {
+    background-color: #DBEEF2;
+    padding-top: 150px;
 }
 
 html [type=button] {
@@ -15,4 +18,8 @@ html [type=button] {
 
 .cd-section-text {
     padding: 4rem 1rem;
+}
+
+.secondary-page p {
+    color: #363636;
 }
