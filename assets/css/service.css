@@ -87,6 +87,11 @@
     margin-top: 10px;
 }
 
+.service-item a {
+    text-decoration: underline;
+    color: #FFA726;
+}
+
 /* process image */
 
 .crew-sy.services {

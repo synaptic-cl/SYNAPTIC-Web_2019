@@ -861,9 +861,9 @@ p.language-text {
    Pricing Table Style
    ========================================================================== */
 
-#pricing {
+/* #pricing {
     text-align: center;
-}
+} */
 
 #pricing .title {
     padding-top: 25px;
