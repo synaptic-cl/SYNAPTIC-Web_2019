@@ -23,3 +23,8 @@ html [type=button] {
 .secondary-page p {
     color: #363636;
 }
+
+.secondary-page h1 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
