@@ -268,6 +268,30 @@
     .header-sy .work div.header-sy-left {
         display: none!important;
     }
+
+    .work .secondary-page p, .work .secondary-page h3 {
+        margin-left: 2rem;
+    }
+
+    .header-sy-right div h1 {
+        max-width: 80vw;
+    }
+
+    .work .header-sy-left {
+        display: none;
+    }
+
+    .crew-sy .cd-section.row {
+        max-height: initial;
+    }
+
+    .crew-sy.work-sy .crew-section-left {
+        flex-flow: column;
+    }
+
+    .crew-sy.work-sy .crew-section-left img {
+        margin: 0px;
+    }
 }
 
 
@@ -502,6 +526,17 @@
     }
     .services-section .slidecontainer {
         padding: 2rem 1.2rem;
+    }
+    .secondary-page .header-sy-right div h1, .secondary-page .header-sy-right div h3, .secondary-page .header-sy-right div p {
+        margin-left: 2rem;
+        max-width: 40vw;
+    }
+    /* work */
+    .work .secondary-page p, .work .secondary-page h3 {
+        margin-left: 2rem;
+    }
+    .header-sy-right div h1 {
+        max-width: 40vw;
     }
 }
 
