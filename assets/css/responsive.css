@@ -30,6 +30,7 @@
     }
     .cd-section.container-fluid {
         display: block;
+        height: auto;
     }
     .footer-section {
         margin-top: 1rem;
@@ -48,32 +49,6 @@
     .feature-item .icon-process {
         height: 180px;
     }
-    .process-sy {
-        background-image: url("../img/Home/mobile-process@2x.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .crew-sy {
-        background-image: url("../img/Home/mobile-crew@2x.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .contact-sy {
-        background-image: url("../img/Home/footer-background.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .team-section {
-        background-image: url("../img/team/mobile-team-background@2x.png");
-        background-size: cover;
-        background-attachment: fixed;
-    }
-    section.section-padding.services {
-        background-image: url("../img/services/mobile-services-background@2x.png");
-        background-size: cover;
-        background-attachment: fixed;
-        padding-bottom: 2rem;
-    }
     .navbar-expand-md .navbar-nav .nav-link {
         color: #000;
     }
@@ -87,6 +62,10 @@
     }
     .contact-section {
         justify-content: center;
+        padding-top: 2rem;
+    }
+    .header-sy-left.services {
+        display: none
     }
     .navbar-brand img {
         width: 100px;
@@ -101,7 +80,6 @@
     .process-section-left {
         display: flex;
         align-items: center;
-        justify-content: center;
     }
     .process-section-right {
         justify-content: flex-start;
@@ -137,6 +115,9 @@
     }
     .section-padding {
         padding: 50px 0;
+    }
+    section.footer {
+        padding-left: 2rem;
     }
     div.footer-social {
         padding: 0;
@@ -216,28 +197,9 @@
     .slider-center img {
         padding: 60px 40px;
     }
-    .subscribes h4 {
-        font-size: 22px;
-    }
-    .subscribes p {
-        font-size: 16px;
-        line-height: 28px;
-    }
-    .skill-area img {
-        margin-bottom: 30px;
-    }
-    #blog .blog-item-wrapper {
-        margin-bottom: 30px;
-    }
-    .video-promo .video-promo-content h2 {
-        font-size: 20px;
-    }
     .footer-right-contact .single-contact {
         margin: 10px 7px;
         padding: 3px 45px;
-    }
-    .footer-area .footer-titel {
-        margin-top: 30px;
     }
     .contact-right-area {
         margin: 20px 0;
@@ -267,13 +229,21 @@
         margin-bottom: 30px;
     }
     /* service page */
+
+    .secondary-page .header-sy-right h1 {
+        font-size: 2rem;
+        width: 80vw;
+    }
+    .secondary-page .header-sy-right div h1, .secondary-page .header-sy-right div h3, .secondary-page .header-sy-right div p {
+        margin-left: 2rem;
+    }
     .services-section-items {
         margin: 0px;
     }
     .services-section-items .service-item {
-        margin-bottom: 1.2rem;
+        margin-bottom: 3rem;
     }
-    .cd-section-text p {
+    .secondary-page .header-sy-right p {
         width: 100%;
         font-size: 1.2rem;
     }
@@ -291,6 +261,12 @@
     } */
     .pricing-card {
         padding: 1rem;
+    }
+
+    /* work */
+
+    .header-sy .work div.header-sy-left {
+        display: none!important;
     }
 }
 
@@ -328,7 +304,7 @@
     .feature-item .icon-process {
         height: 180px;
     }
-    .process-sy {
+    /* .process-sy {
         background-image: url("../img/Home/mobile-process.png");
         background-repeat: no-repeat;
         background-size: cover;
@@ -353,7 +329,7 @@
         background-size: cover;
         background-attachment: fixed;
         padding-bottom: 2rem;
-    }
+    } */
     .navbar-expand-md .navbar-nav .nav-link {
         color: #000;
     }

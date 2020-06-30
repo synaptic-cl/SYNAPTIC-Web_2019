@@ -28,3 +28,7 @@ html [type=button] {
     font-size: 2.2rem;
     margin-bottom: 20px;
 }
+
+.team-section .secondary-page img{
+    max-width: 30px;
+}
