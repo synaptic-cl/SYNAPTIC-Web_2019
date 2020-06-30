@@ -307,6 +307,7 @@
 
     .crew-sy.work-sy .cd-section-text {
         padding-bottom: 0px;
+        flex: 1.5;
     }
 
     .crew-sy.work-sy .crew-section-left img {
