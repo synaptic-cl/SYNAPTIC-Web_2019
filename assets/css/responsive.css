@@ -65,13 +65,18 @@
         padding-top: 2rem;
     }
     .header-sy-left.services {
-        display: none
+        max-height: 50px;
+        min-height: 40vh;
     }
     .navbar-brand img {
         width: 100px;
     }
     .header-sy-left {
-        display: none;
+        max-height: 50px;
+        min-height: 40vh;
+    }
+    .header-sy-right {
+        min-height: 75vh;
     }
     .header-sy-right div h1, .header-sy-right div h2 {
         margin-left: 2rem;
@@ -230,12 +235,18 @@
     }
     /* service page */
 
+    .secondary-page .desktop .header-sy-left.services{
+        display: none;
+    }
+
     .secondary-page .header-sy-right h1 {
         font-size: 2rem;
         width: 80vw;
     }
     .secondary-page .header-sy-right div h1, .secondary-page .header-sy-right div h3, .secondary-page .header-sy-right div p {
         margin-left: 2rem;
+        margin-top: 10px;
+        max-width: 80vw;
     }
     .services-section-items {
         margin: 0px;
@@ -256,17 +267,18 @@
         font-size: 14px;
         padding-bottom: .5rem
     }
-    /* .pricing-list li i {
-        padding-right: .5rem !important;
-    } */
     .pricing-card {
         padding: 1rem;
     }
 
+    .crew-sy.services img {
+        margin-left: 5px;
+    }
+
     /* work */
 
-    .header-sy .work div.header-sy-left {
-        display: none!important;
+    .work .header-sy-right {
+        min-height: 100vh;
     }
 
     .work .secondary-page p, .work .secondary-page h3 {
@@ -278,7 +290,7 @@
     }
 
     .work .header-sy-left {
-        display: none;
+       min-height: 40vh;
     }
 
     .crew-sy .cd-section.row {
@@ -289,8 +301,13 @@
         flex-flow: column;
     }
 
+    .crew-sy.work-sy .cd-section-text {
+        padding-bottom: 0px;
+    }
+
     .crew-sy.work-sy .crew-section-left img {
         margin: 0px;
+        margin-bottom: 30px;
     }
 }
 

@@ -14,6 +14,10 @@
     margin-left: 8rem;
 }
 
+.secondary-page .mobile {
+    visibility: hidden;
+}
+
 .secondary-page h3 {
     font-size: 1.2rem;
     font-weight: 600;
