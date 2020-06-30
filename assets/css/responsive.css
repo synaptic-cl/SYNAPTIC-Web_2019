@@ -305,7 +305,7 @@
         flex-flow: column;
     }
 
-    .crew-sy.work-sy .cd-section-text {
+    .crew-sy.work-sy div.cd-section-text {
         padding-bottom: 0px;
         flex: 1.5;
     }
