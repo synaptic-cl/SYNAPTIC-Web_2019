@@ -16,6 +16,7 @@
 
 .secondary-page .mobile {
     visibility: hidden;
+    display: none;
 }
 
 .secondary-page h3 {

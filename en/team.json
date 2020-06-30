@@ -236,20 +236,6 @@
         ]
     },
     {
-        "numero": 16,
-        "id": "pdonoso",
-        "image": "assets/img/team/pamela-sy.png",
-        "name": "Pamela Donoso",
-        "position": "Synáptica",
-        "description": "",
-        "email": "pdonoso@synaptic.cl",
-        "personal_phone": "‭+56994427755‬",
-        "office_phone": "+56232104837",
-        "social": [
-            "https://www.linkedin.com/in/pamela-donoso-b6615958/"
-        ]
-    },
-    {
         "numero": 17,
         "id": "sebastian.sanchez",
         "image": "assets/img/team/seba-sy.png",
