@@ -71,6 +71,7 @@
     .navbar-brand img {
         width: 100px;
     }
+
     .header-sy-left {
         max-height: 50px;
         min-height: 40vh;
@@ -93,6 +94,9 @@
     .process-section.row {
         align-items: initial;
         height: auto;
+    }
+    .process-section-left .cd-section-text h3 {
+        margin-top: -25px;
     }
     .process-sy .container.cd-section {
         height: auto;
