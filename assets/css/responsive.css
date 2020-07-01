@@ -89,7 +89,7 @@
     }
     .process-section-right {
         justify-content: flex-start;
-        margin-top: 1.5rem;
+        margin-top: 4.5rem;
     }
     .process-section.row {
         align-items: initial;
@@ -107,9 +107,9 @@
     .process-section-right .feature-item {
         margin-bottom: 1.3rem;
     }
-    .process-section .icon-process {
+    /* .process-section .icon-process {
         display: none;
-    }
+    } */
     .process-section h3 {
         font-size: 1.5rem;
     }
@@ -307,12 +307,20 @@
 
     .crew-sy.work-sy div.cd-section-text {
         padding-bottom: 0px;
-        flex: 1.5;
     }
 
     .crew-sy.work-sy .crew-section-left img {
         margin: 0px;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
+    }
+
+    .work-section.row div.desktop img {
+        visibility: hidden;
+        display: none;
+    }
+
+    .work-section.row {
+        padding-bottom: 20px;
     }
 }
 

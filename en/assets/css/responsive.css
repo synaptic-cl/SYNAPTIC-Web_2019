@@ -88,7 +88,7 @@
     }
     .process-section-right {
         justify-content: flex-start;
-        margin-top: 1.5rem;
+        margin-top: 4.5rem;
     }
     .process-section.row {
         align-items: initial;
@@ -103,9 +103,9 @@
     .process-section-right .feature-item {
         margin-bottom: 1.3rem;
     }
-    .process-section .icon-process {
+    /* .process-section .icon-process {
         display: none;
-    }
+    } */
     .process-section h3 {
         font-size: 1.5rem;
     }
@@ -239,6 +239,11 @@
         display: none;
     }
 
+    .secondary-page .mobile {
+        visibility: visible;
+        display: inherit;
+    }
+
     .secondary-page .header-sy-right h1 {
         font-size: 2rem;
         width: 80vw;
@@ -308,6 +313,10 @@
     .crew-sy.work-sy .crew-section-left img {
         margin: 0px;
         margin-bottom: 30px;
+    }
+
+    .work-section.row div.desktop img {
+        visibility: hidden;
     }
 }
 
