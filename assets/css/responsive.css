@@ -314,13 +314,16 @@
         margin-bottom: 15px;
     }
 
-    .work-section.row div.desktop img {
-        visibility: hidden;
+    .work-section.row div.desktop {
         display: none;
     }
 
     .work-section.row {
         padding-bottom: 20px;
+    }
+
+    .work-section.row .mobile {
+        display: inherit;
     }
 }
 

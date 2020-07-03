@@ -104,3 +104,7 @@
 .crew-sy.work-sy .cd-section.row {
     max-height: fit-content;
 }
+
+.work-section.row .mobile {
+    display: none;
+}
