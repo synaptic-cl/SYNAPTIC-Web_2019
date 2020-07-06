@@ -310,6 +310,10 @@
         padding-bottom: 0px;
     }
 
+    .crew-sy.work-sy .cd-section-text.architect {
+        padding-top: 7rem;
+    }
+
     .crew-sy.work-sy .crew-section-left img {
         margin: 0px;
         margin-bottom: 30px;
