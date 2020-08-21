@@ -76,11 +76,14 @@
         min-height: 40vh;
     }
     .header-sy-right {
-        min-height: 75vh;
+        min-height: auto;
+        padding-top: 7rem;
+        padding-bottom: 4rem;
     }
     .header-sy-right div h1, .header-sy-right div h2 {
-        margin-left: 2rem;
+        margin-left: 2rem!important;
         font-size: 3rem;
+        margin-bottom: 3rem;
     }
     .process-section-left {
         display: flex;
@@ -250,7 +253,6 @@
     }
     .secondary-page .header-sy-right div h1, .secondary-page .header-sy-right div h3, .secondary-page .header-sy-right div p {
         margin-left: 2rem;
-        margin-top: 10px;
         max-width: 80vw;
     }
     .services-section-items {
@@ -310,12 +312,8 @@
         padding-bottom: 0px;
     }
 
-    .crew-sy.work-sy .cd-section-text.architect {
-        padding-top: 7rem;
-    }
-
     .crew-sy.work-sy .crew-section-left img {
-        margin: 0px;
+        margin: 2rem;
         margin-bottom: 30px;
     }
 
@@ -405,7 +403,7 @@
         width: 100px;
     }
     .header-sy-right div h1, .header-sy-right div h2 {
-        margin-left: 2rem;
+        margin-left: 2rem!important;
         font-size: 3rem;
     }
     .process-section-left {

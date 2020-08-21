@@ -80,7 +80,7 @@
         min-height: 75vh;
     }
     .header-sy-right div h1, .header-sy-right div h2 {
-        margin-left: 2rem;
+        margin-left: 2rem!important;
         font-size: 3rem;
     }
     .process-section-left {
@@ -291,6 +291,7 @@
 
     .header-sy-right div h1 {
         max-width: 80vw;
+        margin-left: 2rem!important;
     }
 
     .work .header-sy-left {
@@ -306,16 +307,14 @@
     }
 
     .crew-sy.work-sy div.cd-section-text {
-        padding-bottom: 0px;
-    }
-
-    .crew-sy.work-sy .cd-section-text.architect {
-        padding-top: 7rem;
+        padding-bottom: 2rem;
+        padding-top: 1rem;
     }
 
     .crew-sy.work-sy .crew-section-left img {
         margin: 0px;
         margin-bottom: 15px;
+        margin-left:2rem ;
     }
 
     .work-section.row div.desktop {
@@ -404,7 +403,7 @@
         width: 100px;
     }
     .header-sy-right div h1, .header-sy-right div h2 {
-        margin-left: 2rem;
+        margin-left: 2rem!important;
         font-size: 3rem;
     }
     .process-section-left {
