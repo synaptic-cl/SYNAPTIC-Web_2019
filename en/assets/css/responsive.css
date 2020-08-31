@@ -328,6 +328,10 @@
     .work-section.row .mobile {
         display: inherit;
     }
+
+    .crew-sy.work-sy .cd-section-text {
+        padding-top: 0!important;
+    }
 }
 
 
