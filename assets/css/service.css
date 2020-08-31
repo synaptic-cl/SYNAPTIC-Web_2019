@@ -1,37 +1,49 @@
-/* background */
+/* Header */
 
-section.section-padding {
-    background-image: url("../img/services/galaxy.png");
+.header-sy-left.services {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
     background-size: cover;
-    background-attachment: fixed;
-    padding-bottom: 2rem;
+    background-image: url('../img/services/services.jpg');
 }
 
-.cd-section.container-fluid.services-section.slider {
-    background: #000;
-    height: inherit;
+.secondary-page .header-sy-right div h1, .secondary-page .header-sy-right div h3, .secondary-page .header-sy-right div p {
+    margin-left: 8rem;
 }
 
-.cd-section.container-fluid.services-section {
-    height: auto;
+.secondary-page .mobile {
+    visibility: hidden;
+    display: none;
 }
 
+.secondary-page h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.secondary-page .pre-title img {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.secondary-page h1 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.secondary-page .header-sy-right p {
+    color: #363636;
+}
 
 /* General elements */
-
-.services-section h1 {
-    padding-top: 4rem;
-}
 
 .services-section {
     display: flex;
     flex-flow: column;
-    padding: 2rem;
-}
-
-.services-section h2 {
-    font-size: 23px;
-    font-weight: 500;
+    padding: 0 2rem 2rem 2rem;
 }
 
 .services-section h4 {
@@ -44,7 +56,6 @@ section.section-padding {
     max-width: none;
 }
 
-
 /* Service Item */
 
 .services-section-items {
@@ -53,32 +64,86 @@ section.section-padding {
     margin: 4rem 0;
 }
 
-.service-item:hover {
-    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.08);
-}
-
 .service-item {
-    text-align: center;
-    border-radius: 0px;
-    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out 0s;
     -moz-transition: all 0.3s ease-in-out 0s;
     -webkit-transition: all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
 }
 
-.service-item img {
-    height: 150px;
-    margin: 10px;
+.service-item h3 {
+    display: inline;
 }
 
+.service-item img {
+    max-height: 20px;
+    max-width: 25px;
+    margin-bottom: 6px;
+    margin-right: 10px;
+}
+
+.service-item p {
+    margin-top: 10px;
+}
+
+.service-item h4 {
+    color: #FFA726;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.service-item a {
+    text-decoration: underline;
+    color: #FFA726;
+}
+
+/* process image */
+
+.crew-sy.services {
+    background-color: #13B5AF;
+}
+.crew-sy.services h3 {
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+
+.crew-sy.services p, .crew-sy.services h3 {
+    color: white;
+}
+
+.crew-sy.services p {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.crew-sy.services img {
+    width: inherit;
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+
+.crew-sy.services .process-list img {
+    max-width: 15px;
+    margin: 0px 8px 0px 0px;
+}
 
 /* Slider section */
+
+.feature-content .slidecontainer h4 {
+    color: #363636;
+    font-size: 1.2rem;
+}
+
+.feature-content .slidecontainer p {
+    font-size: 1.1rem;
+    color: #13B5AF;
+}
 
 .services-section .slidecontainer {
     display: flex;
     flex-flow: row wrap;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .slidecontainer input.slider {
@@ -117,7 +182,7 @@ h2.result {
 .slidecontainer input.slider {
     height: 10px;
     border-radius: 10px;
-    background: #ffffff85;
+    background: #b8d8dc;
     border: none;
     -webkit-appearance: none;
 }

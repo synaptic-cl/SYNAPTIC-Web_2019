@@ -97,22 +97,6 @@
         ]
     },
     {
-        "numero": 7,
-        "id": "diego.bano",
-        "image": "assets/img/team/diegob-sy.png",
-        "name": "Diego Baño",
-        "position": "Synáptico",
-        "description": "Ingeniero Civil en Computación y jugador de Overwatch en @Paltawatch. Interesado en HCI, Desarrollo Web, Optimización de Procesos, Machine Learning, Robótica y otros temas entretenidos.",
-        "email": "diego.bano@synaptic.cl",
-        "personal_phone": "‭+56990157003‬",
-        "office_phone": "+56232104837",
-        "social": [
-            "https://medium.com/@diego.bano",
-            "https://www.linkedin.com/in/diego-ba%C3%B1o-ram%C3%ADrez-712933111/",
-            "https://github.com/diegobano"
-        ]
-    },
-    {
         "numero": 8,
         "id": "dusan.juretic",
         "image": "assets/img/team/dusan-sy.png",
@@ -233,20 +217,6 @@
             "https://medium.com/@manuel.aguilera",
             "https://www.linkedin.com/in/jmaguilerai/",
             "https://github.com/Daxjma"
-        ]
-    },
-    {
-        "numero": 16,
-        "id": "pdonoso",
-        "image": "assets/img/team/pamela-sy.png",
-        "name": "Pamela Donoso",
-        "position": "Synáptica",
-        "description": "",
-        "email": "pdonoso@synaptic.cl",
-        "personal_phone": "‭+56994427755‬",
-        "office_phone": "+56232104837",
-        "social": [
-            "https://www.linkedin.com/in/pamela-donoso-b6615958/"
         ]
     },
     {
