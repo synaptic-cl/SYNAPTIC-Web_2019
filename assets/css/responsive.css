@@ -605,6 +605,10 @@
     .pricing-list li {
         font-size: 1rem;
     }
+    div.services-section.contact.row {
+        width: 70%;
+        margin: auto;
+    }
 }
 
 
@@ -642,6 +646,10 @@
     .pricing-list li {
         font-size: 1.1rem;
     }
+    div.services-section.contact.row {
+        width: 70%;
+        margin: auto;
+    }
 }
 
 
@@ -677,5 +685,9 @@
     }
     .pricing-list li {
         font-size: 1.2rem;
+    }
+    .form-services {
+        width: 70%;
+        margin: auto;
     }
 }
