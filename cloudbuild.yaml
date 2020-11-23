@@ -1,3 +1,7 @@
 steps:
 - name: 'gcr.io/cloud-builders/gsutil'
   args: ['-m', 'cp', '-r', '/workspace/*', 'gs://$_BUCKET']
+- name: gcr.io/cloud-builders/gcloud
+  id: 'Invalidate CDN Cache'
+  args: ['compute', 'url-maps', 'invalidate-cdn-cache', 'synaptic-cl', '--path', '/*', '--async']
+
