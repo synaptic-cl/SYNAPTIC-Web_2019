@@ -48,23 +48,6 @@
         ]
     },
     {
-        "numero": 4,
-        "id": "diego.diaz",
-        "image": "assets/img/team/diegod-sy.png",
-        "name": "Diego Diaz",
-        "position": "Synáptico",
-        "description": "",
-        "email": "diego.diaz@synaptic.cl",
-        "personal_phone": "‭+56994427755‬",
-        "office_phone": "+56232104837",
-        "social": [
-            "https://medium.com/@diego.diaz_20935",
-            "https://www.linkedin.com/in/diego-diaz-osorio/",
-            "https://github.com/diegodi"
-        ]
-    },
-
-    {
         "numero": 5,
         "id": "alexis.gallardo",
         "image": "assets/img/team/alexis-sy.png",
@@ -78,22 +61,6 @@
             "https://medium.com/@alexisgallardoaracena",
             "https://www.linkedin.com/in/alexis-gallardo/",
             "https://github.com/kerz1488"
-        ]
-    },
-    {
-        "numero": 6,
-        "id": "alvaro.leon",
-        "image": "assets/img/team/alvaro-sy.png",
-        "name": "Álvaro León",
-        "position": "Synáptico",
-        "description": "",
-        "email": "alvaro.leon@synaptic.cl",
-        "personal_phone": "‭+56994427755‬",
-        "office_phone": "+56232104837",
-        "social": [
-            "https://medium.com/@alvaro.leon_27741",
-            "https://www.linkedin.com/in/álvaro-león-sánchez-314257149/",
-            "https://github.com/aleonss"
         ]
     },
     {
