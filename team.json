@@ -32,22 +32,6 @@
         ]
     },
     {
-        "numero": 3,
-        "id": "nataly.medina",
-        "image": "assets/img/team/nataly-sy.png",
-        "name": "Nataly Medina",
-        "position": "Synáptica",
-        "description": "",
-        "email": "nataly.medina@synaptic.cl",
-        "personal_phone": "‭+56994427755‬",
-        "office_phone": "+56232104837",
-        "social": [
-            "https://medium.com/@natalymedina.nu",
-            "https://www.linkedin.com/in/natalymedinanu/",
-            "https://github.com/Natinu"
-        ]
-    },
-    {
         "numero": 5,
         "id": "alexis.gallardo",
         "image": "assets/img/team/alexis-sy.png",
@@ -170,22 +154,6 @@
         "office_phone": "+56232104837",
         "social": [
             "https://www.linkedin.com/in/johnny-vargas-27460748/"
-        ]
-    },
-    {
-        "numero": 15,
-        "id": "manuel.aguilera",
-        "image": "assets/img/team/manolo-sy.png",
-        "name": "Manuel Aguilera",
-        "position": "Synáptico",
-        "description": "",
-        "email": "manuel.aguilera@synaptic.cl",
-        "personal_phone": "‭+56994427755‬",
-        "office_phone": "+56232104837",
-        "social": [
-            "https://medium.com/@manuel.aguilera",
-            "https://www.linkedin.com/in/jmaguilerai/",
-            "https://github.com/Daxjma"
         ]
     },
     {
