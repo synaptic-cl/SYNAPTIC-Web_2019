@@ -53,7 +53,7 @@
         color: #000;
     }
     .top-nav-collapse .navbar-nav .nav-link {
-        color: #494747 !important;
+        color: #473F47!important;
     }
     .nav-item {
         margin: .5rem 0;
@@ -333,7 +333,12 @@
 
 /* medium (tablet) */
 
-@media (min-width: 768px) and (max-width: 1025px) {
+@media (min-width: 768px) and (max-width: 1199px) {
+
+    body section>div {
+        margin: auto;
+    }
+
     body {
         font-size: 1rem;
         line-height: 2rem;
@@ -341,12 +346,57 @@
     .nav-item.ipad-menu{
         color: black!important;
     }
-    .team-item .info-text {
-        min-height: 5rem;
+
+    /* header section */
+
+    .header-sy-right div h1 {
+        font-size: 3rem;
+        max-width: 750px;
     }
-    .header-sy-left object {
-        width: 90%;
+
+    .row.header-sy {
+        height: auto;
+        padding-top: 6rem;
+        margin: 0px;
     }
+
+    .header-sy-right div p, .header-sy-right div h1 {
+        padding-left: 7rem;
+        margin-left: 0px;
+    }
+
+    .header-sy-right div p {
+        max-width: 500px;
+    }
+
+    .header-sy .header-sy-right {
+        min-height: auto;
+    }
+
+    .row.header-sy img {
+        padding: 2rem 0 0 2rem;
+        margin-left: auto;
+    }
+
+    /* under header */
+
+   .process-sy .process-section {
+        height: auto;
+        padding: 4rem 3rem 4rem 6rem;
+    }
+
+    .process-sy .process-section-left {
+        height: auto;
+    }
+
+    .process-sy h2 {
+        font-size: 3rem;
+    }
+
+    .process-section .feature-item {
+        padding: 0px;
+    }
+
     .footer-section {
         margin-top: 1rem;
     }
@@ -361,35 +411,7 @@
         display: initial;
         margin-top: 0;
     }
-    .feature-item .icon-process {
-        height: 180px;
-    }
-    /* .process-sy {
-        background-image: url("../img/Home/mobile-process.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .crew-sy {
-        background-image: url("../img/Home/mobile-crew@2x.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .contact-sy {
-        background-image: url("../img/Home/footer-background.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .team-section {
-        background-image: url("../img/team/ipad-team-background@2x.png");
-        background-size: cover;
-        background-attachment: fixed;
-    }
-    section.section-padding.services {
-        background-image: url("../img/services/ipad-services-background@2x.png");
-        background-size: cover;
-        background-attachment: fixed;
-        padding-bottom: 2rem;
-    } */
+
     .navbar-expand-md .navbar-nav .nav-link {
         color: #000;
     }
@@ -402,19 +424,14 @@
     .navbar-brand img {
         width: 100px;
     }
-    .header-sy-right div h1, .header-sy-right div h2 {
-        margin-left: 2rem!important;
-        font-size: 3rem;
-    }
+
     .process-section-left {
         height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .feature-item {
-        padding: 1rem;
-    }
+
     .cd-section-text {
         margin-left: 0;
     }
@@ -554,7 +571,7 @@
         padding-left: 0px;
     }
     /* service page */
-    .services-section-items {
+    /* .services-section-items {
         margin: 0px;
     }
     .services-section-items .service-item {
@@ -566,23 +583,27 @@
     .secondary-page .header-sy-right div h1, .secondary-page .header-sy-right div h3, .secondary-page .header-sy-right div p {
         margin-left: 2rem;
         max-width: 40vw;
-    }
+    } */
     /* work */
-    .work .secondary-page p, .work .secondary-page h3 {
+    /* .work .secondary-page p, .work .secondary-page h3 {
         margin-left: 2rem;
     }
     .header-sy-right div h1 {
         max-width: 40vw;
-    }
+    } */
 }
 
 
 /* large (desktop) */
 
-@media (min-width: 1025px) and (max-width: 1366px) {
+@media (min-width: 1200px) {
     body {
         font-size: 1rem;
         line-height: 1.5rem;
+    }
+    body section>div {
+        max-width: 1500px;
+        margin: auto;
     }
     h1 {
         font-size: 3rem;
@@ -592,11 +613,12 @@
     }
     .container {
         margin: 0 auto;
-        max-width: 1024px;
+        max-width: 1100px;
     }
     .header-sy-left object {
         width: 70%;
     }
+
     /* services page */
     .services-section .slidecontainer {
         margin: 4rem;
@@ -614,24 +636,24 @@
 
 /* xl large */
 
-@media (min-width: 1367px) and (max-width: 1920px) {
+/* @media (min-width: 1367px) and (max-width: 1920px) {
     body {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     h1 {
         font-size: 3rem;
     }
     h3 {
-        font-size: 1.4rem;
+        font-size: 1.25rem;
     }
     .header-sy-right div h1 {
-        font-size: 3.5rem;
+        font-size: 3.1rem;
     }
     .secondary-page div h1 {
         font-size: 2.2rem;
     }
     .navbar {
-        min-height: 80px;
+        padding: 40px 0 20px 0;
     }
     .header-sy-left img {
         width: 60%;
@@ -650,12 +672,12 @@
         width: 70%;
         margin: auto;
     }
-}
+} */
 
 
 /* xxlarge */
 
-@media (min-width: 1921px) {
+/* @media (min-width: 1921px) {
     body {
         font-size: 1.6rem;
         line-height: 2.5rem;
@@ -690,4 +712,4 @@
         width: 70%;
         margin: auto;
     }
-}
+} */
