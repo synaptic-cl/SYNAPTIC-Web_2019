@@ -115,6 +115,10 @@
     font-weight: 400;
 }
 
+.process-section-detail {
+    display: flex;
+}
+
 .process-section-left {
     display: flex;
 }
