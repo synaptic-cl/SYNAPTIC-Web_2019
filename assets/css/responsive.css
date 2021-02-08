@@ -107,6 +107,7 @@
     .crew-sy .crew-section-right img {
         max-width: 85vw;
         padding: 2rem;
+        border-radius: 40px;
     }
 
     /* products */
@@ -138,6 +139,10 @@
 
     .products-sy .container {
         padding-bottom: 5rem;
+    }
+
+    .product-container .horizontal img {
+        max-height: 160px;
     }
 
     /* credentials */
@@ -173,6 +178,7 @@
 
     .clients-sy .clients-item {
         flex-flow: row wrap;
+        align-items: center;
     }
 
     .clients-sy .clients-item img {
