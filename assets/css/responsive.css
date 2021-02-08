@@ -330,6 +330,51 @@
     }
 }
 
+/* small tablet */
+
+@media (min-width: 768px) and (max-width: 914px) {
+
+    /* under header */
+
+    .process-section div.feature-item {
+        padding: 1rem 0;
+    }
+
+    /* benefits */
+
+    .crew-sy div.cd-section.row {
+        margin-left: 5rem;
+    }
+
+    .crew-sy div.crew-section-left {
+        max-width: 56%;
+    }
+
+    /* products */
+
+    section.products-sy .container {
+        padding-bottom: 5rem;
+    }
+
+    section.products-sy div h2 {
+        padding: 3.5rem 0rem;
+    }
+
+    section.products-sy .product-item1,  section.products-sy .product-item2 {
+        min-height: 500px;
+    }
+
+    section.products-sy div.product-container p {
+        max-width: 50vw;
+    }
+
+    /* credentials */
+
+    .credentials-sy div.credentials-item {
+        padding-right: 1rem;
+    }
+
+}
 
 /* medium (tablet) */
 
@@ -412,7 +457,7 @@
 
     /* benefits */
 
-    .crew-sy .cd-section.row, .crew-sy .cd-section.row {
+    .crew-sy .cd-section.row {
         min-height: auto;
         padding: 6rem 0;
         margin-left: 8rem;
@@ -493,200 +538,25 @@
         flex: 0 0 60%;
     }
 
-    /* .footer-section {
-        margin-top: 1rem;
-    }
-    .footer-container {
-        padding-top: 2rem;
-    }
-    .footer-section-right {
-        display: contents;
-        margin-top: 0;
-    }
-    .footer-section-left {
-        display: initial;
-        margin-top: 0;
-    } */
-
     .navbar-expand-md .navbar-nav .nav-link {
         color: #000;
     }
+
     .top-nav-collapse .navbar-nav .nav-link {
         color: #494747 !important;
     }
+
     .contact-section {
         justify-content: center;
     }
+
     .navbar-brand img {
         width: 100px;
     }
 
-    /* .process-section-left {
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .cd-section-text {
-        margin-left: 0;
-    }
-    .crew-section.right {
-        display: none;
-    }
-    .section-padding {
-        padding: 50px 0;
-    }
-    div.footer-social {
-        padding: 0;
-        justify-content: initial;
-    }
-    textarea {
-        min-width: 100%;
-    }
-    .cd-section-form {
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        width: 100%;
-    }
-    .contact-section-info {
-        padding: 0;
-    }
-    .section-title {
-        font-size: 22px;
-        margin-bottom: 30px;
-    }
-    .title-hl {
-        font-size: 30px;
-    }
-    .bg-inverse {
-        padding: 15px 15px;
-        background: #fff !important;
-        box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
-    } */
     .navbar-expand-md .navbar-nav .nav-link {
         padding: 0px 15px;
     }
-    /* #hero-area .contents {
-        padding: 100px 0px 60px 0px;
-    }
-    #hero-area .contents .head-title {
-        font-size: 20px;
-        line-height: 36px;
-        margin-bottom: 15px;
-    }
-    #hero-area .contents p {
-        font-size: 18px;
-    }
-    #hero-area .contents .btn {
-        margin: 5px 10px 10px 0px;
-    }
-    .text-wrapper {
-        padding: 60px 15px;
-    }
-    #about .sec-title h3 {
-        font-size: 22px;
-        line-height: 36px;
-    }
-    .counter-box {
-        margin-bottom: 30px;
-    }
-    .why-item {
-        padding: 30px;
-    }
-    .why .content h3 {
-        font-size: 18px;
-    }
-    .why-content {
-        margin-left: 110px;
-    }
-    .testimonial-item {
-        padding: 0;
-    }
-    .client-item-wrapper img {
-        width: 50%;
-    }
-    .slick-slider {
-        padding: 0;
-    }
-    .slider-center img {
-        padding: 60px 40px;
-    }
-    .subscribes h4 {
-        font-size: 22px;
-    }
-    .subscribes p {
-        font-size: 16px;
-        line-height: 28px;
-    }
-    .skill-area img {
-        margin-bottom: 30px;
-    }
-    #blog .blog-item-wrapper {
-        margin-bottom: 30px;
-    }
-    .video-promo .video-promo-content h2 {
-        font-size: 20px;
-    }
-    .footer-right-contact .single-contact {
-        margin: 10px 7px;
-        padding: 3px 45px;
-    }
-    .footer-area .footer-titel {
-        margin-top: 30px;
-    }
-    .contact-right-area {
-        margin: 20px 0;
-    }
-    .contact-form-area h2 {
-        font-size: 14px;
-    }
-    .copyright .float-right {
-        float: left !important;
-    }
-    .crew-section {
-        height: none;
-    }
-    #hero-area .contents .head-title {
-        font-size: 40px;
-    }
-    .services-item .services-content h3 a {
-        font-size: 14px;
-    }
-    .title-hl {
-        font-size: 30px;
-    }
-    .why .content h3 {
-        font-size: 30px;
-    }
-    .counter-box {
-        margin-bottom: 30px;
-    }
-
-    .process-section-right .feature-item {
-        padding-left: 0px;
-    } */
-    /* service page */
-    /* .services-section-items {
-        margin: 0px;
-    }
-    .services-section-items .service-item {
-        margin-bottom: 1.2rem;
-    }
-    .services-section .slidecontainer {
-        padding: 2rem 1.2rem;
-    }
-    .secondary-page .header-sy-right div h1, .secondary-page .header-sy-right div h3, .secondary-page .header-sy-right div p {
-        margin-left: 2rem;
-        max-width: 40vw;
-    } */
-    /* work */
-    /* .work .secondary-page p, .work .secondary-page h3 {
-        margin-left: 2rem;
-    }
-    .header-sy-right div h1 {
-        max-width: 40vw;
-    } */
 }
 
 
