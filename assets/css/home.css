@@ -184,6 +184,8 @@
 .crew-sy img {
     margin-right: 0.5rem;
     display: inline-block;
+    border-radius: 9px;
+    max-width: 100%;
 }
 
 .crew-sy .benefits-item {
@@ -258,6 +260,12 @@
     width: 90%;
     height: fit-content;
     align-self: center;
+    border-radius: 5px;
+}
+
+.product-container .product-item2:nth-child(1) img {
+    max-height: 350px;
+    width: auto;
 }
 
 
