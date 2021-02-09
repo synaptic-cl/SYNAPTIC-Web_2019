@@ -9,6 +9,11 @@
 .navbar {
     background-color: #00000000;
     min-height: 50px;
+    padding: 4rem 0 1rem 0;
+}
+
+.navbar.top-nav-collapse {
+    padding-top: 1rem;
 }
 
 .navbar-brand img {
@@ -257,7 +262,7 @@
 }
 
 .product-container img {
-    height: fit-content;
+    height: auto;
     align-self: center;
     border-radius: 5px;
 }
