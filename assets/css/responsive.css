@@ -18,6 +18,10 @@
         line-height: 2rem;
     }
 
+    .navbar {
+        padding-top: 1rem;
+    }
+
     .navbar-brand {
         margin: 0px 10px;
         max-width: 80px;
@@ -184,6 +188,7 @@
     .clients-sy .clients-item img {
         max-width: 24%;
         margin: 1rem;
+        height: auto;
     }
 
     /* itau logo */
