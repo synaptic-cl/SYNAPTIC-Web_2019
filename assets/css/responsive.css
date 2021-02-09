@@ -188,6 +188,7 @@
     .clients-sy .clients-item img {
         max-width: 24%;
         margin: 1rem;
+        height: auto;
     }
 
     /* itau logo */
