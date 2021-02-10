@@ -2,7 +2,6 @@
 
 .container {
     margin: 0 auto;
-    max-width: 1200px;
     height: 100%;
 }
 
@@ -64,7 +63,7 @@
 }
 
 .header-sy-right div h1, .header-sy-right div p {
-    margin-left: 9rem;
+    margin-left: 7.5rem;
 }
 
 .header-sy-left {
@@ -268,7 +267,7 @@
 }
 
 .product-container .vertical img {
-    max-width: 50%;
+    max-width: 35%;
 }
 
 .product-container .horizontal img {
