@@ -130,6 +130,10 @@
 
     /* products */
 
+    .products-sy .container {
+        padding-left: 0px;
+    }
+
     .products-sy h2 {
         font-size: 2rem;
         padding: 4rem 1rem 1rem 1rem;
@@ -297,6 +301,10 @@
         color: black!important;
     }
 
+    .navbar.navbar-expand-md {
+        padding-top: 2rem;
+    }
+
     /* header section */
 
     .header-sy-right div h1 {
@@ -383,6 +391,7 @@
 
     /* products */
 
+
     .products-sy .product-container:nth-child(odd), .products-sy .product-container:nth-child(even) {
         margin: 0 0 4rem 0;
         max-width: 70%;
@@ -449,7 +458,7 @@
         flex: 0 0 60%;
     }
 
-    .navbar-expand-md .navbar-nav .nav-link {
+    /* .navbar-expand-md .navbar-nav .nav-link {
         color: #000;
     }
 
@@ -467,7 +476,7 @@
 
     .navbar-expand-md .navbar-nav .nav-link {
         padding: 0px 15px;
-    }
+    } */
 }
 
 
