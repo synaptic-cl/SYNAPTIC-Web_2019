@@ -215,6 +215,8 @@
 .products-sy .container {
     justify-content: center;
     padding-bottom: 10rem;
+    max-width: 1290px;
+    padding-left: 2rem;
 }
 
 .products-sy h2 {
@@ -243,7 +245,7 @@
 
 .products-sy .product-container:nth-child(even) {
     margin-top: -4rem;
-    margin-right: 50px;
+    margin-right: 65px;
 }
 
 .products-sy .product-item1 {
