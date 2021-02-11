@@ -2157,10 +2157,10 @@ input[type=submit].btn-block {
 }
 
 .collapsing {
-    position: relative;
+    /* position: relative;
     height: 0;
-    overflow: hidden;
-    transition: height .35s ease
+    overflow: hidden; */
+    /* transition:  .5s ease */
 }
 
 @media screen and (prefers-reduced-motion:reduce) {
