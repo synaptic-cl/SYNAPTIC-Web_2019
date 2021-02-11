@@ -93,6 +93,7 @@
 .header-sy .header-img img {
     max-width: 95%;
     margin-left: auto;
+    border-top-left-radius: 8px;
 }
 
 /* under header Section  */
