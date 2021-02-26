@@ -63,8 +63,8 @@
     }
 
     .header-sy-right div p {
-        font-size: 0.9rem;
-        line-height: 1.2rem;
+        font-size: 1rem;
+        line-height: 1.3rem;
     }
 
     .header-sy .header-img img {
@@ -90,8 +90,8 @@
     }
 
     .process-section p {
-        font-size: 0.9rem;
-        line-height: 1.2rem;
+        font-size: 1rem;
+        line-height: 1.3rem;
     }
 
     .process-section .feature-item {
@@ -165,9 +165,9 @@
         font-size: 1.5rem;
     }
 
-    .products-sy .product-container p {
-        font-size: 0.9rem;
-        line-height: 1.2rem;
+    .products-sy .product-container div>p {
+        font-size: 1rem;
+        line-height: 1.3rem;
         max-width: 100%;
     }
 
@@ -200,8 +200,8 @@
     }
 
     .credentials-item p, .credentials-item a {
-        font-size: 0.9rem;
-        line-height: 1.2rem;
+        font-size: 1rem;
+        line-height: 1.3rem;
     }
 
     .credentials-sy img {
