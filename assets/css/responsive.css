@@ -20,15 +20,27 @@
 
     .navbar {
         padding-top: 1rem;
+        background-color: #E4EBF0;
+        box-shadow: 0px 1px 4px 1px #7d7d7d2b;
+    }
+
+    .navbar-collapse.collapse.show, .collapsing.navbar-collapse.collapse.show {
+        width: 100vw;
+        text-align: right;
     }
 
     .navbar-brand {
-        margin: 0px 10px;
+        margin: 0px 0px 0px 2rem;
         max-width: 80px;
     }
 
     .container-fluid {
         padding: 0px;
+    }
+
+    button.navbar-toggler {
+        font-size: 1.7rem;
+        margin-right: 1rem;
     }
 
     /* header */
@@ -47,22 +59,24 @@
     }
 
     .header-sy-right div h1, .header-sy-right div p {
-        margin-left: 2rem;
+        margin-left: 2.5rem;
     }
 
     .header-sy-right div p {
-        font-size: 0.9rem;
-        line-height: 1.2rem;
+        font-size: 1rem;
+        line-height: 1.3rem;
     }
 
     .header-sy .header-img img {
         margin-top: 1.8rem;
+        max-width: 85%;
     }
+
 
     /* process section */
 
     .process-section h2 {
-        margin: 2.5rem 0 0 2rem;
+        margin: 2.5rem 0 0 2.5rem;
         font-size: 2rem;
     }
 
@@ -76,12 +90,20 @@
     }
 
     .process-section p {
-        font-size: 0.9rem;
-        line-height: 1.2rem;
+        font-size: 1rem;
+        line-height: 1.3rem;
     }
 
     .process-section .feature-item {
-        padding-left: 2rem;
+        padding: 15px 45px;
+    }
+
+    .process-section-right {
+        justify-content: left;
+    }
+
+    .process-section .feature-item img {
+        max-width: 50px;
     }
 
     /* benefits */
@@ -93,7 +115,7 @@
     .crew-sy .container.cd-section {
         background-color: #EFEDED;
         width: 100%;
-        padding: 2.5rem 0 0 2rem;
+        padding: 2.5rem 2rem 0 2.5rem;
     }
 
     .crew-sy h2 {
@@ -109,12 +131,19 @@
     }
 
     .crew-sy .crew-section-right img {
-        max-width: 85vw;
         padding: 2rem;
         border-radius: 40px;
     }
 
+    .crew-sy .benefits-item img {
+        max-width: 20px;
+    }
+
     /* products */
+
+    .products-sy .container {
+        padding-left: 0px;
+    }
 
     .products-sy h2 {
         font-size: 2rem;
@@ -136,9 +165,10 @@
         font-size: 1.5rem;
     }
 
-    .products-sy .product-container p {
-        font-size: 0.9rem;
-        line-height: 1.2rem;
+    .products-sy .product-container div>p {
+        font-size: 1rem;
+        line-height: 1.3rem;
+        max-width: 100%;
     }
 
     .products-sy .container {
@@ -147,6 +177,11 @@
 
     .product-container .horizontal img {
         max-height: 160px;
+    }
+
+    .product-container a.desktop-link {
+        display: none;
+        visibility: hidden;
     }
 
     /* credentials */
@@ -162,15 +197,20 @@
 
     .credentials-sy .credentials-item {
         padding-bottom: 2rem;
+        align-items: flex-start;
     }
 
     .credentials-item h3 {
         font-size: 1.5rem;
     }
 
-    .credentials-item p {
-        font-size: 0.9rem;
-        line-height: 1.2rem;
+    .credentials-item p, .credentials-item a {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    .credentials-sy img {
+        width: 100px;
     }
 
     /* clients */
@@ -186,15 +226,16 @@
     }
 
     .clients-sy .clients-item img {
-        max-width: 24%;
-        margin: 1rem;
+        max-width: 45%;
+        margin: auto;
         height: auto;
+        padding: 1rem;
     }
 
     /* itau logo */
 
     .clients-sy .clients-item img:nth-child(2) {
-        max-height: 40px;
+        max-height: 90px;
     }
 
     /* footer */
@@ -252,6 +293,11 @@
         max-width: 50vw;
     }
 
+    .product-container a.desktop-link {
+        display: none;
+        visibility: hidden;
+    }
+
     /* credentials */
 
     .credentials-sy div.credentials-item {
@@ -274,6 +320,10 @@
     }
     .nav-item.ipad-menu{
         color: black!important;
+    }
+
+    .navbar.navbar-expand-md {
+        padding-top: 2rem;
     }
 
     /* header section */
@@ -353,7 +403,7 @@
     }
 
     .crew-sy .background {
-        max-height: 55%;
+        max-height: 50rem;
     }
 
     .crew-sy .crew-section-right {
@@ -361,6 +411,7 @@
     }
 
     /* products */
+
 
     .products-sy .product-container:nth-child(odd), .products-sy .product-container:nth-child(even) {
         margin: 0 0 4rem 0;
@@ -378,6 +429,11 @@
     .products-sy .product-container p {
         font-size: 1.3rem;
         max-width: 35vw;
+    }
+
+    .product-container a.mobile-link {
+        display: none;
+        visibility: hidden;
     }
 
     /* credentials */
@@ -428,25 +484,6 @@
         flex: 0 0 60%;
     }
 
-    .navbar-expand-md .navbar-nav .nav-link {
-        color: #000;
-    }
-
-    .top-nav-collapse .navbar-nav .nav-link {
-        color: #494747 !important;
-    }
-
-    .contact-section {
-        justify-content: center;
-    }
-
-    .navbar-brand img {
-        width: 100px;
-    }
-
-    .navbar-expand-md .navbar-nav .nav-link {
-        padding: 0px 15px;
-    }
 }
 
 
@@ -458,7 +495,6 @@
         line-height: 1.5rem;
     }
     body section>div {
-        max-width: 1500px;
         margin: auto;
     }
     h1 {
@@ -469,7 +505,8 @@
     }
     .container {
         margin: 0 auto;
-        max-width: 1100px;
+        max-width: 1200px;
+        padding: 0px;
     }
     .header-sy-left object {
         width: 70%;
@@ -492,6 +529,38 @@
     div.services-section.contact.row {
         width: 70%;
         margin: auto;
+    }
+
+    /* products */
+
+    .product-container a.mobile-link {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+/* larger desktop */
+
+@media (min-width: 1600px) {
+
+    body section>div {
+        max-width: 1500px;
+        margin: auto;
+    }
+
+    .container {
+        margin: 0 auto;
+        max-width: 1500px;
+        padding: 0px;
+    }
+
+    .header-sy-right div h1, .header-sy-right div p {
+        margin-left: 0px;
+    }
+
+    .product-container a.mobile-link {
+        display: none;
+        visibility: hidden;
     }
 }
 

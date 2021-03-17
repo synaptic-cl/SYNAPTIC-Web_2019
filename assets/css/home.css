@@ -2,7 +2,6 @@
 
 .container {
     margin: 0 auto;
-    max-width: 1200px;
     height: 100%;
 }
 
@@ -64,7 +63,7 @@
 }
 
 .header-sy-right div h1, .header-sy-right div p {
-    margin-left: 9rem;
+    margin-left: 7.5rem;
 }
 
 .header-sy-left {
@@ -94,6 +93,7 @@
 .header-sy .header-img img {
     max-width: 95%;
     margin-left: auto;
+    border-top-left-radius: 8px;
 }
 
 /* under header Section  */
@@ -216,6 +216,8 @@
 .products-sy .container {
     justify-content: center;
     padding-bottom: 10rem;
+    max-width: 1290px;
+    padding-left: 2rem;
 }
 
 .products-sy h2 {
@@ -244,7 +246,7 @@
 
 .products-sy .product-container:nth-child(even) {
     margin-top: -4rem;
-    margin-right: 50px;
+    margin-right: 65px;
 }
 
 .products-sy .product-item1 {
@@ -268,11 +270,11 @@
 }
 
 .product-container .vertical img {
-    max-width: 50%;
+    max-width: 35%;
 }
 
 .product-container .horizontal img {
-    max-width: 90%;
+    max-width: 80%;
 }
 
 
@@ -282,7 +284,7 @@
     font-weight: 400;
 }
 
-.products-sy .product-container>p {
+.products-sy .product-container div>p {
     color: #546576;
     padding-top: 1.4rem;
     display: block;
@@ -338,7 +340,7 @@
 }
 
 .credentials-sy img {
-    width: 150px;
+    width: 120px;
     padding: 20px;
 }
 

@@ -1,3 +1,8 @@
+:root {
+    --animate-duration: 900ms;
+    --animate-delay: 1s;
+}
+
 html {
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
