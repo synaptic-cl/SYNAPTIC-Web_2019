@@ -38,6 +38,11 @@
 
 .row.header-sy {
     height: 90vh;
+    max-height: 800px;
+}
+
+.row.header-sy>div {
+    max-height: 800px;
 }
 
 .header-sy .header-sy-right {
@@ -190,7 +195,7 @@
     margin-right: 0.5rem;
     display: inline-block;
     border-radius: 9px;
-    max-width: 100%;
+    max-width: 90%;
 }
 
 .crew-sy .benefits-item {
