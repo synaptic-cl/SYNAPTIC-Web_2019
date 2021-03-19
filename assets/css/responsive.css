@@ -133,6 +133,7 @@
     .crew-sy .crew-section-right img {
         padding: 2rem;
         border-radius: 40px;
+        max-width: 70vw;
     }
 
     .crew-sy .benefits-item img {
@@ -512,6 +513,22 @@
         width: 70%;
     }
 
+    /* max heights */
+
+    .header-sy div.header-sy-right {
+        height: 800px;
+        min-height: 800px;
+    }
+
+    .credentials-sy .cd-section.row {
+        min-height: 800px;
+    }
+
+    section.crew-sy div.cd-section {
+        min-height: 900px;
+        max-height: 900px;
+    }
+
     /* itau logo */
 
     .clients-sy .clients-item img:nth-child(2) {
@@ -561,6 +578,10 @@
     .product-container a.mobile-link {
         display: none;
         visibility: hidden;
+    }
+
+    .crew-sy img {
+        max-width: 80%;
     }
 }
 
