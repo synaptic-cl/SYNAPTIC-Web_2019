@@ -1,0 +1,25 @@
+/* header */
+/* left or right is now used just as a name*/
+
+#header-sy#projects {
+    background-color: #fff;
+}
+
+.header-sy-left {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.header-sy.projects .header-sy-left h5 {
+    font-size: 1.2rem;
+    padding: 2rem 7.5rem 2rem 2rem;
+}
+
+.projects .product-item3 {
+    background-color: #24BCAB;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+}
