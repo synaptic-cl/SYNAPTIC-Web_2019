@@ -17,17 +17,46 @@
     padding: 2rem 7.5rem 2rem 2rem;
 }
 
+.projects b {
+    color: #24BCAB;
+    font-weight: 400;
+}
+
+/* Content (success cases) */
+
 .projects .product-item3 {
-    background-color: #24BCAB;
+    background-color: rgba(36, 188, 171, 0.1);
     min-height: 500px;
     display: flex;
     justify-content: center;
+    flex-flow: column nowrap;
+    text-align: center;
+    align-items: center;
+}
+
+.projects button {
+    color: #24BCAB;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: fit-content;
+    border: 1.7px solid #24BCAB;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: transparent;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+.projects button:hover {
+    border: 1px solid #1ca090;
+    color: #1ca090;
 }
 
 .projects .product-container a {
     color: #24BCAB;
     cursor: pointer;
     text-transform: uppercase;
+    width: fit-content;
 }
 
 .projects .product-container a:hover {
