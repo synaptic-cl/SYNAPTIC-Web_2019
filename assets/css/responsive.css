@@ -266,6 +266,14 @@
         font-size: 1rem;
     }
 
+    .products-sy.projects div.product-container {
+        margin-top: 5rem;
+    }
+
+    .products-sy.projects div.product-container label {
+        margin-top: 1rem;
+    }
+
 }
 
 /* small tablet */
@@ -315,6 +323,14 @@
 
     .credentials-sy div.credentials-item {
         padding-right: 1rem;
+    }
+
+    /* projects */
+
+    .projects .header-sy-left {
+        min-height: fit-content;
+        padding: 2rem 0 2rem 1.5rem;
+        margin-left: 2rem;
     }
 
 }
@@ -495,6 +511,14 @@
     .footer .col-lg-6 {
         max-width: 60%;
         flex: 0 0 60%;
+    }
+
+     /* projects */
+
+    .projects .header-sy-left {
+        min-height: fit-content;
+        padding: 2rem 0 2rem 1.5rem;
+        margin-left: 2rem;
     }
 
 }

@@ -32,6 +32,7 @@
     flex-flow: column nowrap;
     text-align: center;
     align-items: center;
+    padding: 2rem;
 }
 
 .projects button {
@@ -52,17 +53,14 @@
     color: #1ca090;
 }
 
-.projects .product-container a {
+.projects .product-container h5 {
     color: #24BCAB;
-    cursor: pointer;
     text-transform: uppercase;
-    width: fit-content;
+    font-size: 1rem;
+    margin-top: 2rem;
+    font-weight: 400;
 }
 
-.projects .product-container a:hover {
-    text-decoration: underline;
-    color: #1ca090;
-}
 
 .projects .product-container label {
     border: 1px solid #24BCAB;
