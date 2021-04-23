@@ -28,15 +28,19 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
     color: #546576;
     font-weight: 300;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
 }
 
 button.btn.icon-sy {
     display: inline-block;
     padding: 5px 8px;
-    border: 1px solid #13B5AF;
 }
 
 button.btn.icon-sy:hover {
