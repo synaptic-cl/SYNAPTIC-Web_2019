@@ -33,7 +33,7 @@
         close_toggle();
         $(window).resize(close_toggle);
 
-        // one page navigation 
+        // one page navigation
         $('.navbar-nav').onePageNav({
             currentClass: 'active'
         });
@@ -58,14 +58,7 @@
 
         wow.init();
 
-        /* 
-        CounterUp
-        ========================================================================== */
-        $('.counter').counterUp({
-            time: 1000
-        });
-
-        /* Testimonials Carousel 
+        /* Testimonials Carousel
         ========================================================*/
         var owl = $("#testimonials");
         owl.owlCarousel({
